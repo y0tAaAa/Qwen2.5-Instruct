@@ -1,0 +1,121 @@
+== HEADER ==
+Job ID: 4086
+Node:   DGX
+Date:   Wed Feb 18 15:26:44 CET 2026
+PWD:    /home/vd243wi/cipherchat
+CUDA_VISIBLE_DEVICES=0
+
+Wed Feb 18 15:26:44 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 575.57.08              Driver Version: 575.57.08      CUDA Version: 12.9     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:07:00.0 Off |                    0 |
+| N/A   29C    P0             55W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100-SXM4-40GB          On  |   00000000:0F:00.0 Off |                    0 |
+| N/A   29C    P0             60W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A100-SXM4-40GB          On  |   00000000:47:00.0 Off |                    0 |
+| N/A   30C    P0             57W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A100-SXM4-40GB          On  |   00000000:4E:00.0 Off |                    0 |
+| N/A   30C    P0             58W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A100-SXM4-40GB          On  |   00000000:87:00.0 Off |                    0 |
+| N/A   34C    P0             59W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   5  NVIDIA A100-SXM4-40GB          On  |   00000000:90:00.0 Off |                    0 |
+| N/A   34C    P0             60W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   6  NVIDIA A100-SXM4-40GB          On  |   00000000:B7:00.0 Off |                    0 |
+| N/A   34C    P0             59W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   7  NVIDIA A100-SXM4-40GB          On  |   00000000:BD:00.0 Off |                    0 |
+| N/A   35C    P0             60W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+== PYTHON INFO ==
+/home/vd243wi/miniconda3/envs/cypher/bin/python
+Python 3.11.14
+executable: /home/vd243wi/miniconda3/envs/cypher/bin/python
+torch 2.9.0+cu128 cuda True devs 1
+
+== PATH CHECKS ==
+-rw-r--r-- 1 vd243wi domain users 1.6K Feb 18 15:15 src/model/eval_model.py
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from peft import PeftModel
+
+def load_model(base_id: str, lora_path: str):
+    tokenizer = AutoTokenizer.from_pretrained(lora_path, trust_remote_code=True)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    print(f"[EVAL] CUDA available: {torch.cuda.is_available()}")
+    if torch.cuda.is_available():
+        print(f"[EVAL] CUDA_VISIBLE_DEVICES={os.environ.get('CUDA_VISIBLE_DEVICES')}")
+        print(f"[EVAL] Using device: cuda:0")
+        device = torch.device("cuda:0")
+        base = AutoModelForCausalLM.from_pretrained(
+            base_id,
+            torch_dtype=torch.bfloat16,
+            device_map=None,
+            trust_remote_code=True,
+        ).to(device)
+    else:
+        print("[EVAL] Using device: cpu")
+        device = torch.device("cpu")
+        base = AutoModelForCausalLM.from_pretrained(
+            base_id,
+            torch_dtype=torch.float32,
+            device_map=None,
+            trust_remote_code=True,
+        ).to(device)
+
+    # ВАЖНО: размер эмбеддингов под токенайзер LoRA
+    base.resize_token_embeddings(len(tokenizer))
+
+    model = PeftModel.from_pretrained(base, lora_path)
+    model.eval()
+
+    # На всякий случай
+    model.to(device)
+
+    # Лог устройства
+total 170M
+drwxr-xr-x 4 vd243wi domain users 4.0K Feb 18 13:50 .
+drwxr-xr-x 7 vd243wi domain users 4.0K Feb 18 09:57 ..
+-rw-r--r-- 1 vd243wi domain users 5.1K Feb 18 13:50 README.md
+-rw-r--r-- 1 vd243wi domain users 1.1K Feb 18 13:50 adapter_config.json
+-rw-r--r-- 1 vd243wi domain users 155M Feb 18 13:50 adapter_model.safetensors
+-rw-r--r-- 1 vd243wi domain users  605 Feb 18 13:50 added_tokens.json
+-rw-r--r-- 1 vd243wi domain users 2.5K Feb 18 13:50 chat_template.jinja
+drwxr-xr-x 2 vd243wi domain users 4.0K Feb 18 13:40 checkpoint-7000
+drwxr-xr-x 2 vd243wi domain users 4.0K Feb 18 13:50 checkpoint-7350
+1200 data/processed/val_cipher.jsonl
+{"instruction": "### Instruction:\nYou are CipherChat — a specialized assistant for encryption and decryption.\nFollow the instruction exactly.\nReturn ONLY valid JSON.\n[sk] ENCRYPT.\nCipher: Substitution\nKey: {\"alphabet\": \"AÁÄBCČDĎEÉFGHIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ\", \"mapping\": {\"A\": \"Ý\", \"Á\": \"N\", \"Ä\": \"B\", \"B\": \"Q\", \"C\": \"Ó\", \"Č\": \"H\", \"D\": \"Y\", \"Ď\": \"I\", \"E\": \"E\", \"É\": \"Ú\", \"F\": \"Ň\", \"G\": \"D\", \"H\": \"Ä\", \"I\": \"É\", \"Í\": \"F\", \"J\": \"Ž\", \"K\": \"M\", \"L\": \"U\", \"Ĺ\": \"Í\", \"Ľ\": \"Ŕ\", \"M\": \"Z\", \"N\": \"Š\", \"Ň\": \"S\", \"O\": \"R\", \"Ó\": \"Ď\", \"Ô\": \"Ĺ\", \"P\": \"O\", \"Q\": \"T\", \"R\": \"P\", \"Ŕ\": \"C\", \"S\": \"V\", \"Š\": \"A\", \"T\": \"J\", \"Ť\": \"Ľ\", \"U\": \"X\", \"Ú\": \"L\", \"V\": \"G\", \"W\": \"Ť\", \"X\": \"K\", \"Y\": \"Č\", \"Ý\": \"Á\", \"Z\": \"Ô\", \"Ž\": \"W\"}}\nReturn ONLY valid JSON with fields: `mode`, `task_variant`, `cipher_type`, `key`, `cipher_text`, `plaintext`, `detected_cipher_type`, `detected_key`, `verify`, `reasoning`, `self_score` (one of <grade_1>, <grade_2>, <grade_3>, <grade_4>, <grade_5>).\nText:\nMUÝVÉÓMÚ AÉŇPČ ÝMR ÓÝEVÝP Ý GÉDEŠEPE VL ÔÝXŽFZÝGÚ\n\n### Response (JSON only):\n", "json": {"mode": "encrypt", "task_variant": "known_params", "cipher_type": "Substitution", "key": "{\"alphabet\": \"AÁÄBCČDĎEÉFGHIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ\", \"mapping\": {\"A\": \"Ý\", \"Á\": \"N\", \"Ä\": \"B\", \"B\": \"Q\", \"C\": \"Ó\", \"Č\": \"H\", \"D\": \"Y\", \"Ď\": \"I\", \"E\": \"E\", \"É\": \"Ú\", \"F\": \"Ň\", \"G\": \"D\", \"H\": \"Ä\", \"I\": \"É\", \"Í\": \"F\", \"J\": \"Ž\", \"K\": \"M\", \"L\": \"U\", \"Ĺ\": \"Í\", \"Ľ\": \"Ŕ\", \"M\": \"Z\", \"N\": \"Š\", \"Ň\": \"S\", \"O\": \"R\", \"Ó\": \"Ď\", \"Ô\": \"Ĺ\", \"P\": \"O\", \"Q\": \"T\", \"R\": \"P\", \"Ŕ\": \"C\", \"S\": \"V\", \"Š\": \"A\", \"T\": \"J\", \"Ť\": \"Ľ\", \"U\": \"X\", \"Ú\": \"L\", \"V\": \"G\", \"W\": \"Ť\", \"X\": \"K\", \"Y\": \"Č\", \"Ý\": \"Á\", \"Z\": \"Ô\", \"Ž\": \"W\"}}", "cipher_text": "MUÝVÉÓMÚ AÉŇPČ ÝMR ÓÝEVÝP Ý GÉDEŠEPE VL ÔÝXŽFZÝGÚ", "plaintext": "KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ", "detected_cipher_type": "Substitution", "detected_key": "{\"alphabet\": \"AÁÄBCČDĎEÉFGHIÍJKLĹĽMNŇOÓÔPQRŔSŠTŤUÚVWXYÝZŽ\", \"mapping\": {\"A\": \"Ý\", \"Á\": \"N\", \"Ä\": \"B\", \"B\": \"Q\", \"C\": \"Ó\", \"Č\": \"H\", \"D\": \"Y\", \"Ď\": \"I\", \"E\": \"E\", \"É\": \"Ú\", \"F\": \"Ň\", \"G\": \"D\", \"H\": \"Ä\", \"I\": \"É\", \"Í\": \"F\", \"J\": \"Ž\", \"K\": \"M\", \"L\": \"U\", \"Ĺ\": \"Í\", \"Ľ\": \"Ŕ\", \"M\": \"Z\", \"N\": \"Š\", \"Ň\": \"S\", \"O\": \"R\", \"Ó\": \"Ď\", \"Ô\": \"Ĺ\", \"P\": \"O\", \"Q\": \"T\", \"R\": \"P\", \"Ŕ\": \"C\", \"S\": \"V\", \"Š\": \"A\", \"T\": \"J\", \"Ť\": \"Ľ\", \"U\": \"X\", \"Ú\": \"L\", \"V\": \"G\", \"W\": \"Ť\", \"X\": \"K\", \"Y\": \"Č\", \"Ý\": \"Á\", \"Z\": \"Ô\", \"Ž\": \"W\"}}", "verify": "round_trip_ok", "reasoning": "DETECT→SOLVE→VERIFY: alphabet_check; params_known; apply_cipher; round_trip_check", "self_score": "<grade_5>"}, "lang": "sk"}
+{"instruction": "### Instruction:\nYou are CipherChat — a specialized assistant for encryption and decryption.\nFollow the instruction exactly.\nReturn ONLY valid JSON.\n[en] DECRYPT.\nCipher: Substitution\nKey: {\"alphabet\": \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"mapping\": {\"A\": \"G\", \"B\": \"R\", \"C\": \"B\", \"D\": \"M\", \"E\": \"N\", \"F\": \"C\", \"G\": \"P\", \"H\": \"Z\", \"I\": \"D\", \"J\": \"H\", \"K\": \"L\", \"L\": \"W\", \"M\": \"O\", \"N\": \"Q\", \"O\": \"A\", \"P\": \"X\", \"Q\": \"K\", \"R\": \"V\", \"S\": \"F\", \"T\": \"U\", \"U\": \"S\", \"V\": \"J\", \"W\": \"I\", \"X\": \"T\", \"Y\": \"E\", \"Z\": \"Y\"}}\nReturn ONLY valid JSON with fields: `mode`, `task_variant`, `cipher_type`, `key`, `cipher_text`, `plaintext`, `detected_cipher_type`, `detected_key`, `verify`, `reasoning`, `self_score` (one of <grade_1>, <grade_2>, <grade_3>, <grade_4>, <grade_5>).\nText:\nUZN KSDBL RVAIQ CAT HSOXF AJNV UZN WGYE MAP\n\n### Response (JSON only):\n", "json": {"mode": "decrypt", "task_variant": "known_params", "cipher_type": "Substitution", "key": "{\"alphabet\": \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"mapping\": {\"A\": \"G\", \"B\": \"R\", \"C\": \"B\", \"D\": \"M\", \"E\": \"N\", \"F\": \"C\", \"G\": \"P\", \"H\": \"Z\", \"I\": \"D\", \"J\": \"H\", \"K\": \"L\", \"L\": \"W\", \"M\": \"O\", \"N\": \"Q\", \"O\": \"A\", \"P\": \"X\", \"Q\": \"K\", \"R\": \"V\", \"S\": \"F\", \"T\": \"U\", \"U\": \"S\", \"V\": \"J\", \"W\": \"I\", \"X\": \"T\", \"Y\": \"E\", \"Z\": \"Y\"}}", "cipher_text": "UZN KSDBL RVAIQ CAT HSOXF AJNV UZN WGYE MAP", "plaintext": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", "detected_cipher_type": "Substitution", "detected_key": "{\"alphabet\": \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"mapping\": {\"A\": \"G\", \"B\": \"R\", \"C\": \"B\", \"D\": \"M\", \"E\": \"N\", \"F\": \"C\", \"G\": \"P\", \"H\": \"Z\", \"I\": \"D\", \"J\": \"H\", \"K\": \"L\", \"L\": \"W\", \"M\": \"O\", \"N\": \"Q\", \"O\": \"A\", \"P\": \"X\", \"Q\": \"K\", \"R\": \"V\", \"S\": \"F\", \"T\": \"U\", \"U\": \"S\", \"V\": \"J\", \"W\": \"I\", \"X\": \"T\", \"Y\": \"E\", \"Z\": \"Y\"}}", "verify": "round_trip_ok", "reasoning": "DETECT→SOLVE→VERIFY: alphabet_check; params_known; apply_cipher; round_trip_check", "self_score": "<grade_4>"}, "lang": "en"}
+
+== RUN EVAL ==
+== DONE ==
+Wed Feb 18 15:26:54 CET 2026

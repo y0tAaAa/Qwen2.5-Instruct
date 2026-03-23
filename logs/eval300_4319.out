@@ -1,0 +1,219 @@
+========================================================
+Job ID   : 4319
+Host     : DGX
+Start    : Sun Mar  8 20:17:43 CET 2026
+========================================================
+Base model  : Qwen/Qwen2.5-7B-Instruct
+Adapter     : checkpoints/cipherchat-7b-20260306_153334/final_adapter
+Seen        : 150 samples from data/train.json
+Unseen      : 150 samples from data/val.json
+Eval file   : data/eval300.json
+
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+[1/2] Preparing eval300 dataset...
+Loading train: data/train.json
+Loading val  : data/val.json
+Sampling 150 seen (from train)...
+Sampling 150 unseen (from val)...
+
+Eval300 composition:
+  seen   (train): 150
+  unseen (val)  : 150
+  total         : 300
+
+Stratum distribution (seen):
+  Caesar|en|compute                   : 9
+  Caesar|en|detect                    : 8
+  Caesar|sk|compute                   : 10
+  Caesar|sk|detect                    : 8
+  Caesar|uk|compute                   : 8
+  Caesar|uk|detect                    : 8
+  Transposition|en|compute            : 9
+  Transposition|en|detect             : 8
+  Transposition|sk|compute            : 8
+  Transposition|sk|detect             : 8
+  Transposition|uk|compute            : 8
+  Transposition|uk|detect             : 8
+  Vigenere|en|compute                 : 9
+  Vigenere|en|detect                  : 8
+  Vigenere|sk|compute                 : 8
+  Vigenere|sk|detect                  : 8
+  Vigenere|uk|compute                 : 8
+  Vigenere|uk|detect                  : 9
+
+Stratum distribution (unseen):
+  Caesar|en|compute                   : 10
+  Caesar|en|detect                    : 8
+  Caesar|sk|compute                   : 9
+  Caesar|sk|detect                    : 8
+  Caesar|uk|compute                   : 8
+  Caesar|uk|detect                    : 8
+  Transposition|en|compute            : 9
+  Transposition|en|detect             : 8
+  Transposition|sk|compute            : 8
+  Transposition|sk|detect             : 8
+  Transposition|uk|compute            : 8
+  Transposition|uk|detect             : 9
+  Vigenere|en|compute                 : 8
+  Vigenere|en|detect                  : 8
+  Vigenere|sk|compute                 : 8
+  Vigenere|sk|detect                  : 8
+  Vigenere|uk|compute                 : 9
+  Vigenere|uk|detect                  : 8
+
+✅ Saved → data/eval300.json (300 samples)
+
+eval300 ready: 1 examples
+
+[2/2] Running evaluation (base vs fine-tuned)...
+================================================================================
+CIPHERCHAT EVALUATION — base vs fine-tuned | seen vs unseen
+================================================================================
+Adapter : checkpoints/cipherchat-7b-20260306_153334/final_adapter
+Data    : data/eval300.json
+Start   : 20260308_201750
+================================================================================
+
+Total: 300  |  seen(train)=150  |  unseen(val)=150
+
+  Loading tokenizer from: checkpoints/cipherchat-7b-20260306_153334/final_adapter
+  Loading base model: Qwen/Qwen2.5-7B-Instruct
+  Resized embeddings: 152064 → 151665
+  Loading LoRA adapter: checkpoints/cipherchat-7b-20260306_153334/final_adapter
+  Model ready!
+
+  [1/300] split=unseen | Vigenere | en | compute
+  [25/300] split=seen | Transposition | en | compute
+  [50/300] split=seen | Vigenere | sk | detect
+  [75/300] split=seen | Transposition | sk | detect
+  [100/300] split=seen | Caesar | sk | detect
+  [125/300] split=unseen | Caesar | en | detect
+  [150/300] split=unseen | Caesar | en | detect
+  [175/300] split=seen | Transposition | en | compute
+  [200/300] split=unseen | Caesar | en | compute
+  [225/300] split=seen | Caesar | en | detect
+  [250/300] split=unseen | Vigenere | en | detect
+  [275/300] split=unseen | Transposition | sk | compute
+  [300/300] split=unseen | Caesar | uk | compute
+
+================================================================================
+RESULTS
+================================================================================
+
+  Metric                                 Base             Fine-tuned
+  ──────────────────────────────────────────────────────────────────
+  Valid JSON           245/300 (81.7%):>22 288/300 (96.0%):>22
+  Algo correct         1/300 (0.3%):>22 163/300 (54.3%):>22
+  Output exact         1/300 (0.3%):>22 214/300 (71.3%):>22
+  Cipher type          158/300 (52.7%):>22 286/300 (95.3%):>22
+  Key acc              124/300 (41.3%):>22 226/300 (75.3%):>22
+
+  Metric                                   Base               Fine-tuned
+  ──────────────────────────────────────────────────────────────────────
+  Valid JSON                    245/300 (81.7%)          288/300 (96.0%)
+  Algo correct                     1/300 (0.3%)          163/300 (54.3%)
+  Output exact                     1/300 (0.3%)          214/300 (71.3%)
+  Cipher type                   158/300 (52.7%)          286/300 (95.3%)
+  Key acc                       124/300 (41.3%)          226/300 (75.3%)
+
+────────────────────────────────────────────────────────────────────────────────
+  BY SPLIT  [seen = from train | unseen = from val]
+  ──────────────────────────────────────────────────────────────────────────────
+  Group          Metric                             Base             Fine-tuned
+  ──────────────────────────────────────────────────────────────────────────────
+  seen           Valid JSON                122/150 (81%)          146/150 (97%)
+                 Algo correct                 1/150 (1%)           87/150 (58%)
+                 Output exact                 1/150 (1%)          114/150 (76%)
+                 Cipher type                79/150 (53%)          144/150 (96%)
+                 Key acc                    62/150 (41%)          114/150 (76%)
+  ··············································································
+  unseen         Valid JSON                123/150 (82%)          142/150 (95%)
+                 Algo correct                 0/150 (0%)           76/150 (51%)
+                 Output exact                 0/150 (0%)          100/150 (67%)
+                 Cipher type                79/150 (53%)          142/150 (95%)
+                 Key acc                    62/150 (41%)          112/150 (75%)
+  ··············································································
+
+────────────────────────────────────────────────────────────────────────────────
+  BY CIPHER TYPE
+  ──────────────────────────────────────────────────────────────────────────────
+  Group          Metric                             Base             Fine-tuned
+  ──────────────────────────────────────────────────────────────────────────────
+  Caesar         Valid JSON                 84/102 (82%)           97/102 (95%)
+                 Algo correct                 0/102 (0%)           61/102 (60%)
+                 Output exact                 0/102 (0%)           81/102 (79%)
+                 Cipher type                61/102 (60%)           95/102 (93%)
+                 Key acc                    40/102 (39%)           77/102 (75%)
+  ··············································································
+  Vigenere       Valid JSON                  85/99 (86%)            92/99 (93%)
+                 Algo correct                  0/99 (0%)            70/99 (71%)
+                 Output exact                  0/99 (0%)            81/99 (82%)
+                 Cipher type                 49/99 (49%)            92/99 (93%)
+                 Key acc                     39/99 (39%)            81/99 (82%)
+  ··············································································
+  Transposition  Valid JSON                  76/99 (77%)           99/99 (100%)
+                 Algo correct                  1/99 (1%)            32/99 (32%)
+                 Output exact                  1/99 (1%)            52/99 (53%)
+                 Cipher type                 48/99 (48%)           99/99 (100%)
+                 Key acc                     45/99 (45%)            68/99 (69%)
+  ··············································································
+
+────────────────────────────────────────────────────────────────────────────────
+  BY LANGUAGE
+  ──────────────────────────────────────────────────────────────────────────────
+  Group          Metric                             Base             Fine-tuned
+  ──────────────────────────────────────────────────────────────────────────────
+  en             Valid JSON                100/102 (98%)         102/102 (100%)
+                 Algo correct                 1/102 (1%)           62/102 (61%)
+                 Output exact                 1/102 (1%)           72/102 (71%)
+                 Cipher type                68/102 (67%)          101/102 (99%)
+                 Key acc                    52/102 (51%)           88/102 (86%)
+  ··············································································
+  sk             Valid JSON                  70/99 (71%)            95/99 (96%)
+                 Algo correct                  0/99 (0%)            53/99 (54%)
+                 Output exact                  0/99 (0%)            71/99 (72%)
+                 Cipher type                 50/99 (51%)            94/99 (95%)
+                 Key acc                     38/99 (38%)            72/99 (73%)
+  ··············································································
+  uk             Valid JSON                  75/99 (76%)            91/99 (92%)
+                 Algo correct                  0/99 (0%)            48/99 (48%)
+                 Output exact                  0/99 (0%)            71/99 (72%)
+                 Cipher type                 40/99 (40%)            91/99 (92%)
+                 Key acc                     34/99 (34%)            66/99 (67%)
+  ··············································································
+
+────────────────────────────────────────────────────────────────────────────────
+  BY TASK TYPE
+  ──────────────────────────────────────────────────────────────────────────────
+  Group          Metric                             Base             Fine-tuned
+  ──────────────────────────────────────────────────────────────────────────────
+  compute        Valid JSON                124/154 (81%)          142/154 (92%)
+                 Algo correct                 1/154 (1%)           85/154 (55%)
+                 Output exact                 1/154 (1%)           85/154 (55%)
+                 Cipher type               124/154 (81%)          142/154 (92%)
+                 Key acc                   124/154 (81%)          142/154 (92%)
+  ··············································································
+  detect         Valid JSON                121/146 (83%)         146/146 (100%)
+                 Algo correct                 0/146 (0%)           78/146 (53%)
+                 Output exact                 0/146 (0%)          129/146 (88%)
+                 Cipher type                34/146 (23%)          144/146 (99%)
+                 Key acc                      0/146 (0%)           84/146 (58%)
+  ··············································································
+
+================================================================================
+
+✅ Report saved → eval_results/eval300_20260308_201750.json
+Done: 2026-03-08 23:23:46
+
+========================================================
+Evaluation done: Sun Mar  8 23:23:48 CET 2026
+Results in     : eval_results/
+========================================================

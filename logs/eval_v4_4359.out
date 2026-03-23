@@ -1,0 +1,7 @@
+========================================================
+Job ID   : 4359
+Host     : DGX
+Start    : Mon Mar 16 12:01:30 CET 2026
+========================================================
+ERROR: Обнови V4_ADAPTER в eval_v4.slurm!
+  Найди адаптер: ls checkpoints/cipherchat-7b-v4-*/final_adapter

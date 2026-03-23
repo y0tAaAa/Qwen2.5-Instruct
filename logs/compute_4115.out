@@ -1,0 +1,5 @@
+Job: 4115 | DGX | Wed Feb 25 10:19:15 CET 2026
+[SPLIT] total=15000 train=14700 val=300
+ train -> data/processed/train_compute.train.jsonl
+ val   -> data/processed/train_compute.val.jsonl
+trainable params: 40,370,176 || all params: 7,653,162,496 || trainable%: 0.5275

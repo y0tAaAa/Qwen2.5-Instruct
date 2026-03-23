@@ -1,0 +1,108 @@
+loading file vocab.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/vocab.json
+loading file merges.txt from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/merges.txt
+loading file tokenizer.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer_config.json
+loading file chat_template.jinja from cache at None
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+loading configuration file config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/config.json
+`torch_dtype` is deprecated! Use `dtype` instead!
+Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+loading weights file model.safetensors from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/model.safetensors.index.json
+Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.05it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.07it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+loading configuration file generation_config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/generation_config.json
+Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+Could not locate the custom_generate/generate.py inside Qwen/Qwen2.5-7B-Instruct.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 21268 examples [00:00, 156129.54 examples/s]Generating train split: 49740 examples [00:00, 211660.90 examples/s]Generating train split: 58800 examples [00:00, 206855.11 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 1200 examples [00:00, 146134.51 examples/s]
+Map:   0%|          | 0/58800 [00:00<?, ? examples/s]Map:   2%|▏         | 1204/58800 [00:00<00:04, 11880.60 examples/s]Map:   4%|▍         | 2528/58800 [00:00<00:04, 12660.64 examples/s]Map:   7%|▋         | 3852/58800 [00:00<00:04, 12921.44 examples/s]Map:  10%|▉         | 5823/58800 [00:00<00:04, 13023.56 examples/s]Map:  13%|█▎        | 7780/58800 [00:00<00:03, 13030.91 examples/s]Map:  17%|█▋        | 9707/58800 [00:00<00:03, 12959.03 examples/s]Map:  20%|█▉        | 11491/58800 [00:00<00:03, 12584.65 examples/s]Map:  22%|██▏       | 12791/58800 [00:01<00:03, 12685.13 examples/s]Map:  25%|██▌       | 14733/58800 [00:01<00:03, 12772.92 examples/s]Map:  28%|██▊       | 16691/58800 [00:01<00:03, 12863.46 examples/s]Map:  31%|███       | 18000/58800 [00:01<00:03, 12841.16 examples/s]Map:  33%|███▎      | 19312/58800 [00:01<00:03, 12909.82 examples/s]Map:  35%|███▌      | 20691/58800 [00:01<00:02, 13024.07 examples/s]Map:  37%|███▋      | 22000/58800 [00:01<00:02, 12939.82 examples/s]Map:  41%|████      | 23957/58800 [00:01<00:02, 12974.30 examples/s]Map:  44%|████▍     | 25810/58800 [00:02<00:02, 12756.24 examples/s]Map:  47%|████▋     | 27742/58800 [00:02<00:02, 12792.47 examples/s]Map:  50%|█████     | 29693/58800 [00:02<00:02, 12858.60 examples/s]Map:  54%|█████▎    | 31585/58800 [00:02<00:02, 12780.37 examples/s]Map:  56%|█████▌    | 32908/58800 [00:02<00:02, 12882.50 examples/s]Map:  59%|█████▉    | 34813/58800 [00:02<00:01, 12819.94 examples/s]Map:  62%|██████▏   | 36692/58800 [00:02<00:01, 12721.84 examples/s]Map:  65%|██████▍   | 38000/58800 [00:02<00:01, 12694.73 examples/s]Map:  67%|██████▋   | 39323/58800 [00:03<00:01, 12826.49 examples/s]Map:  69%|██████▉   | 40683/58800 [00:03<00:01, 12932.03 examples/s]Map:  71%|███████▏  | 41990/58800 [00:03<00:01, 12968.70 examples/s]Map:  75%|███████▍  | 43933/58800 [00:03<00:01, 12960.39 examples/s]Map:  78%|███████▊  | 45885/58800 [00:03<00:00, 12974.74 examples/s]Map:  81%|████████▏ | 47835/58800 [00:03<00:00, 12980.47 examples/s]Map:  85%|████████▍ | 49744/58800 [00:03<00:00, 12897.04 examples/s]Map:  88%|████████▊ | 51709/58800 [00:04<00:00, 12957.04 examples/s]Map:  91%|█████████▏| 53689/58800 [00:04<00:00, 12887.74 examples/s]Map:  94%|█████████▎| 55000/58800 [00:04<00:00, 12844.51 examples/s]Map:  96%|█████████▌| 56319/58800 [00:04<00:00, 12927.66 examples/s]Map:  98%|█████████▊| 57687/58800 [00:04<00:00, 13020.80 examples/s]Map: 100%|██████████| 58800/58800 [00:04<00:00, 12787.94 examples/s]
+Map:   0%|          | 0/1200 [00:00<?, ? examples/s]Map: 100%|██████████| 1200/1200 [00:00<00:00, 12480.26 examples/s]
+Map:   0%|          | 0/58800 [00:00<?, ? examples/s]Map:   2%|▏         | 1000/58800 [00:00<00:16, 3505.92 examples/s]Map:   3%|▎         | 2000/58800 [00:00<00:15, 3610.63 examples/s]Map:   5%|▌         | 3000/58800 [00:00<00:14, 3779.40 examples/s]Map:   7%|▋         | 4000/58800 [00:01<00:13, 3981.92 examples/s]Map:   9%|▊         | 5000/58800 [00:01<00:13, 4043.04 examples/s]Map:  10%|█         | 6000/58800 [00:01<00:13, 3986.41 examples/s]Map:  12%|█▏        | 7000/58800 [00:01<00:12, 4084.58 examples/s]Map:  14%|█▎        | 8000/58800 [00:01<00:12, 4160.14 examples/s]Map:  15%|█▌        | 9000/58800 [00:02<00:12, 4124.53 examples/s]Map:  17%|█▋        | 10000/58800 [00:02<00:11, 4116.87 examples/s]Map:  19%|█▊        | 11000/58800 [00:02<00:11, 4065.32 examples/s]Map:  20%|██        | 12000/58800 [00:02<00:11, 4120.09 examples/s]Map:  22%|██▏       | 13000/58800 [00:03<00:11, 4134.04 examples/s]Map:  24%|██▍       | 14000/58800 [00:03<00:10, 4078.95 examples/s]Map:  26%|██▌       | 15000/58800 [00:03<00:11, 3965.13 examples/s]Map:  27%|██▋       | 16000/58800 [00:03<00:10, 3989.67 examples/s]Map:  29%|██▉       | 17000/58800 [00:04<00:10, 4014.71 examples/s]Map:  31%|███       | 18000/58800 [00:04<00:10, 4072.04 examples/s]Map:  32%|███▏      | 19000/58800 [00:04<00:09, 4130.37 examples/s]Map:  34%|███▍      | 20000/58800 [00:04<00:09, 4133.98 examples/s]Map:  36%|███▌      | 21000/58800 [00:05<00:09, 4067.92 examples/s]Map:  37%|███▋      | 22000/58800 [00:05<00:09, 4077.00 examples/s]Map:  39%|███▉      | 23000/58800 [00:05<00:08, 4097.27 examples/s]Map:  41%|████      | 24000/58800 [00:05<00:08, 4100.38 examples/s]Map:  43%|████▎     | 25000/58800 [00:06<00:08, 4092.82 examples/s]Map:  44%|████▍     | 26000/58800 [00:06<00:08, 4077.71 examples/s]Map:  46%|████▌     | 27000/58800 [00:06<00:07, 4103.35 examples/s]Map:  48%|████▊     | 28000/58800 [00:06<00:07, 4059.46 examples/s]Map:  49%|████▉     | 29000/58800 [00:07<00:07, 3910.59 examples/s]Map:  51%|█████     | 30000/58800 [00:07<00:07, 3918.76 examples/s]Map:  53%|█████▎    | 31000/58800 [00:07<00:07, 3887.06 examples/s]Map:  54%|█████▍    | 32000/58800 [00:07<00:06, 3880.21 examples/s]Map:  56%|█████▌    | 33000/58800 [00:08<00:06, 3799.39 examples/s]Map:  58%|█████▊    | 34000/58800 [00:08<00:06, 3868.48 examples/s]Map:  60%|█████▉    | 35000/58800 [00:08<00:07, 3055.17 examples/s]Map:  61%|██████    | 36000/58800 [00:09<00:07, 3218.23 examples/s]Map:  63%|██████▎   | 37000/58800 [00:09<00:06, 3442.50 examples/s]Map:  65%|██████▍   | 38000/58800 [00:09<00:05, 3539.75 examples/s]Map:  66%|██████▋   | 39000/58800 [00:10<00:05, 3617.75 examples/s]Map:  68%|██████▊   | 40000/58800 [00:10<00:05, 3686.65 examples/s]Map:  70%|██████▉   | 41000/58800 [00:10<00:04, 3711.89 examples/s]Map:  71%|███████▏  | 42000/58800 [00:10<00:04, 3649.60 examples/s]Map:  73%|███████▎  | 43000/58800 [00:11<00:04, 3749.15 examples/s]Map:  75%|███████▍  | 44000/58800 [00:11<00:03, 3773.91 examples/s]Map:  77%|███████▋  | 45000/58800 [00:11<00:03, 3725.65 examples/s]Map:  78%|███████▊  | 46000/58800 [00:11<00:03, 3740.25 examples/s]Map:  80%|███████▉  | 47000/58800 [00:12<00:03, 3721.34 examples/s]Map:  82%|████████▏ | 48000/58800 [00:12<00:02, 3676.85 examples/s]Map:  83%|████████▎ | 49000/58800 [00:12<00:02, 3727.30 examples/s]Map:  85%|████████▌ | 50000/58800 [00:12<00:02, 3706.92 examples/s]Map:  87%|████████▋ | 51000/58800 [00:13<00:02, 3681.88 examples/s]Map:  88%|████████▊ | 52000/58800 [00:13<00:01, 3706.85 examples/s]Map:  90%|█████████ | 53000/58800 [00:13<00:01, 3690.66 examples/s]Map:  92%|█████████▏| 54000/58800 [00:14<00:01, 3692.91 examples/s]Map:  94%|█████████▎| 55000/58800 [00:14<00:01, 3684.72 examples/s]Map:  95%|█████████▌| 56000/58800 [00:14<00:00, 3670.47 examples/s]Map:  97%|█████████▋| 57000/58800 [00:14<00:00, 3628.88 examples/s]Map:  99%|█████████▊| 58000/58800 [00:15<00:00, 3630.08 examples/s]Map: 100%|██████████| 58800/58800 [00:15<00:00, 3596.61 examples/s]Map: 100%|██████████| 58800/58800 [00:15<00:00, 3799.57 examples/s]
+Map:   0%|          | 0/1200 [00:00<?, ? examples/s]Map:  83%|████████▎ | 1000/1200 [00:00<00:00, 3911.11 examples/s]Map: 100%|██████████| 1200/1200 [00:00<00:00, 3814.94 examples/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/vd243wi/cipherchat/src/model/train_lora_cipherchat.py", line 104, in <module>
+    main()
+  File "/home/vd243wi/cipherchat/src/model/train_lora_cipherchat.py", line 70, in main
+    train_args = TrainingArguments(
+                 ^^^^^^^^^^^^^^^^^^
+TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

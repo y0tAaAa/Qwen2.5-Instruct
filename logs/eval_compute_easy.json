@@ -1,0 +1,2085 @@
+{
+  "summary": {
+    "total": 300,
+    "json_parse_rate": 47.666666666666664,
+    "cipher_type_acc": 47.666666666666664,
+    "key_acc": 47.333333333333336,
+    "plaintext_acc": 47.666666666666664,
+    "cipher_text_acc": 31.333333333333332,
+    "algorithmic_acc": 0.0
+  },
+  "rows": [
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ЗЛАМ\", \"input_text\": \"ҐХФГ ІЦЖТЦСРМ КАВПЧ НВМНЛВҐЖ ЯЕХФЛМАПЮ. ШОПРКЦТ МУГПШ ЛЦЬ ГТГПМАУ ГСРТО ЬЕСЗЗОПЧ ГОНЗЩУ. ІПЕРЕІЛНАЖ ҐА СЛИИЄЩДВМЦЯЯ — СЛҐЕГХЦНБІЛНЧ ШСРТЮНОГЛЯНЛ.\", \"cipher_text\": \"ҐХФГ ІЦЖТЦСРМ КАВПЧ НВМНЛВҐЖ ЯЕХФЛМАПЮ. ШОПРКЦТ МУГПШ ЛЦЬ ГТГПМАУ ГСРТО ЬЕСЗЗОПЧ ГОНЗЩУ. ІПЕРЕІЛНАЖ ҐА СЛИИЄЩДВМЦЯЯ — СЛҐЕГХЦНБІЛНЧ ШСРТЮНОГЛЯНЛ."
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ČPLÄŤÁSXÔÍWVYIŠNEÓAMÉOGZTĎBJÝHDÚŽKQĽŇRCFUĹŔ\", \"input_text\": \"ÝUŤYÓČ YOÔSP ÓŠÚEČ DEPÁÔ ŤÔĹ ÓÔOIŇÍYZ BDČ. EÓČDIŤEÍ ÚIWÝF ČEZ ŤČÔDČÝ Č ŇIVÔOÔÝÔ DĽ ĹČQNŠÉČŇÍ.\", \"cipher_text\": \"ÝUŤYÓČ YOÔSP ÓŠÚEČ DEPÁÔ ŤÔĹ ÓÔOIŇÍYZ BDČ. EÓČDIŤEÍ ÚIWÝF ČEZ ŤČÔDČÝ Č ŇIVÔOÔÝÔ DĽ ĹČQNŠÉČŇÍ.\", \"plaintext\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. K"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ÁÍUPAŠMŔIHÔÓJRĹVOCNLDYÄÝKXŤŽFSČĽÉĎBTQZGWÚEŇ\", \"input_text\": \"DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM.\", \"cipher_text\": \"MIĽRÔFÝQÁYRI VI MXCIŇRÉÍ ČTŠÁČĎ OWPIFYIÉRAOIV PIETIMYÝČÉR. ÉFIYBVIRD DYMIC YÁ ĽRÔFÝQÁYRI Á MIĽRÔFÝQÁYRI Č QWČQIÉCIDĹD.\", \"plainte"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ДАНІ",
+      "pred_key": "ДАНІ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ФЕУИМЦІТШЩНЇЖЯЬРОҐАЧДСЗБХПКЮЙВЄГЛ\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ.\", \"cipher_text\": \"ЙНБД УЇШІҐІДФ ЦАУИА УУФШФУСЛ ҐІЩОФРҐНР. ЙНБДБУФҐҐЛ ЗФ ЦІЙНБДБУФҐҐЛ — ЦІЗІДРЇҐАУФҐЇ ЧІДІЗУАДІҐҐЛ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАН"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"7\", \"input_text\": \"ENCRYPTION AND DECRYPTION ARE DETERMINISTIC TRANSFORMS. WE ARE TRAINING A REASONING MODEL FOR CIPHER TASKS. MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY.\", \"cipher_text\": \"LTSJYFWVOT HUK KLSJYFWVOT HSY KLVYSPTUVZVWJ VYHUZMVYST. DT HSY VYHTUPUJ H SYHZVUPUJ TVKLS MVY JPWOLS VHZRZ. THJPULS TSHYULUJ "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"CIPHER\", \"input_text\": \"UCQZXZVCIPSE EQEOIIU IGL ZLNVTYESNM IV JIGYJLRTA ICHPPUQH. TETJQCL PVCZCPRX EIC SIRTV PSKFTQIOQZE ZJSIJ XMGF IWHMRAMMGTN.\", \"cipher_text\": \"UCQZXZVCIPSE EQEOIIU IGL ZLNVTYESNM IV JIGYJLRTA ICHPPUQH. TETJQCL PVCZCPRX EIC SIRTV PSKFTQIOQZE ZJSIJ XMGF IWHMRAMMGTN.\", \"plaintext\": \"SUBSTITUTION CIPHERS ARE VULN"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TRAIN",
+      "pred_key": "TRAIN",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "FDQRIKUSVAOBPMLNCTGXJZYWEH",
+      "pred_key": "FDQRIKUSVAOBPMLNCTGXJZYWEH",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ZUCVFPQEIXTWLNRDAKBMYJGHSO",
+      "pred_key": "ZUCVFPQEIXTWLNRDAKBMYJGHSO",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "EPKXCNLZTWUJSMBOHGIYFRVDAQ",
+      "pred_key": "EPKXCNLZTWUJSMBOHGIYFRVDAQ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ЇЛФЦИТГЯХЧУЗЮЬАБШЩСЄДНІҐЕМРВКЙОПЖ",
+      "pred_key": "ЇЛФЦИТГЯХЧУЗЮЬАБШЩСЄДНІҐЕМРВКЙОПЖ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"29\", \"input_text\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"ФЕРМПЯЬККЩ НЬ ВГФЕРМПЯЬККЩ — ВГНГМЇЖКЛЯЬКЖ ОГМГНЯЛМГККЩ. ЇЕ КЬЯХЬВЇЛ ЇЛВГИШ ФЕРМПЯЬККЦ НЬ ВГФЕРМПЯЬККЦ Д ОЛЩПКГККЩЇ.\", \"plaintext\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"7\", \"input_text\": \"YÚKRZŇJQJ QSIJÓ RĎ XMLÚSAĎRMJ Ď IJXMLÚSAĎRMJ W ABWAJYÓJRNQ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. AMĹJRJÚJĽS XMLÚĎ FSÓĎ IÓĽS ŤSAĎDSAĎRE ČĎ RJČÓSQMYJPRŽ.\", \"cipher_text\": \"YÚKRZŇJQJ QSIJÓ RĎ XMLÚSAĎRMJ Ď IJXMLÚSAĎRMJ W ABWAJYÓJRNQ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. AMĹ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ДТХЕЦСАШКЇЮВЯОҐЛЙІБГЬЩИЖМЄРЧЗНФУП",
+      "pred_key": "ДТХЕЦСАШКЇЮВЯОҐЛЙІБГЬЩИЖМЄРЧЗНФУП",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "8",
+      "pred_key": "8",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"18\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ.\", \"cipher_text\": \"ĎBQYÉŤPXP XZÓPÚ YĹ ČSQBZGĹYSP Ĺ ÓPČSQBZGĹYSP C GICGPĎÚPYTX. CĎBZŤZGQ ÉOPYSP XALP YĹÉOYF ĹÚŔZBYĎXSTUQ ÁBĹGSÓÚĽ.\", \"plaintext\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ВГДЙЦЧНЯЩЖЕПІСОЛЗУАРЇТИМХҐШФЄЮБЬК",
+      "pred_key": "ВГДЙЦЧНЯЩЖЕПІСОЛЗУАРЇТИМХҐШФЄЮБЬК",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЗВДШЕИКЯЩҐСБУЄМЦЬЧІПОЙГНФЇХЛЮЖАТР\", \"input_text\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ.\", \"cipher_text\": \"ЮСТОНДЗЧЧР ГЗ ИКЮСТОНДЗЧЧР — ИКГКОЬБЧІДЗЧБ ПКОНГДІОКЧЧР. МЦЗЙСЛЧБ ЮСТОС РМ ХКҐЗО Б ДБЩКЧКО ХБМЗДБ ИЦР ДСДЛ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"38\", \"input_text\": \"ÔQOĹFĹŠC ŔABKEB JMWB KXŔAER XHDĹOEQJEŽGC NOXŠEÁHY. ÁBPEČOĹŠXKEB FB ÁMHBWEQY ÔSAXÔR GUZBOKBQEŽGBF ZBVNBAKĹÔQE.\", \"cipher_text\": \"ÔQOĹFĹŠC ŔABKEB JMWB KXŔAER XHDĹOEQJEŽGC NOXŠEÁHY. ÁBPEČOĹŠXKEB FB ÁMHBWEQY ÔSAXÔR GUZBOKBQEŽGBF ZBVNBAKĹÔQE.\", \"plaintext\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. DEŠIFROV"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"17\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"cipher_text\": \"ЇЧЖҐ ПШХУБУҐН ТВПРВ ППНХНПГЛ БУЦЯНАБЧА. ЇПЧТЮЧЬ ОЄҐЧЬ ЯЧГ ГЄҐЧОНФ ІУҐУЦ ЯУТНІВРВ ГВОНЮЄ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"output_te"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "РВДУЖЗШЕЮЬСКІЛТЦЇЄЩМПҐНЧЯФИГОАХБЙ",
+      "pred_key": "РВДУЖЗШЕЮЬСКІЛТЦЇЄЩМПҐНЧЯФИГОАХБЙ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "FRGUAVCJTISWXZBMLPOEKQYNHD",
+      "pred_key": "FRGUAVCJTISWXZBMLPOEKQYNHD",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"СЄМҐХЩЖАПИЗУЙІЬОШЮФВЦЯРГКТДЧНБЇЕЛ\", \"input_text\": \"НЗКЦ МУПЖЮЖЦС ЩФМҐФ ММСПСМЯЛ ЮЖИОСШЮЗШ. ШЗ ЮСМЧСАШФ ШФЩЖОЇ НЗКЦГМСЮЮЕ РС ЩЖНЗКЦГМСЮЮЕ И ВФЛЯЮЖЮЮЛШ.\", \"cipher_text\": \"НЗКЦ МУПЖЮЖЦС ЩФМҐФ ММСПСМЯЛ ЮЖИОСШЮЗШ. ШЗ ЮСМЧСАШФ ШФЩЖОЇ НЗКЦГМСЮЮЕ РС ЩЖНЗКЦГМСЮЮЕ И ВФЛЯЮЖЮЮЛШ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МИ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "CIPHER",
+      "pred_key": "CIPHER",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ДЛЦШХМИЖІАҐЄЬЩБФТУЗНПЇЙГСЧОЯЕВРКЮ\", \"input_text\": \"ТҐ УДЦЯДЖТЗ ТЗМИФР ЕҐСПГЦДУУК ЙД МИЕҐСПГЦДУУК А НЗЮЇУИУУЮТ. ЕҐСП ЦЄІИУИПД МЗЦШЗ ЦЦДІДЦЇЮ УИАФДТУҐТ.\", \"cipher_text\": \"ТҐ УДЦЯДЖТЗ ТЗМИФР ЕҐСПГЦДУУК ЙД МИЕҐСПГЦДУУК А НЗЮЇУИУУЮТ. ЕҐСП ЦЄІИУИПД МЗЦШЗ ЦЦДІДЦЇЮ УИАФДТУҐТ.\", \"plaintext\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВА"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"3\", \"input_text\": \"PDFKLQH OHDUQLQJ FDQ OHDUQ DOJRULWKPLF UXOHV YHUB HIIHFWLYHOB. ZH DUH WUDLQLQJ D UHDVRQLQJ PRGHO IRU FLSKHU WDVNV. DGYDQFHG PRGHOV FDQ XQGHUVWDQG DQG VROYH FODVVLFDO FLSKHUV.\", \"cipher_text\": \"PDFKLQH OHDUQLQJ FDQ OHDUQ DOJRULWKPLF UXOHV YHUB HIIHFWLYHOB. ZH DUH WUDLQLQJ D UHDVRQLQJ PRGHO IRU FLSKHU WDVNV. DGYDQF"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЇЛІЦПУФЩКГРЗВЕХИБЬҐДНТСМАЧЙЖЯЮЄОШ\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"БЇЯРЬЬФ ЬЇІЖЇЬЬШ БҐКФ ІРІЖРСР ЇИЦҐНРСБЗЖЬЗ ДНЇІРИЇ. ЯІРУХРЄ ЛАНРЄ ИРТ ТСНРЛЇЩ ЖФНФГ ИФУЇЖҐЦҐ ТҐЛЇ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "25",
+      "pred_key": "25",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "1",
+      "pred_key": "1",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"29\", \"input_text\": \"ÚWLŽYÍÉŇŔĎŽW ÁW ÚGBWRŽĹS KNUŔKĽ ÄÔTWÍĎWĹŽŤÄWÁ TWQHWUĎÉKĹŽ. ÄBŔKŽŤÄX LŽYÍÔ ŔÄÉ ŤŔWKŔÍ Ŕ ŇŽÝWĎWÍW KN QŔMÁADŔŇX.\", \"cipher_text\": \"ÚWLŽYÍÉŇŔĎŽW ÁW ÚGBWRŽĹS KNUŔKĽ ÄÔTWÍĎWĹŽŤÄWÁ TWQHWUĎÉKĹŽ. ÄBŔKŽŤÄX LŽYÍÔ ŔÄÉ ŤŔWKŔÍ Ŕ ŇŽÝWĎWÍW KN QŔMÁADŔŇX.\", \"plaintext\": \"DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"20\", \"input_text\": \"ADVANCED MODELS CAN UNDERSTAND AND SOLVE CLASSICAL CIPHERS. CLASSIC CIPHERS LIKE CAESAR AND VIGENERE ARE FUN TO BREAK. WE ARE TRAINING A REASONING MODEL FOR CIPHER TASKS.\", \"cipher_text\": \"UXPUHWYX GIXYFM WUH OHXYLMJUHX UHX MIFPY WFUMMCWUF WCJBYLM. WFUMMCW WCJBYLM FCEY WUYMUL UHX PCAYHYLY ULY ZOH NJ VLYUE. QY UL"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TRAIN",
+      "pred_key": "TRAIN",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"4\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ.\", \"cipher_text\": \"VTIÔXĽHÓH ÓQFHN ÔC ÚLÍTQÝCÔLH C FHÚLÍTQÝCÔLH U ÝAUÝHVNHÔĹÓ. UVTQĽQÝI XÉHÔLH ÓŔBH ÔCXÉLW CMÍQTLVÓLDMI ŔTCÝLFNČ.\", \"plaintext\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "16",
+      "pred_key": "16",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ЗЛАМ\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ҐНИСУХЙ НЯВИЩ ФХС ҐЮВИНЗТ ЧТЩСЗ ЮЛРАИЧОО ҐЧМАЬЯ. УЬАГХЧБТ АИЖЮХ КК ЗЛЦЛЮ Ц НІФЛЯЕЮ ЖТКЗНТ РЇЯ НИОГСБШҐ.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. КЛАСИЧНІ ШИФРИ ЯК "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "17",
+      "pred_key": "17",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "KEY",
+      "pred_key": "KEY",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "IOZLNSDPVWGJXATBYMQERUKCHF",
+      "pred_key": "IOZLNSDPVWGJXATBYMQERUKCHF",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ÉŔZÚÍSČÄŤFPUÁKŇLÓÔŽBAMGOWJVÝINCĽĎDEĹTRXHŠQY\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"TKUŤMŤNŤÁO ĽKPNE ÚOÔÉ ČÔÁO VOТЕYOТЕMŔ QÉ MŤQÔOAKĎŤBMĹ. CĎNOLOTF DSŤMKŤ AMYŤ MEDSKD ÉÔÍOKNĎA"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"21\", \"input_text\": \"MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. SECURITY THROUGH OBSCURITY IS NOT REAL SECURITY. ADVANCED MODELS CAN UNDERSTAND AND SOLVE CLASSICAL CIPHERS.\", \"cipher_text\": \"HXMDCZJ GJVMZCZB XMZ GJVMZ MGBKCDRCXHD PVGJN QJVT JAAJXRDQJGT. NJXYDRCP CMVKXFB KWNXYDRCP DN IKC MJZG NJXYDRCP. ZWYZMXIJ HK"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ПАИЗЯМЩЖЇДТХОШРУЦБЮЧЙКІЬЕҐСВНГЄЛФ\", \"input_text\": \"ЦТ БПИВПЖЦЮ ЦЮМЩУЄ НТЕЙЬИПББЛ ІП МЩНТЕЙЬИПББЛ Д ЧЮФКБЩББФЦ. НТЕЙ ИХЇЩБЩЙП МЮИЗЮ ИИПЇПИКФ БЩДУПЦБТЦ.\", \"cipher_text\": \"ЦТ БПИВПЖЦЮ ЦЮМЩУЄ НТЕЙЬИПББЛ ІП МЩНТЕЙЬИПББЛ Д ЧЮФКБЩББФЦ. НТЕЙ ИХЇЩБЩЙП МЮИЗЮ ИИПЇПИКФ БЩДУПЦБТЦ.\", \"plaintext\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВА"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ЦМБГРСІДИЕЩОВПҐЧЗЯНЙШЮЛЄФАЖХЬУКЇТ",
+      "pred_key": "ЦМБГРСІДИЕЩОВПҐЧЗЯНЙШЮЛЄФАЖХЬУКЇТ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"UGHXÍTÚÄDMYBKQĽZŠPÉIJÓRĹČVAŔSĎŇFLCŤÁÝWNÔŽEO\", \"input_text\": \"ŇLSĹZĹÝM ŤTDÓQD JVOD ÓUŤTQC UPBĹSQLJQÍŠM ASUÝQÚPG. LSMÓŤZDJD JĹÚDP ÓU FQYSĹÝUÓQD U ÚDFQYSĹÝUÓQD Ň ÝÔŇÝDLPDÓĽJ. ŠPUŇQÍŠM FQYSÔ UŠĹ ÍUDŇUS U ÝQBDÓDSD ŇÁ EUŤZĽJUÝM.\", \"cipher_text\": \"ŇLSĹZĹÝM ŤTDÓQD JVOD ÓUŤTQC UPBĹSQLJQÍŠM ASUÝQÚPG. LSMÓŤZDJD JĹÚDP ÓU FQYSĹÝUÓQD U ÚDF"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "21",
+      "pred_key": "21",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ÁJŠUZÝMCFÔIXŇĎČĹHGESWÚYDQÍKVNÉŤŔÓBLAPOTÄRŽĽ\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"ÓNÔÚBĹFWF WDMFG ÚÁ ŔĎXNDPÁÚĎF Á MFŔĎXNDPÁÚĎF Ť PÄŤPFÓGFÚČW. HGÁŤĎZHÔ ŔĎXNÄ ÁHD ZÁFŤÁN Á PĎIFÚFNF ŤL ŽÁBĹČWÁPÔ.\", \"plaintext\": \"TRÉNUJEME "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ПОСУВ",
+      "pred_key": "ПОСУВ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ДАНІ\", \"input_text\": \"АИЖЮ ЄІХНТЕҐІ ИОПКУ ВПІЙАПЯҐ НУРРААШЛМ. АІАИБШІ ННЙЯАБШҐ МВПІ ВЧЙЯИЕС ДЛРЩХИЕЧМЧБТ ФРНЙЛЛН.\", \"cipher_text\": \"АИЖЮ ЄІХНТЕҐІ ИОПКУ ВПІЙАПЯҐ НУРРААШЛМ. АІАИБШІ ННЙЯАБШҐ МВПІ ВЧЙЯИЕС ДЛРЩХИЕЧМЧБТ ФРНЙЛЛН.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА."
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"ALPHA\", \"input_text\": \"CCNWTORGHPHJ XZ THP PYT OQ LYITTCN ANO HVLVTCN COOTZ. ADGPUCEO BVDEWH JAN FCKERDIHND LCK SOWKL CLLHZICLA JIPSTYS. CWPZSIN RPPHPGZ LIVT JAEDPY ANO KPGEYTYE ACT MUN ED IRELZ.\", \"cipher_text\": \"CCNWTORGHPHJ XZ THP PYT OQ LYITTCN ANO HVLVTCN COOTZ. ADGPUCEO BVDEWH JAN FCKERDIHND LCK SOWKL CLLHZICLA JIPSTYS. CWP"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"АЛФА\", \"input_text\": \"ШХЛР ВЦЯЕНСІА ДАЦГО НЦАЖЛЦСЯ ЯЬЗЛЛЄНИЮ. ПВИРДИЙ МКРИШ ЕИС ГЙРИМФЄ ЧСІЕЗ ЬЬДАЗЗГО ГЗБАЩК.\", \"cipher_text\": \"ШХЛР ВЦЯЕНСІА ДАЦГО НЦАЖЛЦСЯ ЯЬЗЛЛЄНИЮ. ПВИРДИЙ МКРИШ ЕИС ГЙРИМФЄ ЧСІЕЗ ЬЬДАЗЗГО ГЗБАЩК.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"outpu"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"28\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"LĹYĎMÄÚCÚ CEXÚB ĎQ ĽŽYĹEŇQĎŽÚ Q XÚĽŽYĹEŇQĎŽÚ I ŇRIŇÚLBÚĎAČ. ĹÔXVBJ VĎÚXŠ BAZÚQ IÚŠTÚ XÚR BÚĎŽŇYVE ÓIQ.\", \"plaintext\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. RÝCHLA HNEDÁ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "HKFIOTXQWGSJPBLYZRDCMVUEAN",
+      "pred_key": "HKFIOTXQWGSJPBLYZRDCMVUEAN",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "24",
+      "pred_key": "24",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "34",
+      "pred_key": "34",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"СУКҐЯЦПЇЩЧЕЖЬЙБОРЄХИТВНЗІГЮАШДМЛФ\", \"input_text\": \"БОСВЕАЄЖ ШЕІТЕ ФБ ЮПЧСТ Ж КЖЩПЄПТ ЮЖБСКЖ ЦОФ КЕКАПЄЄФ. РСШЕЄЄП ЄСКАСЄЄФ РХЩП КЕКАЕНЕ СОҐХТЕНРЖАЄЖ ИТСКЕОС. ШЕІТЗКСЄЄФ НС ЦПШЕІТЗКСЄЄФ — ЦПНПТРЖЄХКСЄЖ ИПТПНКХТПЄЄФ.\", \"cipher_text\": \"БОСВЕАЄЖ ШЕІТЕ ФБ ЮПЧСТ Ж КЖЩПЄПТ ЮЖБСКЖ ЦОФ КЕКАПЄЄФ. РСШЕЄЄП ЄСКАСЄЄФ РХЩП КЕКАЕНЕ СОҐХТЕНРЖ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "13",
+      "pred_key": "13",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"МОДЕЛЬ\", \"input_text\": \"ЬАДЧХФАЩ АМЕНЦ НП ЯСЕМД М ЖЦДТВІЦ ЖЖЬОЄН РЇЛ РЛЖЗГАВҐ. ТЛХЦВТЇ ЯЬОЇДУЯЩ ЯГЙЇ НЄОЇЛШХ ЬЮСУЦХПЯЩЯУЦ МГОЄМЬЬ.\", \"cipher_text\": \"ЬАДЧХФАЩ АМЕНЦ НП ЯСЕМД М ЖЦДТВІЦ ЖЖЬОЄН РЇЛ РЛЖЗГАВҐ. ТЛХЦВТЇ ЯЬОЇДУЯЩ ЯГЙЇ НЄОЇЛШХ ЬЮСУЦХПЯЩЯУЦ МГОЄМЬЬ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"2\", \"input_text\": \"ОВЬЇППЖ ПВҐЩВППБ ОРИЖ ҐЇҐЩЇФЇ ВНДРТЇФОЙЩПЙ СТВҐЇНВ. МНВУЇЩПЙ ЬЇЦТЇ БМ ШЖІВТ Й ҐЙИЖПЖТ ШЙМВҐЙ ЄНБ ҐЇҐЩЖППБ. ОЇ ПВҐЩВЗОР ОРЄЖНЯ ЬЇЦТХҐВППА ФВ ЄЖЬЇЦТХҐВППА І СРБУПЖППБО.\", \"cipher_text\": \"ОВЬЇППЖ ПВҐЩВППБ ОРИЖ ҐЇҐЩЇФЇ ВНДРТЇФОЙЩПЙ СТВҐЇНВ. МНВУЇЩПЙ ЬЇЦТЇ БМ ШЖІВТ Й ҐЙИЖПЖТ ШЙМВҐЙ ЄНБ ҐЇҐЩЖППБ. ОЇ ПВҐЩВЗОР ОРЄЖНЯ ЬЇЦ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "FABPJXQWCEDMSTZRLONVKHYIGU",
+      "pred_key": "FABPJXQWCEDMSTZRLONVKHYIGU",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"QSÚČTŇÁĽGŔZCNÓBFŽÉYÔHROLÍVĹÄIJEKXŠPWDÝŤMAĎU\", \"input_text\": \"ŽÉQEÓTŽŔ KÓZIM QŽL TQGEQI Q DÓCGRGIG EW ĎQPFBHQDŔ. IATNÉQ NRGÁS ÉBKŽQ EŽSŇG TGĎ ÉGRÓDŔNL ĹEQ.\", \"cipher_text\": \"ŽÉQEÓTŽŔ KÓZIM QŽL TQGEQI Q DÓCGRGIG EW ĎQPFBHQDŔ. IATNÉQ NRGÁS ÉBKŽQ EŽSŇG TGĎ ÉGRÓDŔNL ĹEQ.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ЗЛАМ\", \"input_text\": \"УЬАҐПЗНЧ ҐХФГП КК ЗЛФАГ Р НІФЛЯЕГ ВЦКМІЦ ДЮЖ НИОГСНАЖ. ИИЄЩ НІФЛЯЕГЗ РООЇА ВОЗУАОЬК НТОЬАЯЦХМ.\", \"cipher_text\": \"УЬАҐПЗНЧ ҐХФГП КК ЗЛФАГ Р НІФЛЯЕГ ВЦКМІЦ ДЮЖ НИОГСНАЖ. ИИЄЩ НІФЛЯЕГЗ РООЇА ВОЗУАОЬК НТОЬАЯЦХМ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ Н"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "12",
+      "pred_key": "12",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "28",
+      "pred_key": "28",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ДИРІТЮҐЄАГУШФЛМВЧЖЦНХСЯЬЩБКЙЗОПЕЇ\", \"input_text\": \"ЧУ ЖДРЙДЄЧЦ ЧЦЮҐВП ЗУЩХЬРДЖЖЕ ЯД ЮҐЗУЩХЬРДЖЖЕ Г НЦЇСЖҐЖЖЇЧ. ЗУЩХЬРДЖЖЇ ЯД ЮҐЗУЩХЬРДЖЖЇ — ЮҐЯҐХЧШЖЦРДЖШ НҐХҐЯРЦХҐЖЖЇ.\", \"cipher_text\": \"ЧУ ЖДРЙДЄЧЦ ЧЦЮҐВП ЗУЩХЬРДЖЖЕ ЯД ЮҐЗУЩХЬРДЖЖЕ Г НЦЇСЖҐЖЖЇЧ. ЗУЩХЬРДЖЖЇ ЯД ЮҐЗУЩХЬРДЖЖЇ — ЮҐЯҐХЧШЖЦРДЖШ НҐХҐЯРЦХҐЖЖЇ.\", \"plaintext\": \"МИ НАВЧА"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "15",
+      "pred_key": "15",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ФКЬОЛПЄЇРНЧЙЯДИХЮТШЩЕҐГСУЗІЦМЖБАВ",
+      "pred_key": "ФКЬОЛПЄЇРНЧЙЯДИХЮТШЩЕҐГСУЗІЦМЖБАВ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "2",
+      "pred_key": "2",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "3",
+      "pred_key": "3",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SECRET",
+      "pred_key": "SECRET",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ПОСУВ\", \"input_text\": \"ВШ ДУҐЙОШЕР ВГЦЩНМ ЙЮКТЗРСЄПН ЄС ШЖКШЇИХСОДЄА Ш ҐЕТУГФДЄБВ.\", \"cipher_text\": \"ВШ ДУҐЙОШЕР ВГЦЩНМ ЙЮКТЗРСЄПН ЄС ШЖКШЇИХСОДЄА Ш ҐЕТУГФДЄБВ.\", \"plaintext\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"output_text\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"reasoning\": \""
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "СЕКРЕТ",
+      "pred_key": "СЕКРЕТ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"KEY\", \"input_text\": \"VIGENERE CIPHER WAS CONSIDERED UNBREAKABLE FOR CENTURIES. MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY.\", \"cipher_text\": \"FMEORCBI ASTFOV UKW AYRQSHCBIB ERZBIYUEZVI DYV AORREVGOW. KKGFSRC VIYBRGXK AKR NMPYR YNGWZXMQFWE PSOQH OSIT RYWEKQAXMVZ.\", \"plaintext\": \"VIGENERE CIPHER WAS CONSIDERED UNB"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "HESLO",
+      "pred_key": "HESLO",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"KLUČ\", \"input_text\": \"ÉSÄIWÔĽIRÝ ŇĹPÄU EYUU GŤŔÍ ŠYFUCYFUPL JU PÓJERVSOIÚXP. NŤLNĹMŤA VŔQĽÁ KŤÍ ÉKÔNČÁ L QĹQÔHIÁÔ NÝ ÍLÔMSWUZÔ.\", \"cipher_text\": \"ÉSÄIWÔĽIRÝ ŇĹPÄU EYUU GŤŔÍ ŠYFUCYFUPL JU PÓJERVSOIÚXP. NŤLNĹMŤA VŔQĽÁ KŤÍ ÉKÔNČÁ L QĹQÔHIÁÔ NÝ ÍLÔMSWUZÔ.\", \"plaintext\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SIFRA",
+      "pred_key": "SIFRA",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "YPROEQKDZJUHFXACSMWGBVTNIL",
+      "pred_key": "YPROEQKDZJUHFXACSMWGBVTNIL",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"POSUN\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ŽÝSNUSYY ŇUVEP UWD QSŽEPE S QUWŠEŽDU FŇ TNLXÁGNĽT. ÍÍPÄXBČL OPUÁAŽ ZĎŇŔ ĽPÍQAL PRKBEPYGAUŤT JPNUVUŽÚ. KČUŔYP ÚŽŽQQ YÁŇWP FBÚPU QXT YŽŽUONŇE JCS.\""
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "KEY",
+      "pred_key": "KEY",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "KEY",
+      "pred_key": "KEY",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ЮЄФМДОСЯЖЬТІУХЦАРБЕКЛГЙНЇШЗИПЩЧВҐ",
+      "pred_key": "ЮЄФМДОСЯЖЬТІУХЦАРБЕКЛГЙНЇШЗИПЩЧВҐ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "15",
+      "pred_key": "15",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "3",
+      "pred_key": "3",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЩИЕЙҐТЛІЧЗПЇУМКОШНЖЮДРСЯХЄВЦЬФАГБ\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ЬЕПТКПМ ИЯДПМ ОПР РСПИИЩІ ЦЛДЛЗ ОЛТЩЦЖЙЖ РЖИЩКЯ. ШП НЩЕЦЩІШЖ ШЖТЛОД ЬПХДЯЕЩННГ СЩ ТЛЬПХДЯЕЩННГ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"SHIFT\", \"input_text\": \"EHKMBFL TJTJUQSZ UHV QXSYV FEYVZNMZTQH KMSMX OWYG JYXLKYBNLTD. LWJCWBLF BMKGBOM HTZKZKAAG NL FVB WXSS AJVMYQYR. NPOJGWYM HBHOMW PSZ KTGKPLJKWK CSUJLIPTTSM KHJ JMSMMYQJL.\", \"cipher_text\": \"EHKMBFL TJTJUQSZ UHV QXSYV FEYVZNMZTQH KMSMX OWYG JYXLKYBNLTD. LWJCWBLF BMKGBOM HTZKZKAAG NL FVB WXSS AJVMYQYR. NPOJGWYM"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "DSMPCJIRAOQGLNXTHKFVBWZEYU",
+      "pred_key": "DSMPCJIRAOQGLNXTHKFVBWZEYU",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ÍNÓWŽFZGQTÄEJAYUÚLIBČŠÔÁXRĽMDSHCŔŤOKPÝŇĎÉVĹ",
+      "pred_key": "ÍNÓWŽFZGQTÄEJAYUÚLIBČŠÔÁXRĽMDSHCŔŤOKPÝŇĎÉVĹ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"5\", \"input_text\": \"АЄЛИПЛО ЕШХЛО РЛЦ ЦЧХЛЕДЇ ЯІХІК РІИДЯУЖУ ЦУЕДПШ. СЛ ТДЄЯДЇСУ СУИІРВ АЛЩХШЄДТТГ ЧД ИІАЛЩХШЄДТТГ К ФУҐЦТІТТҐС.\", \"cipher_text\": \"АЄЛИПЛО ЕШХЛО РЛЦ ЦЧХЛЕДЇ ЯІХІК РІИДЯУЖУ ЦУЕДПШ. СЛ ТДЄЯДЇСУ СУИІРВ АЛЩХШЄДТТГ ЧД ИІАЛЩХШЄДТТГ К ФУҐЦТІТТҐС.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО М"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "15",
+      "pred_key": "15",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"7\", \"input_text\": \"AMĹJRJÚJĽS XMLÚĎ FSÓĎ IÓĽS ŤSAĎDSAĎRE ČĎ RJČÓSQMYJPRŽ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. WYÚSŇSAK ZHJRMJ QTDJ RĎZHMÝ ĎÓĹSÚMYQMGOK ŤÚĎAMIÓE.\", \"cipher_text\": \"AMĹJRJÚJĽS XMLÚĎ FSÓĎ IÓĽS ŤSAĎDSAĎRE ČĎ RJČÓSQMYJPRŽ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. WYÚSŇSAK ZHJRMJ Q"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "BKDMSIGZHJXVAQLEUFORYPWCNT",
+      "pred_key": "BKDMSIGZHJXVAQLEUFORYPWCNT",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "LYEKQOZGINPMFUWJXSCTHAVDRB",
+      "pred_key": "LYEKQOZGINPMFUWJXSCTHAVDRB",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "NXCVBZRLKFDJPHEMWUYGTAIOSQ",
+      "pred_key": "NXCVBZRLKFDJPHEMWUYGTAIOSQ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SHIFT",
+      "pred_key": "SHIFT",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "DATA",
+      "pred_key": "DATA",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"2\", \"input_text\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ŤÚŔPĹPYG VĎFOJF NQAH OÄVĎJW ÄĽHPŔJÚNJDEG ŔŔÄYJEMB. YJIFOJŔJIP ŤJHSÄ ČPĽÄ EĽIP ŔPYÄAPYÄOB AÄ OFAĽPNJÚFMOX. ŔZDÍĽÄ ÍOFEB ĽKŤĹÄ ŤĹBĎF DFÄ ĽFOJYGÍP ŔŤÄ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ŇMĎŔFNÔÄJÉWZYĽKLGRHŽÁOŤCÝSPEAXVTÍUÚBŠDĹÓQČI",
+      "pred_key": "ŇMĎŔFNÔÄJÉWZYĽKLGRHŽÁOŤCÝSPEAXVTÍUÚBŠDĹÓQČI",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "18",
+      "pred_key": "18",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "24",
+      "pred_key": "24",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "22",
+      "pred_key": "22",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ÝĽÉÓČMÍRINLÚĹTŔFPOQÔECHDBAYKĎŇSJZÁGUŽVÄXŤWŠ\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"ŽTÚIEIĎIĹD STLĎÝ ÓDPÝ ÍPĹD YDŽÝŠDŽÝEĽ WÝ EIWPDETZIÔEG. POPYTČPN STLĎX ÝPD ČÝIÝPĎ Ý ŽTÚIEIĎI UG WÝUFŔEÝŽN.\", \"plaintext\": \"VIGENEREHO ŠIFRA BOL"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"НЦЯЙІСЕОЛФМЗШАУЧЄЬРЩХЇВПЖТГҐДБИКЮ\", \"input_text\": \"УЧНЇМҐЬЗ ДМЖХМ ЮУ ГЕФНХ З ЯЗЛЕЬЕХ ГЗУНЯЗ СЧЮ ЯМЯҐЕЬЬЮ. ДЯМСУМА ЦПХМА ЧМЇ ЇВХМЦНО ҐЕХЕФ ЧЕСНҐРЙР ЇРЦНУП. ЄНДМЬЬЕ ЬНЯҐНЬЬЮ ЄРЛЕ ЯМЯҐМВМ НЧЙРХМВЄЗҐЬЗ ЩХНЯМЧН.\", \"cipher_text\": \"УЧНЇМҐЬЗ ДМЖХМ ЮУ ГЕФНХ З ЯЗЛЕЬЕХ ГЗУНЯЗ СЧЮ ЯМЯҐЕЬЬЮ. ДЯМСУМА ЦПХМА ЧМЇ ЇВХМЦНО ҐЕХЕФ ЧЕСНҐРЙР ЇРЦНУП"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "28",
+      "pred_key": "28",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SECRET",
+      "pred_key": "SECRET",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "GHXBMQRLNZUOPIJEAWCVKYTFSD",
+      "pred_key": "GHXBMQRLNZUOPIJEAWCVKYTFSD",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"СЕКРЕТ\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ММДЄ ЖАЩЇЮЦЦТ ЦФМУФ ФУЕТРЖИР УРЩСТҐУФГ. ТЕАМЯКР УСЖМРҐУС ГФЬР УЄФМІХШ ССЗЯЦШИГНЖҐН АЄЕФЮСК. БСКЖММДН ЗЬЬЗЮ ДШ ЙЇЮСЦ Х УНЬЧУРЄ ЯАБРФА ЄҐР ЖФТАШ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ПОСУВ",
+      "pred_key": "ПОСУВ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "CIPHER",
+      "pred_key": "CIPHER",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "7",
+      "pred_key": "7",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "13",
+      "pred_key": "13",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"6\", \"input_text\": \"ŽĽLÍQÍUÍĹŔ WĽKUD ÉŔOD HOĹŔ TŔŽDČŔŽDQĎ CD QÍCOŔPĽXÍÔQZ. HÍWĽKUŔŽDQĽÍ NÍ HŠOÍČĽXĎ VZGDVY ŇÄÉÍUQÍXĽFŇÍN ÉÍCTÍGQŔVXĽ.\", \"cipher_text\": \"ŽĽLÍQÍUÍĹŔ WĽKUD ÉŔOD HOĹŔ TŔŽDČŔŽDQĎ CD QÍCOŔPĽXÍÔQZ. HÍWĽKUŔŽDQĽÍ NÍ HŠOÍČĽXĎ VZGDVY ŇÄÉÍUQÍXĽFŇÍN ÉÍCTÍGQŔVXĽ.\", \"plaintext\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽN"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"ZAMEK\", \"input_text\": \"RTČŠŠNVŔ ŽNDNŤK VOŽR ŔKTČŤZ KJGAVŔSMŤHTĎ PČEÉGDWÉ. TJAĎNMÍÉ ENPPY MÓY ÄARXKP A INQDNRVÓ RÚ ĹEĎIÍÝEÉĎ.\", \"cipher_text\": \"RTČŠŠNVŔ ŽNDNŤK VOŽR ŔKTČŤZ KJGAVŔSMŤHTĎ PČEÉGDWÉ. TJAĎNMÍÉ ENPPY MÓY ÄARXKP A INQDNRVÓ RÚ ĹEĎIÍÝEÉĎ.\", \"plaintext\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. KLASICKÉ ŠIFRY AKO "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"25\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА.\", \"cipher_text\": \"РВМЇ ЧГБЮЗЮЇХ ЬИЧШИ ЧЧХБХЧЙФ ЗЮАЄХЖЗВЖ. ЖВ ЗХЧПХЯЖИ ЖИЬЮЄТ РВМЇЛЧХЗЗУ КХ ЬЮРВМЇЛЧХЗЗУ А ІИФЙЗЮЗЗФЖ. ЖХРВЗЗЮ ЗХЧПХЗЗФ ЖИБЮ ЧВЧПВКВ ХЄШИЇВКЖГПЗГ "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"33\", \"input_text\": \"DĎŤMBWDŽ NBAĹŔ ŤDI WŤZMŤĹ Ť PBÁZGZĹZ MÔ ŠŤÓČCFŤPŽ. ŇĹŽGÓČZFZ FIYZĎ GŤ NBAĹIPŤGBZ Ť YZNBAĹIPŤGBZ M PŔMPZŇĎZGCF.\", \"cipher_text\": \"DĎŤMBWDŽ NBAĹŔ ŤDI WŤZMŤĹ Ť PBÁZGZĹZ MÔ ŠŤÓČCFŤPŽ. ŇĹŽGÓČZFZ FIYZĎ GŤ NBAĹIPŤGBZ Ť YZNBAĹIPŤGBZ M PŔMPZŇĎZGCF.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. TRÉNUJ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "GUOPYQFKNTHBCWISAMZELVJDXR",
+      "pred_key": "GUOPYQFKNTHBCWISAMZELVJDXR",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"19\", \"input_text\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"DĹŇSÚM SÝQÔM ÚTWYM FYMÓQ ŇQL ÚQÝTHŔSA ÁFM. HTSQÝQDQSA ČTŔDM OPÚM ÔÚSA ÁAHMŇAHMÝM LM ÝQLÚAGTÉQXÝF. YÚMFŤŇYŔ ČTŔDĽ MYA ŇMQFMD M HTSQÝQDQ FJ LMEŤWYMH"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "9",
+      "pred_key": "9",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "13",
+      "pred_key": "13",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "GIŤWRUYŽÉDPŔLÄQÁÚČBĹEĽXJAÍFTOMNZSCKÝVHŠĎÓÔŇ",
+      "pred_key": "GIŤWRUYŽÉDPŔLÄQÁÚČBĹEĽXJAÍFTOMNZSCKÝVHŠĎÓÔŇ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"SIFRA\", \"input_text\": \"DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ.\", \"cipher_text\": \"VNZZFJVBRNAN ÔV DHSĹQIĽÍ ÝMČSAA ÁYŤNXDEĽPÍÁEÄ KĹPPXĹŠESĽP. BCIÝZCBŇ ZZFJÓ FÁO UIĹSFJ I ÓZGXUĹIE LČ ERUÄQSRVY. ÝLRFRŤÓZ NĹĹDIX ŤÚQ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "KEY",
+      "pred_key": "KEY",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"24\", \"input_text\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"ÉNRVZÓ VÄTÚQ ZYHÝÓ GÝQCŤ RTŇ ZŤÄWĽŤVC ĎGÓ. GÍÉCLCĽŤ IQTÄWŤ AĎMT ÄÓIQWJ ÓZÚCÉWÍAWRÝŤ ĎÉÓĽWÚZQ. ÝZÓGWŔÝŤ HWUÉN ÓÝC RÓTGÓÉ Ó ĽWVŤÄTÉŤ GĹ ŇÓISYAÓĽŤ.\", \"pl"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "19",
+      "pred_key": "19",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "27",
+      "pred_key": "27",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"СЬОЙЛБЯШКАМФЧИЮЖІЗРВДҐЕГНХЦЩЇПТУЄ\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ.\", \"cipher_text\": \"ЇОСБЮМН ЬГДМН ЖМҐ ҐЕДМЬСШ ЩЯДЯК ЖЯБСЩРЙР ҐРЬСЮГ. ІМ ЗСОЩСШІР ІРБЯЖТ ЇМПДГОСЗЗУ ЕС БЯЇМПДГОСЗЗУ К ВРЄҐЗЯЗЗЄІ. "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "27",
+      "pred_key": "27",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЗОЕФИКЯІЇУГРШЮЙТЛЧДПСЖЄМҐЬБЩАЦВНХ\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"АГҐС ЕРЇЯЧЯСЗ КДЕФД ЕЕЗЇЗЕЖХ ЧЯУТЗЛЧГЛ. АГҐСМЕЗЧЧХ ЄЗ КЯАГҐСМЕЗЧЧХ — КЯЄЯСЛРЧДЕЗЧР ПЯСЯЄЕДСЯЧЧХ. ЛГ Ч"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Substitution\", \"key\": \"TSGCYHPWJAVQDOFXIEZLRBUKNM\", \"input_text\": \"MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. ADVANCED MODELS CAN UNDERSTAND AND SOLVE CLASSICAL CIPHERS. VIGENERE CIPHER WAS CONSIDERED UNBREAKABLE FOR CENTURIES.\", \"cipher_text\": \"DTGWJOY QYTEOJOP GTO QYTEO TQPFEJLWDJG ERQYZ UYNM YHHYGJLUYQM. TCBTOGYC DFNCYZ GTO R"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ЗЛАМ\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ҐНИСУХЙ НЯВИЩ ФХС ҐЮВИНЗТ ЧТЩСЗ ЮЛРАИЧОО ҐЧМАЬЯ. УЬАГХЧБТ АИЖЮХ КК ЗЛЦЛЮ Ц НІФЛЯЕЮ ЖТКЗНТ РЇЯ НИОГСБШҐ.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. КЛАСИЧНІ ШИФРИ ЯК "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ШИФР\", \"input_text\": \"ІИПЬЇЧЬ ҐШЇОРЇЧУ ГЙОЬ ТДЇОЬНР ФВЮШІЬНЦВКЇС ИЄШЇБВШ. ДБІЛ ЇВШБЧЬЄШ ЛЗТЮШ ЦТШОФТМЗ ЖЦҐХФГЇРЄ. ЛДБІИЬИЖҐЧ ЯФ ХБДБІЛАЦРЇЧУ — ХБЯЬЄІСЖДЬИЖЮ КМІЦНЇЗЄБЧЖП.\", \"cipher_text\": \"ІИПЬЇЧЬ ҐШЇОРЇЧУ ГЙОЬ ТДЇОЬНР ФВЮШІЬНЦВКЇС ИЄШЇБВШ. ДБІЛ ЇВШБЧЬЄШ ЛЗТЮШ ЦТШОФТМЗ ЖЦҐХФГЇРЄ. ЛДБІИЬИЖҐЧ ЯФ ХБДБІЛАЦРЇЧУ — ХБЯЬЄІСЖДЬИЖЮ КМІЦНЇЗ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ŇÝMĽDAZYUČHFRÍIJBQÚŠŔLVNXĹSWÁŤTŽEÓÄÉKCÔPOGĎ\", \"input_text\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ.\", \"cipher_text\": \"TEÁNBNKČ ÄAUĽÍU ŔĹĎU ĽŇÄAÍÓ ŇQZNÁÍEŔÍDQČ SÁŇKÍZQÝ. KÍFUĽUÁUFN ŽÍHÁŇ ĽNQŇ ZQFN SNKŇĎNKŇĽÝ GŇ ĽUGQNŔÍEUŠĽÉ.\", \"plaintext\": \"STROJOVÉ UČENIE MÔŽE"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"29\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ.\", \"cipher_text\": \"ФЬЕВИЕЗ ЩПНЕЗ ИЕО ОМНЕЩЮГ ХВНВЕ ИВВЮХКЯК ОКЩЮИП. ФЕРНПЬЮЇЇЩ МЮ ВВФЕРНПЬЮЇЇЩ — ВВМВНЙЄЇКЬЮЇЄ ЛВНВМЬКНВЇЇЩ. ФЕРН ЬЄҐВЇВНЮ ВКЬЯК ЬЬЮҐЮЬОЩ ЇВДИЮЙЇЕЙ.\", \""
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"SHIFT\", \"input_text\": \"UYGUMGNZFIZF QX MZL IWM GM EWBLPVL TFK ATENPVL VGKMX. LMIAYBLBBNHF JQUAWYA FKW CCQGWYIGEW AW KKWXCJGUF ISTDFANL. NPOJGWYM HBHOMW PSZ KTGKPLJKWK CSUJLIPTTSM KHJ JMSMMYQJL.\", \"cipher_text\": \"UYGUMGNZFIZF QX MZL IWM GM EWBLPVL TFK ATENPVL VGKMX. LMIAYBLBBNHF JQUAWYA FKW CCQGWYIGEW AW KKWXCJGUF ISTDFANL. NPOJGW"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"HESLO\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ÁVYXÍQKĎÔ AÚÍXU ÁH YAQEÚÁSXVM E VÔGÔĹJÝKHŔAÔ F ČCLFŠÁÔXXWT. ÝČCUEO ŔŔÍQÉ XŇČVO VÓĹÚÍ QKD URÁĽÁPTB ICS.\", \"plaintext\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. RÝCHLA H"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"20\", \"input_text\": \"ĎÉČAÚAIŔ GÔRZŤR ÝÄĽR ZMGÔŤF MWŠAČŤÉÝŤÓVŔ BČMIŤPWN. IŤŠRZRČRTA EŤSČM OAWM PWTA BAIMĽAIMZN ĹM ZRĹWAÝŤÉRYZH. ÉČŔZGÚRÝR ÝAPRW ZM EŤSČAIMZŤR M PREŤSČAIMZŤR Ď IKĎIRÉWRZUÝ.\", \"cipher_text\": \"ĎÉČAÚAIŔ GÔRZŤR ÝÄĽR ZMGÔŤF MWŠAČŤÉÝŤÓVŔ BČMIŤPWN. IŤŠRZRČRTA EŤSČM OAWM PWTA BAIMĽAIMZN ĹM ZRĹWAÝŤÉRYZH. ÉČŔZGÚRÝR ÝAPRW ZM EŤSČ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ТУІВИЕОРЖНЇШЙСЗФЛЦХЄЩЧМДЯПҐЮЬГКБА\", \"input_text\": \"ЛТЬЇЦЦО ЦТІЮТЦЦА ЛХЖО ІЇІЮЇМЇ ТФВХЩЇМЛШЮЦШ ЄЩТІЇФТ. ЛЇ ЦТІЮТРЛХ ЛХЕОФК ЬЇЯЩДІТЦЦБ МТ ЕОЬЇЯЩДІТЦЦБ Н ЄХАЧЦОЦЦАЛ. ЗФТЧЇЮЦШ ЬЇЯЩЇ АЗ ҐОНТЩ Ш ІШЖОЦОЩ ҐШЗТІШ ЕФА ІЇІЮОЦЦА.\", \"cipher_text\": \"ЛТЬЇЦЦО ЦТІЮТЦЦА ЛХЖО ІЇІЮЇМЇ ТФВХЩЇМЛШЮЦШ ЄЩТІЇФТ. ЛЇ ЦТІЮТРЛХ ЛХЕОФК ЬЇЯЩДІТЦЦБ МТ ЕОЬЇЯЩ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "MODEL",
+      "pred_key": "MODEL",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"SIFRA\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"OPNVNXZĹÝO ĹPMIA ŤVQR DCÔŤ GOOIÉEVSUG PA ENEÄOĎPŽVĽEČ. KCIÝZCBŇ ZZFJY SŔŤ GIVFSJ I OPNVNXZĹ LÚ EIÁÔÍĎIQL. XÔCŽSF ÝNXĽG ÄÍĹŔF JKŠĹĹ TER SĹDIOŇ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "DPJEYGNOAQVRXTFMZHCIKWBLUS",
+      "pred_key": "DPJEYGNOAQVRXTFMZHCIKWBLUS",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"АЛФА\", \"input_text\": \"КЬФСИЗЖІ ШХЛРИ КД ЦЕФФР І НВЖЕЯЬР ЦЦДАВЦ ЩЛЯ НБВЧСЖНЯ. ЮФШИЯЖЕ НЛЦЧАЯЖЯ МАЯЕ ВХЦЧИҐБ АЛОЗРИҐЄІЧЯВ ПРЛЦИЛЛ.\", \"cipher_text\": \"КЬФСИЗЖІ ШХЛРИ КД ЦЕФФР І НВЖЕЯЬР ЦЦДАВЦ ЩЛЯ НБВЧСЖНЯ. ЮФШИЯЖЕ НЛЦЧАЯЖЯ МАЯЕ ВХЦЧИҐБ АЛОЗРИҐЄІЧЯВ ПРЛЦИЛЛ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИНН"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЩКПВСНДЕЮТЦЛШФЙХЯЧЄОІГЬЖЗБЇМУАРҐИ\", \"input_text\": \"УЦЗІ ПЛЮДЧДІЩ НЄПВЄ ППЩЮЩПГИ ЧДТХЩЯЧЦЯ. ЙХЩГЦМЧЛ УЦЗІЦ ИЙ ЇДТЩІ Л ПЛЮДЧДІ ЇЛЙЩПЛ НХИ ПЦПМДЧЧИ. ЯЩУЦЧЧД ЧЩПМЩЧЧИ ЯЄЮД ПЦПМЦЬЦ ЩХВЄІЦЬЯЛМЧЛ ОІЩПЦХЩ.\", \"cipher_text\": \"УЦЗІ ПЛЮДЧДІЩ НЄПВЄ ППЩЮЩПГИ ЧДТХЩЯЧЦЯ. ЙХЩГЦМЧЛ УЦЗІЦ ИЙ ЇДТЩІ Л ПЛЮДЧДІ ЇЛЙЩПЛ НХИ ПЦПМДЧЧИ. ЯЩУЦЧЧД ЧЩПМЩЧЧИ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "CDYSVIBGMHLZENUXTAPFJKWROQ",
+      "pred_key": "CDYSVIBGMHLZENUXTAPFJKWROQ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ÚQNEALĎZŤOYŽXWŠPÉBUHĹIVÝÄDMŔCTÁÍJÓĽŇFKČSRGÔ\", \"input_text\": \"ÁJCÝPÝFO ĽLŤIWŤ ĹDÔŤ IÚĽLWÓ ÚBŽÝCWJĹWAÉO MCÚFWĎBQ. CRAXBÚ XIŤĎQ BŠÍÉÚ ÁÉQLŤ AŤG BŤIWFOXÝ MÁÚ.\", \"cipher_text\": \"ÁJCÝPÝFO ĽLŤIWŤ ĹDÔŤ IÚĽLWÓ ÚBŽÝCWJĹWAÉO MCÚFWĎBQ. CRAXBÚ XIŤĎQ BŠÍÉÚ ÁÉQLŤ AŤG BŤIWFOXÝ MÁÚ.\", \"plaintext\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRA"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"КЛЮЧ\", \"input_text\": \"ЗХТК МЦЕАЮСОЧ ПААЬЯ НАЧТЛАЛЙ ЯҐГЩЛКІФЮ. ЦҐДВСЩКЯЛЦ ГЛ ГАЗХТКҐНЮІЮК — ГАГСОИХЯМЩКЯЗ ЙРВҐММАОАЮЯЬ.\", \"cipher_text\": \"ЗХТК МЦЕАЮСОЧ ПААЬЯ НАЧТЛАЛЙ ЯҐГЩЛКІФЮ. ЦҐДВСЩКЯЛЦ ГЛ ГАЗХТКҐНЮІЮК — ГАГСОИХЯМЩКЯЗ ЙРВҐММАОАЮЯЬ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАН"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "13",
+      "pred_key": "13",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"8\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ÄŇMLSLWLNT ÝŇĽWÉ HTPÉ JPNT ÚTÄÉETÄÉSF ĎÉ SLĎPTRŇZLRSÁ. WČIŇPÉ ŇSLJF PÓÝOÉ YOFIL IĹĎ PLSŇÄKŇT ÚYÉ.\", \"plaintext\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "16",
+      "pred_key": "16",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "14",
+      "pred_key": "14",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"DATA\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ.\", \"cipher_text\": \"ŇLTSĽCČÉ WIŽRÄ AČO FAÝSDR T VĽGÝNÍRÝ SZ ZTUNÍÉAŽÉ. ÚIÝÝNÍRÝHŔ ŠĽFUA ÚOOA XLĹO JOŽAŠOŽAFÁ CA EÝZDOPINEÔEÚ.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. VIGENEREHO Š"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ŠÓEÉĹIJUÝMRNŤŽAGÄĎKYVÚZWÔČXĽHTŇPCLÁODSŔQBFÍ\", \"input_text\": \"DŽNÝÚÝHÝŤW PŽRHŠ ÉWĎŠ JĎŤW XWDŠÍWDŠÚÓ FŠ ÚÝFĎWVŽCÝYÚO. CHMÚÁGÝVÝ VWJÝĎ ÚŠ PŽRHWDŠÚŽÝ Š JÝPŽRHWDŠÚŽÝ Ň DQŇDÝCĎÝÚAV. JÝPŽRHWDŠÚŽÝ GÝ JČĎÝÍŽCÓ ŇOIŠŇL ÄQÉÝHÚÝCŽĹÄÝG ÉÝFXÝIÚWŇCŽ.\", \"cipher_text\": \"DŽNÝÚÝHÝŤW PŽRHŠ ÉWĎŠ JĎŤW XWDŠÍWDŠÚÓ FŠ ÚÝFĎWVŽCÝYÚO. CHMÚÁGÝVÝ VWJÝĎ ÚŠ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "MINBUEVTRXCWGKYDFHQJAOPZSL",
+      "pred_key": "MINBUEVTRXCWGKYDFHQJAOPZSL",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "19",
+      "pred_key": "19",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"19\", \"input_text\": \"PX TKX MKTBGBGZ T KXTLHGBGZ FHWXE YHK VBIAXK MTLDL. LXVNKBMR MAKHNZA HULVNKBMR BL GHM KXTE LXVNKBMR. VKRIMHZKTIAR BL MAX TKM HY PKBMBGZ TGW LHEOBGZ VHWXL.\", \"cipher_text\": \"PX TKX MKTBGBGZ T KXTLHGBGZ FHWXE YHK VBIAXK MTLDL. LXVNKBMR MAKHNZA HULVNKBMR BL GHM KXTE LXVNKBMR. VKRIMHZKTIAR BL MAX TKM HY PKBMBGZ TGW "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "14",
+      "pred_key": "14",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TRAIN",
+      "pred_key": "TRAIN",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "XÉNIÝTÍCUAJLŔZEÔFĹŠQÓÁWČPDBŽRHYMŤÚSŇÄKĎĽVOG",
+      "pred_key": "XÉNIÝTÍCUAJLŔZEÔFĹŠQÓÁWČPDBŽRHYMŤÚSŇÄKĎĽVOG",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"МДЇВТЩЗІПЦЯСИБЖҐРЧОАНЮЄЬЛУХШЕЙФГК\", \"input_text\": \"ЖҐМЮЯШЧС ЕЯЛНЯ КЖ ХЗЦМН С ЇСПЗЧЗН ХСЖМЇС ЩҐК ЇЯЇШЗЧЧК. ЕЇЯЩЖЯБ ДЬНЯБ ҐЯЮ ЮЄНЯДМІ ШЗНЗЦ ҐЗЩМШОВО ЮОДМЖЬ.\", \"cipher_text\": \"ЖҐМЮЯШЧС ЕЯЛНЯ КЖ ХЗЦМН С ЇСПЗЧЗН ХСЖМЇС ЩҐК ЇЯЇШЗЧЧК. ЕЇЯЩЖЯБ ДЬНЯБ ҐЯЮ ЮЄНЯДМІ ШЗНЗЦ ҐЗЩМШОВО ЮОДМЖЬ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "MPXNLOEIHFBADTCZUKRWYQVSGJ",
+      "pred_key": "MPXNLOEIHFBADTCZUKRWYQVSGJ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ДЖЬОІҐВЕЙШЄХЮИУГАЦТМНЧФКЇПРБЛЩЯСЗ\", \"input_text\": \"УГДЧЄБЦХ ЛЄЇНЄ ЗУ РВШДН Х ЬХЙВЦВН РХУДЬХ ҐГЗ ЬЄЬБВЦЦЗ. ЛЬЄҐУЄИ ЖКНЄИ ГЄЧ ЧФНЄЖДЕ БВНВШ ГВҐДБТОТ ЧТЖДУК.\", \"cipher_text\": \"УГДЧЄБЦХ ЛЄЇНЄ ЗУ РВШДН Х ЬХЙВЦВН РХУДЬХ ҐГЗ ЬЄЬБВЦЦЗ. ЛЬЄҐУЄИ ЖКНЄИ ГЄЧ ЧФНЄЖДЕ БВНВШ ГВҐДБТОТ ЧТЖДУК.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"АЛФА\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ.\", \"cipher_text\": \"МЛПИНЯЬ НАНОАНЯУ МОУЬ ВИНОИТХ ФЛГАІИТЮВЧНЦ ИРАНБЛА. ИБФРДЦАНЯУ ТА РЬШИЕІУВЛЖНЯ — РЬТЕВЄІНАЦАНЦ ИЕРСЙВОВЬННК.\", \"plaintext\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФРУ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"19\", \"input_text\": \"ÚVĽDTOÚR ĎTŔCJ ĽÚŽ OĽQDĽC Ľ HTSQÝQCQ DG LĽFUŤYĽHR. ECRÝFUQYQ YŽÔQV ÝĽ ĎTŔCŽHĽÝTQ Ľ ÔQĎTŔCŽHĽÝTQ D HJDHQEVQÝŤY.\", \"cipher_text\": \"ÚVĽDTOÚR ĎTŔCJ ĽÚŽ OĽQDĽC Ľ HTSQÝQCQ DG LĽFUŤYĽHR. ECRÝFUQYQ YŽÔQV ÝĽ ĎTŔCŽHĽÝTQ Ľ ÔQĎTŔCŽHĽÝTQ D HJDHQEVQÝŤY.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. TRÉNUJ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "20",
+      "pred_key": "20",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "20",
+      "pred_key": "20",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ШИФР\", \"input_text\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ.\", \"cipher_text\": \"ЗХФЖДҐЖЮ УРЛЄД ЗД ЙБПФЄ Е ЇВШБЧЬЄ ССДРЬС ЩВЧ ЇБТТМЖҐЧ. ЛДБІ ТЕШБЧЬЄШ СГЦУЙ ЇЦРГРЇЖЧ ГЩПВФҐЖФГ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ Н"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SIFRA",
+      "pred_key": "SIFRA",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ДАНІ\", \"input_text\": \"СИ БІЄЧНОСО АЩИЕЯЖ АИЖЮШВНШТЮ ЕІ ИЕЇСЩРЄЙДНБЗ К ПВИЦНУШТЯА. ЕЛФҐБЄАБШҐ ТН МІШЧВХУПІТНМ — МІТУЮСІБЩЄАБТ ФЕҐНЧВВЮІНБИ.\", \"cipher_text\": \"СИ БІЄЧНОСО АЩИЕЯЖ АИЖЮШВНШТЮ ЕІ ИЕЇСЩРЄЙДНБЗ К ПВИЦНУШТЯА. ЕЛФҐБЄАБШҐ ТН МІШЧВХУПІТНМ — МІТУЮСІБЩЄАБТ ФЕҐНЧВВЮІНБИ.\", \"plaintext\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "WGUENPICBSDHJFMRZXYLKVQATO",
+      "pred_key": "WGUENPICBSDHJFMRZXYLKVQATO",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "GLCXHYUZBOQPINVEMATRWDKFSJ",
+      "pred_key": "GLCXHYUZBOQPINVEMATRWDKFSJ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ÍVHTFPÉÔÓŇĽSŤUČEĎBWZÝRŠOŽNJACÁŔQGLKÄYDMXÚĹI",
+      "pred_key": "ÍVHTFPÉÔÓŇĽSŤUČEĎBWZÝRŠOŽNJACÁŔQGLKÄYDMXÚĹI",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "АЛФА",
+      "pred_key": "АЛФА",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"31\", \"input_text\": \"КЮЦЖЛЛҐ ЛЮАХЮЛЛЬ КМЕҐ АЖАХЖРЖ ЮЙБМОЖРКЗХЛЗ НОЮАЖЙЮ. ЦЖТОСАЮЛЛЬ РЮ ГҐЦЖТОСАЮЛЛЬ — ГҐРҐОКЗЛМАЮЛЗ НҐОҐРАМОҐЛЛЬ. ЦЖТО АЗЕҐЛҐОЮ ГМАБМ ААЮЕЮАПЬ ЛҐЄЙЮКЛЖК.\", \"cipher_text\": \"КЮЦЖЛЛҐ ЛЮАХЮЛЛЬ КМЕҐ АЖАХЖРЖ ЮЙБМОЖРКЗХЛЗ НОЮАЖЙЮ. ЦЖТОСАЮЛЛЬ РЮ ГҐЦЖТОСАЮЛЛЬ — ГҐРҐОКЗЛМАЮЛЗ НҐОҐРАМОҐЛЛЬ. ЦЖТО АЗЕҐЛҐОЮ ГМАБМ ААЮЕЮАПЬ ЛҐЄЙЮКЛЖ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"27\", \"input_text\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"IÔTYSÓ YĎÚŤQ SGĹCÓ ĽCQŤÚ TÚP SÚĎŽŇWYF EĽÓ. CÓÓĽŽTCW ĹŽYIP ÓCF TÓÚĽÓI Ó ŇŽXÚĎÚIÚ ĽM PÓKÄGÁÓNW.\", \"plaintext\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAV"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"2\", \"input_text\": \"GPETARVKQP CPF FGETARVKQP CTG FGVGTOKPKUVKE VTCPUHQTOU. XKIGPGTG EKRJGT YCU EQPUKFGTGF WPDTGCMCDNG HQT EGPVWTKGU. UGEWTKVA VJTQWIJ QDUEWTKVA KU PQV TGCN UGEWTKVA.\", \"cipher_text\": \"GPETARVKQP CPF FGETARVKQP CTG FGVGTOKPKUVKE VTCPUHQTOU. XKIGPGTG EKRJGT YCU EQPUKFGTGF WPDTGCMCDNG HQT EGPVWTKGU. UGEWTKVA VJTQWIJ QD"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"HESLO\", \"input_text\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ŽÝJÝXÚÁY ERMŔAÔ AWĎX XOBIAĎ OŔĽFÄVÁRANYN UJLKÔÍCĹ. ŇÔŇUĹJÝKHŔAÔ MÍ ŔWÔXŤUJA ÄIĽOŽZ ÓIOŠLŔÔÁNUÓÔM ĽÔTUIĹCQČÁN. JFDĽŔS ÓCŠĹÉ CŠGÓS NIÓÚX QX"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ĹRPČÉÚNTĽSQŤIÓŠWXÁUFŔĎYLBAGHŽÍKCDOVZEÝÔŇJMÄ\", \"input_text\": \"ŽJÉIÁĹ IĎĽNR ÁŠCXĹ KXRÚĽ ÉĽM ÁĽĎÓESIL GKĹ. NĽCÓQŽLEĹĎÓĽ WĽ NAÁĽÄÓDR KZÚĹKO XŇČĽŽĎĽDÓÉXĽW ČĽMGĽÚĎLKDÓ.\", \"cipher_text\": \"ŽJÉIÁĹ IĎĽNR ÁŠCXĹ KXRÚĽ ÉĽM ÁĽĎÓESIL GKĹ. NĽCÓQŽLEĹĎÓĽ WĽ NAÁĽÄÓDR KZÚĹKO XŇČĽŽĎĽDÓÉXĽW ČĽMGĽÚĎLKDÓ.\", \"plaintext\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "2",
+      "pred_key": "2",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"19\", \"input_text\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ.\", \"cipher_text\": \"БГПЄЩЙВЬ ЛЩИЕЩ ОБ ЇХШПЕ Ь РЬЦХВХЕ ЇЬБПРЬ ФГО РЩРЙХВВО. ЛЩИЕ РЬЦХВХЕП ФҐРУҐ РРПЦПРЄО ВХШГПБВЩБ. ЛЩИЕЗРПВВО ЖП ФХЛЩИЕЗРПВВО — ФХЖХЕБЬВҐРПВЬ ДХЕХЖ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЇМЮҐГХБИЦЩТЄЖФСОРДЛІЕУЗВНКАЧЙПЯШЬ\", \"input_text\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"СОЇУТЧДЄ ЙТНЕТ ЬС АБЩЇЕ Є ЮЄЦБДБЕ АЄСЇЮЄ ХОЬ ЮТЮЧБДДЬ. ЙТНЕВЮЇДДЬ ЗЇ ХБЙТНЕВЮЇДДЬ — ХБ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"25\", \"input_text\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"РВМЇЛЦХЗЗФ КХ ЬЮРВМЇЛЦХЗЗФ — ЬЮКЮЇЄГЗИЦХЗГ ІЮЇЮКЦИЇЮЗЗФ. ЄЖХЙВПЗГ РВМЇВ ФЄ ОЮБХЇ Г ЦГАЮЗЮЇ ОГЄХЦГ ЬЖФ ЦВЦПЮЗЗФ.\", \"plaintext\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SHIFT",
+      "pred_key": "SHIFT",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Substitution\", \"key\": \"ONELAXDZHRGFQIWUJTYKCPVBSM\", \"input_text\": \"ADVANCED MODELS CAN UNDERSTAND AND SOLVE CLASSICAL CIPHERS. MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. CLASSIC CIPHERS LIKE CAESAR AND VIGENERE ARE FUN TO BREAK.\", \"cipher_text\": \"OAPOIENA QWALFY NOI CIALTYKOIA OIA YWFPA NFOYYHNOF NHUZATY. QOZHINL FLOTNIID NOI FL"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"НГБЛВЙМШЖАҐТСУИКЩЄЧЦІЯДФХЗОЬЮЇРПЕ\", \"input_text\": \"ЮҐХІ БТЖМЄМІН ЙЧБЛЧ ББНЖНБЯЕ ЄМАКНЩЄҐЩ. ЮҐХІФБНЄЄЕ ДН ЙМЮҐХІФБНЄЄЕ — ЙМДМІЩТЄЧБНЄТ ЦМІМДБЧІМЄЄЕ.\", \"cipher_text\": \"ЮҐХІ БТЖМЄМІН ЙЧБЛЧ ББНЖНБЯЕ ЄМАКНЩЄҐЩ. ЮҐХІФБНЄЄЕ ДН ЙМЮҐХІФБНЄЄЕ — ЙМДМІЩТЄЧБНЄТ ЦМІМДБЧІМЄЄЕ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАН"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ПОСУВ",
+      "pred_key": "ПОСУВ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЦЯЛІЖСЙҐЗХМВДЮШЩРУЧЕГКТЇЄЬАБИНПОФ\", \"input_text\": \"РЦИМУУЙ УЦЛБЦУУФ РЧЗЙ ЛМЛБМТМ ЦЩІЧГМТРВБУВ ЕГЦЛМЩЦ. РМ УЦЛБЦҐРЧ РЧСЙЩП ИМЄГЇЛЦУУО ТЦ СЙИМЄГЇЛЦУУО Х ЕЧФКУЙУУФР. ШЩЦКМБУВ ИМЄГМ ФШ АЙХЦГ В ЛВЗЙУЙГ АВШЦЛВ СЩФ ЛМЛБЙУУФ.\", \"cipher_text\": \"РЦИМУУЙ УЦЛБЦУУФ РЧЗЙ ЛМЛБМТМ ЦЩІЧГМТРВБУВ ЕГЦЛМЩЦ. РМ УЦЛБЦҐРЧ РЧСЙЩП ИМЄГЇЛЦУУО ТЦ СЙИМЄГ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ŽÔČĹWTÝŠÄÉLOŤZFŇEIYŔSMĎĽAQXCBÁPNKHDURÍJVÚÓG\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"EIŽPZWEÉ NZOBV ŽEĽ WŽÄPŽB Ž RZOÄMÄBÄ PU ÓŽHŇFMŽRÉ. BÚWŤIŽ ŤMÄÝÔ IZNEŽ PEOTÄ WÄÓ IÄMZRÉŤĽ XPŽ.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"POSUN\", \"input_text\": \"ŽÝSNUSYY ŇUVEP UWD QSŽEPE S QUWŠEŽDU FŇ TNLXÁGNĽT. ĽĽSCÍÄŽZU AFÝŔA ÁS ŇUVEFQNCVX U QUGAÁDDKSHUU F OSEĽŠĽEŔCWĎ. ĽĹSÚCU ŤCŠVÚ XÝGBU EŽÓÚŽ ÔUN CŽŽYKYBÁ ÉFS.\", \"cipher_text\": \"ŽÝSNUSYY ŇUVEP UWD QSŽEPE S QUWŠEŽDU FŇ TNLXÁGNĽT. ĽĽSCÍÄŽZU AFÝŔA ÁS ŇUVEFQNCVX U QUGAÁDDKSHUU F OSEĽŠĽEŔCWĎ. ĽĹSÚCU ŤCŠVÚ XÝGBU EŽÓÚŽ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "19",
+      "pred_key": "19",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SHIFT",
+      "pred_key": "SHIFT",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"FIŤĹBÚZUOŠÔÉÍCŽPKYĽJÓVÝQXETÄČLNĎDASŇRWÁHMŔG\", \"input_text\": \"ZOĎCÔČQRFVCO PO ZEYOGCDI NŇÚFNA KHĹOČVODCBKOP ĹOŔTOÚVQNDC. NDČQPQRŠ SÚOVCO ÓEGO VFSÚCA FYÉQČCDÓCBKŠ TČFRCZYI.\", \"cipher_text\": \"ZOĎCÔČQRFVCO PO ZEYOGCDI NŇÚFNA KHĹOČVODCBKOP ĹOŔTOÚVQNDC. NDČQPQRŠ SÚOVCO ÓEGO VFSÚCA FYÉQČCDÓCBKŠ TČFRCZYI.\", \"plaintext\": \"DEŠIFROVANIE"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"23\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА.\", \"cipher_text\": \"ОАКИ ХБЮЩЄЩИУ ШЖХЦЖ ХХУЮУХІТ ЄЩЯДУЕЄАЕ. ҐДУІАПЄБ ОАКИА ТҐ ОЩЯУИ Б ХБЮЩЄЩИ ОБҐУХБ ШДТ ХАХПЩЄЄТ. ЕУОАЄЄЩ ЄУХПУЄЄТ ЕЖЮЩ ХАХПАЇА УДЦЖИАЇЕБПЄБ ЗИУХАДУ.\","
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"16\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА.\", \"cipher_text\": \"ІЦЄГ ОЧФТАТГЛ СБОПБ ООЛФЛОҐК АТХЮЛЯАЦЯ. ЯЦ АЛОИЛТЯБ ЯБСТЮМ ІЦЄГДОЛАОЇ ГЛ СТІЦЄГДОЛАОЇ Х ВБКҐАТААКЯ. ЯЛОААТА АЛОИЛААК ЯБФТ ОАОИАГА ЛЮПБГАГЯЧИАЧ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ЕІРШДЗМЩЇЬЯЦХБСТЮУЛВЧФЄИКҐЖЙНГПАО",
+      "pred_key": "ЕІРШДЗМЩЇЬЯЦХБСТЮУЛВЧФЄИКҐЖЙНГПАО",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "25",
+      "pred_key": "25",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ROBVMTFISYPCJGELQXUKNDAHWZ",
+      "pred_key": "ROBVMTFISYPCJGELQXUKNDAHWZ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "JIBRPHFSZCLNAMWUQVXTDOGYKE",
+      "pred_key": "JIBRPHFSZCLNAMWUQVXTDOGYKE",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"2\", \"input_text\": \"YG CTG VTCKPKPI C TGCUQPKPI OQFGN HQT EKRJGT VCUMU. ETARVQITCRJA KU VJG CTV QH YTKVKPI CPF UQNXKPI EQFGU. GPETARVKQP CPF FGETARVKQP CTG FGVGTOKPKUVKE VTCPUHQTOU.\", \"cipher_text\": \"YG CTG VTCKPKPI C TGCUQPKPI OQFGN HQT EKRJGT VCUMU. ETARVQITCRJA KU VJG CTV QH YTKVKPI CPF UQNXKPI EQFGU. GPETARVKQP CPF FGETARVKQP CT"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"IÍÉGČSYDBOÁVZĹÓHMÝĎEKXŠAJNQÚWCŇUPRÄŔÔTĽFŤŽL\", \"input_text\": \"ÔĹVBXBWBZA UĹÁWI GAÝI YÝZA QAÔILAÔIXÍ ŽI XBŽÝAKĹPBEXŔ. ŇPWAHAÔO ÄSBXĹB KNLB XIÄSĹR IÝVAWĹPKĹČMO QWIÔĹYÝÍ. YBUĹÁWAÔIXĹB HB YNÝBLĹPÍ ŇŔSIŇR MFGBWXBPĹČMBH GBŽQBSXAŇPĹ.\", \"cipher_text\": \"ÔĹVBXBWBZA UĹÁWI GAÝI YÝZA QAÔILAÔIXÍ ŽI XBŽÝAKĹPBEXŔ. ŇPWAHAÔO ÄSBXĹB KNLB XIÄSĹR "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "FQÚŤDÔKŽÝLTZGAHWEŔXUCČVBĎRĽĹNIÁOÍSÄPÓÉŇJMYŠ",
+      "pred_key": "FQÚŤDÔKŽÝLTZGAHWEŔXUCČVBĎRĽĹNIÁOÍSÄPÓÉŇJMYŠ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ДАНІ",
+      "pred_key": "ДАНІ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"14\", \"input_text\": \"ADVANCED MODELS CAN UNDERSTAND AND SOLVE CLASSICAL CIPHERS. MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.\", \"cipher_text\": \"ORJORUQH WCHZYG URO IZHQBCJRIH RHI YCGSZ UGRYYWURG UWBCQBY. ARUWBQH ZHRBQDQL URO ZHRBQ RZLDBQJWABU BYZHC JSBE PXXPUBWJZSH. HVS "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"POSUN\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ.\", \"cipher_text\": \"ŽÝSNUSYY ŇUVEP UWD QSŽEPE S QUWŠEŽDU FŇ TNLXÁGNĽT. ĽĽSCÍÄŽZU AFÝŔA ÁS ŇUVEFQNCVX U ÝUCVXRFDFDIX L QĹLFŽĽEŔCČĎ. EUĽŽŽUEXBÁ ŇU"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "PFCTHUEXSZGRMBNWILADJVKYQO",
+      "pred_key": "PFCTHUEXSZGRMBNWILADJVKYQO",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "BJGLVYQDUWIMTZOAHRXESFNPCK",
+      "pred_key": "BJGLVYQDUWIMTZOAHRXESFNPCK",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"19\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"КСЩФАЩЬ РЗЕЩЬ АЩЄ ЄЖЕЩРПЦ ЙХЕХШ АХФПЙҐТҐ ЄҐРПАЗ. БЩ ГПСЙПЦБҐ БҐФХАЛ КЩИЕЗСПГГН ЖП ФХКЩИЕЗСПГГН Ш ҐҐОЄГХГГОБ.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "СЕКРЕТ",
+      "pred_key": "СЕКРЕТ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "YACFUQOLTPKSZNHXBDGVWREJIM",
+      "pred_key": "YACFUQOLTPKSZNHXBDGVWREJIM",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"42\", \"input_text\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ.\", \"cipher_text\": \"QXĎFJÄ FĽDCŽ JHŔÍÄ RÍŽBD ĎDÝ JDĽGŤDFŇ ÔRÄ. ŤHÉDĽDQDFŇ ŔHÉQÄ ÁŇJÄ CJFŇ ÔŇŤÄYŇŤÄĽŽ ÝÄ ĽDÝJŇĹHSDKĽT.\", \"plaintext\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"6\", \"input_text\": \"UBFĹOD ĹQÍHĎ OMWŇD VŇĎGÍ FÍC OÍQĽŽJĹŔ TVD. ŽĽLÍQÍUÍĹŔ WĽKUD ÉŔOD HOĹŔ TŔŽDČŔŽDQĎ CD QÍCOŔPĽXÍÔQZ. ŇODVĽFŇJ WĽKUÄ DŇŔ FDÍVDU D ŽĽLÍQÍUÍ VZ CDÝNMPDŽJ.\", \"cipher_text\": \"UBFĹOD ĹQÍHĎ OMWŇD VŇĎGÍ FÍC OÍQĽŽJĹŔ TVD. ŽĽLÍQÍUÍĹŔ WĽKUD ÉŔOD HOĹŔ TŔŽDČŔŽDQĎ CD QÍCOŔPĽXÍÔQZ. ŇODVĽFŇJ WĽKUÄ DŇŔ FDÍVDU D ŽĽLÍQÍUÍ VZ CDÝNMPDŽJ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"23\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"cipher_text\": \"ДУОАЄЄЩ ЄУХНУЄЄТ ДЄЬЩ ХАХНАЇА УДЧЄЖАЇДБНЄБ ЕЖУХАДУ. ОАКЖ ХБЬЩЄЩЖУ ШЄХЧЄ ХХУЬУХІТ ЄЩЯДУДЄАД. ОХАШҐАГ ФЙЖАГ ДАІ ІЇЖАФУЮ НЩЖЩЯ ДЩШУНЄЧЄ ІЄФУҐЙ.\", \"plaintext\""
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "18",
+      "pred_key": "18",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"VYÉWOFÚĹCÓTÝXDZHEPLRŽÔŔŤKIÄUSŠBQČAŇGĽJNÍMĎÁ\", \"input_text\": \"ĽDÝCÔCSCXŤ QDTSV WŤPV ÚPXŤ ÄŤĽVÁŤĽVÔY ĎV ÔCĎPŤŽDČCRÔG. EPVBDOEÓ QDTSÍ VEŤ OVCBVS V ĽDÝCÔCSC BG ĎVŇHZŽVĽÓ. SMOXPV XÔCÚY PZQEV BEYFC OCĎ PCÔDĽÓXŤ ÄBV.\", \"cipher_text\": \"ĽDÝCÔCSCXŤ QDTSV WŤPV ÚPXŤ ÄŤĽVÁŤĽVÔY ĎV ÔCĎPŤŽDČCRÔG. EPVBDOEÓ QDTSÍ VEŤ OVCBVS V ĽDÝCÔCSC BG ĎVŇH"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"18\", \"input_text\": \"UÚĹČŠŇUQ DŠRBÍ ĹUZ ŇĹPČĹB Ĺ GŠŔPYPBP ČF KĹÉŤTXĹGQ. ÓPDŠRBZGĹYŠP ŤP ÓAÚPLŠĎĽ ČFOĹČE UÍNPBYPĎŠŇUPŤ NPKÁPOYZČĎŠ. GŠŔPYPBPSZ DŠRBĹ NZÚĹ ÓÚSZ ÁZGĹLZGĹYĽ KĹ YPKÚZXŠĎPWYF.\", \"cipher_text\": \"UÚĹČŠŇUQ DŠRBÍ ĹUZ ŇĹPČĹB Ĺ GŠŔPYPBP ČF KĹÉŤTXĹGQ. ÓPDŠRBZGĹYŠP ŤP ÓAÚPLŠĎĽ ČFOĹČE UÍNPBYPĎŠŇUPŤ NPKÁPOYZČĎŠ. GŠŔPYPBPSZ DŠRBĹ NZÚ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ZLAHETDCOIYMJPXUWRNSQVBKFG",
+      "pred_key": "ZLAHETDCOIYMJPXUWRNSQVBKFG",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "16",
+      "pred_key": "16",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "KEY",
+      "pred_key": "KEY",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"16\", \"input_text\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА.\", \"cipher_text\": \"ЬЮМҐЦИАЧ ЇЦЄГЦ ЛЬ ЗТХМГ Ч ОЧФТАТГ ЗЧЬМОЧ СЮЛ ОЦОИТААЛ. БМЇЦААТ АМОИМААЛ БВФТ ОЦОИЦДЦ МЮПВГЦДБЧИАЧ ЯГМОЦЮМ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИННЕ НА"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"2\", \"input_text\": \"VIGENERE CIPHER WAS CONSIDERED UNBREAKABLE FOR CENTURIES. CLASSIC CIPHERS LIKE CAESAR AND VIGENERE ARE FUN TO BREAK. MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY.\", \"cipher_text\": \"XKIGPGTG EKRJGT YCU EQPUKFGTGF WPDTGCMCDNG HQT EGPVWTKGU. ENCUUKE EKRJGTU NKMG ECGUCT CPF XKIGPGTG CTG HQP UV DTGCM."
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"КЛЮЧ\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"cipher_text\": \"ЗХТК МЦЕАЮСОЧ ПААЬЯ НАЧТЛАЛЙ ЯҐГЩЛКІФЮ. ИАҐПЩЖЄ ЛДОҐЧ ЬЖЛ ВГОҐЛЛД ЗҐКРГ ЩСГЧЖАЬЯ ВАЯЧШД.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"outpu"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"МОДЕЛЬ\", \"input_text\": \"ЯОАМЯКТ ВДЖЗЬАВҐ ТАДТ РЛЖЗЄДШ ДСОЛГШЧТЦФАЩ ФЦЛЯЦАД. БХСГЖЄЕЯКЛ ЄД ІСХЦЗХЩНЬАВҐ — ІСПТДСНЯЛООТН БГГФЧЖАНТВТД. ЮЄ АОЄАЛҐЯГ СФРГЮЛ АМЕНЕРДУЯШ ДО ИЇИЄЄДШЖЛКАМ К ХАЩҐВІУЯЩЯ.\", \"cipher_text\": \"ЯОАМЯКТ ВДЖЗЬАВҐ ТАДТ РЛЖЗЄДШ ДСОЛГШЧТЦФАЩ ФЦЛЯЦАД. БХСГЖЄЕЯКЛ ЄД ІСХЦЗХЩНЬАВҐ — ІСПТДСНЯЛООТН БГГФЧЖАНТВТД. ЮЄ АОЄАЛҐЯГ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"17\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"cipher_text\": \"ЇЧЖҐ ПШХУБУҐН ТВПРВ ППНХНПГМ БУЦЯНАБЧА. АНЇЧББУ БНПІНББМ АВХУ ПЧПІЧЄЧ НЯРВҐЧЄАШІБШ ГҐНПЧЯН. ЇПЧТЮЧЬ ОЄҐЧЬ ЯЧҐ ЄЄҐЧОНФ ІУҐУЦ ЯУТНІВРВ ЄВОНЮЄ.\", \"plaintext\""
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ПІЄЙЬКГЕЮМИСНЛВУДБЗШТОРЦФЧҐЯЩАЇЖХ\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"ДПЩИББГ БПЄЯПББХ ДЗЮГ ЄИЄЯИРИ ПУЙЗТИРДСЯБС ШТПЄИУП. ЩИВТЦЄПББХ РП КГЩИВТЦЄПББХ — КГРГТДСБ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "10",
+      "pred_key": "10",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "FHLXKUSTBJIZWGVYPNDCMOQARE",
+      "pred_key": "FHLXKUSTBJIZWGVYPNDCMOQARE",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ПОСУВ",
+      "pred_key": "ПОСУВ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "OCNERSYFDTKWUQMZBJAHPILGVX",
+      "pred_key": "OCNERSYFDTKWUQMZBJAHPILGVX",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "СЕКРЕТ",
+      "pred_key": "СЕКРЕТ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TAJNE",
+      "pred_key": "TAJNE",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "NIÓOÁGRÚJWSKÔMBHQĽŤČLŽXFŇĎDCÄEUAVZYĹÍÉTŔÝPŠ",
+      "pred_key": "NIÓOÁGRÚJWSKÔMBHQĽŤČLŽXFŇĎDCÄEUAVZYĹÉTŔÝÝPŠ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"MODEL\", \"input_text\": \"ESFYCUHB XSDCXKS APVGFDWWC TE BRX CQOO WPOIUMEK. ADGSUBH PPMFQMYS QDR WQOUR LXURVTFVPMN DIOID HSUC PRTHGEUJHPJ. EIEWEUHXXTAB FMATSUW LDS YYWZSUEMXS WS QDSTYPZQB EYMZBWTE.\", \"cipher_text\": \"ESFYCUHB XSDCXKS APVGFDWWC TE BRX CQOO WPOIUMEK. ADGSUBH PPMFQMYS QDR WQOUR LXURVTFVPMN DIOID HSUC PRTHGEUJHPJ. EIEWEUH"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"8\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ.\", \"cipher_text\": \"ФЕГНХХК ХЕИВЕХХЄ ФЦМК ИНИВНЮН ЕУЇЦЬНЮФПВХП ЧЬЕИНУЕ. ГНАЬЩИЕХХЄ ЮЕ ЙКГНАЬЩИЕХХЄ — ЙКЮКЬФПХЦИЕХП ЧКЬКЮИЦЬКХХЄ. ГИНАУНР ИЩЬНР УНШ ШЮЬНИЕО ВКЬ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "4",
+      "pred_key": "4",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ШИФР\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ.\", \"cipher_text\": \"УРЛЄ ЬСЯЦЇМІР АШЦУЙ ЇЦРГИЦЖЧ ЧЬЩИИЄҐДЦ. ДБІЛАЦРЇЧУ ЗШ ХБПЬПЬКТФҐЇЗ — ХБЗБЬЄЮЇШЦРЇС ИМЬЬЇУЙЬБЇЧУ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАН"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"7\", \"input_text\": \"СТЄШНБФО ВНЮЧН ЕС АЙМЄЧ О ЗОЛЙФЙЧ АОСЄЗО ЇТЕ ЗНЗБЙФФЕ. УЄВНФФЙ ФЄЗБЄФФЕ УХЛЙ ЗНЗБНЩН ЄТИХЧНЩУОБФО ЦЧЄЗНТЄ. ВНЮЧЬЗЄФФЕ ЩЄ ЇЙВНЮЧЬЗЄФФЕ — ЇЙЩЙЧУОФХЗЄФО ЦЙЧЙЩЗХЧЙФФЕ.\", \"cipher_text\": \"СТЄШНБФО ВНЮЧН ЕС АЙМЄЧ О ЗОЛЙФЙЧ АОСЄЗО ЇТЕ ЗНЗБЙФФЕ. УЄВНФФЙ ФЄЗБЄФФЕ УХЛЙ ЗНЗБНЩН ЄТИХЧНЩУОБФО ЦЧЄЗНТЄ. ВНЮЧЬЗЄФФЕ ЩЄ ЇЙВНЮЧЬЗЄФФ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"21\", \"input_text\": \"NZXPMDOT OCMJPBC JWNXPMDOT DN IJO MZVG NZXPMDOT. RZ VMZ OMVDIDIB V MZVNJIDIB HJYZG AJM XDKCZM OVNFN. QDBZIZMZ XDKCZM RVN XJINDYZMZY PIWMZVFVWGZ AJM XZIOPMDZN.\", \"cipher_text\": \"NZXPMDOT OCMJPBC JWNXPMDOT DN IJO MZVG NZXPMDOT. RZ VMZ OMVDIDIB V MZVNJIDIB HJYZG AJM XDKCZM OVNFN. QDBZIZMZ XDKCZM RVN XJINDYZMZY PIWM"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"ALPHA\", \"input_text\": \"MLROINP ALARYXUG CLC SEACC HLGZGPTHXXJ RUWTZ VECN LFFPRAIVPAF. THP FBICV QYOWY UVX JFBWS OGTY THP AHZY ODN. SENJYITJ IOROFVO OBDRBRIEN PS NZI YEAW HLCUCXAY.\", \"cipher_text\": \"MLROINP ALARYXUG CLC SEACC HLGZGPTHXXJ RUWTZ VECN LFFPRAIVPAF. THP FBICV QYOWY UVX JFBWS OGTY THP AHZY ODN. SENJYITJ IOROFVO OBDRBRIE"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Substitution\", \"key\": \"GFDAIUHRTOLCSZQJBNMXYEKPVW\", \"input_text\": \"CRYPTOGRAPHY IS THE ART OF WRITING AND SOLVING CODES. VIGENERE CIPHER WAS CONSIDERED UNBREAKABLE FOR CENTURIES. ENCRYPTION AND DECRYPTION ARE DETERMINISTIC TRANSFORMS.\", \"cipher_text\": \"DNJVXHQNGVRJ TM XRI GNX HQ KNTXTZU GZA MHCETZU DHAIU. ETUIZINI DTJRIN KGM DQZMTAINUO ZXFNIGLGFCI "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TRAIN",
+      "pred_key": "TRAIN",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "36",
+      "pred_key": "36",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЖПОЇЮФКЕЦЙМГЄНСАТШЩЛІЬБХДУҐВЗЧРИЯ\", \"input_text\": \"ЗМДІХОЖШШЯ БЖ ФКЗМДІХОЖШШЯ — ФКБКІТГШЩОЖШГ ЛКІКБОЩІКШШЯ. ЗОМФСМН ПХІМН АМЬ ЬБІМПЖЕ ВКІКЙ АКФЖВЩЇЩ ЬЩПЖСХ. ТМ ШЖОВЖЕТЩ ТЩФКАР ЗМДІХОЖШШИ БЖ ФКЗМДІХОЖШШИ Й ЛЩЯЬШКШШЯТ.\", \"cipher_text\": \"ЗМДІХОЖШШЯ БЖ ФКЗМДІХОЖШШЯ — ФКБКІТГШЩОЖШГ ЛКІКБОЩІКШШЯ. ЗОМФСМН ПХІМН АМЬ ЬБІМПЖЕ ВКІКЙ АКФ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ÚOÝÁCWABŤUĽYMÓSÔŠŽEQLŇŔHÍĎÉGDFÄIZRĹNVKJČTPX",
+      "pred_key": "ÚOÝÁCWABŤUĽYMÓSÔŠŽEQLŇŔHÍĎÉGDFÄIZRĹNVKJČTPX",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "POSUN",
+      "pred_key": "POSUN",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "НЮУЬДЙЩЄХЯЦБАМРФГЧЕВПТҐОСИКЗІЇЖЛШ",
+      "pred_key": "НЮУЬДЙЩЄХЯЦБАМРФГЧЕВПТҐОСИКЗІЇЖЛШ",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЗЬСГШПЯІЦАИЇКХНЩЙФЧУРБЖҐОТМЛЕВЮЄД\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ЕСИПНИЙ ЬҐРИЙ ЩИБ БЖРИЬЗІ ЛЯРЯА ЩЯПЗЛЧГЧ БЧЬЗНҐ. ЙЗЕИФФЯ ФЗСЛЗФФД ЙЧЦЯ СИСЛИЖИ ЗЩГЧРИЖЙЇЛФЇ УРЗСИЩЗ. Н"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ŤÁĹČŽESXFMÄÚQÍÔIVGĽŔŠYWJDOÓBALĎKPNTÝZHUCRÉŇ\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM.\", \"cipher_text\": \"ZÍÚFYMBFQJ KÍÄBŤ ČJGŤ SGQJ ÓJZŤŇJZŤYÁ ÉŤ YFÉGJŠÍPFŔYÝ. PBMYTVMŠM ŠJSMG YŤ KÍÄBJZŤYÍM Ť SMKÍÄBJZŤYÍM Ď ZCĎZFPGMYÔŠ.\", \"plaintext\": \"VI"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "TAJNE",
+      "pred_key": "TAJNE",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "QUINZXPJKSMHGBLVTYFWOCEARD",
+      "pred_key": "QUINZXPJKSMHGBLVTYFWOCEARD",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SIFRA",
+      "pred_key": "SIFRA",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "XMYHKROPETDSWZFCULBINVGAQJ",
+      "pred_key": "XMYHKROPETDSWZFCULBINVGAQJ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ÍČÓSFUWÝĹĎMAIEÉVYBKŽĽÁOCNGQÔLDŤZRŠŇJÚHŔPXÄT",
+      "pred_key": "ÍČÓSFUWÝĹĎMAIEÉVYBKŽĽÁOCNGQÔLDŤZRŠŇJÚHŔPXÄT",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"DQTÝYPWGŇÉŠAĽHČŔXÍIKMBLĹJRNZĎÚÔÄÁFSUŤÓCEOVŽ\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"ŤHAŇBŇĎŇĽĹ ÄHŠĎD ÝĹÍD WÍĽĹ NĹŤDVĹŤDBQ OD BŇOÍĹMHÁŇIBU. XÍDÔHYXÉ ÄHŠĎC DXĹ YDŇÔDĎ D ŤHAŇBŇĎŇ ÔU ODFSČMDŤÉ.\", \"plaintext\": \"VIGENEREHO ŠIFRA BOL"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "JZŔÚIFĎÔTWÍCBÄNYESRMÉĽŤQŇOŠHVDÓPULGKÁÝĹŽXČA",
+      "pred_key": "JZŔÚIFĎÔTWÍCBÄNYESRMÉĽŤQŇOŠHVDÓPULGKÁÝĹŽXČA",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЦБПИЗІГЬШХКТМСЯҐАЛЕФОЧЙВЄУЩРНЖДЇЮ\", \"input_text\": \"АЦНКЛЛГ ЛЦПРЦЛЛЮ АЕШГ ПКПРКЙК ЦҐИЕОКЙАТРЛТ ФОЦПКҐЦ. ЯҐЦЧКРЛТ НКЄОК ЮЯ ЩГХЦО Т ПТШГЛГО ЩТЯЦПТ ІҐЮ ПКПРГЛЛЮ. НКЄОВПЦЛЛЮ ЙЦ ІГНКЄОВПЦЛЛЮ — ІГЙГОАТЛЕПЦЛТ ФГОГЙПЕОГЛЛЮ.\", \"cipher_text\": \"АЦНКЛЛГ ЛЦПРЦЛЛЮ АЕШГ ПКПРКЙК ЦҐИЕОКЙАТРЛТ ФОЦПКҐЦ. ЯҐЦЧКРЛТ НКЄОК ЮЯ ЩГХЦО Т ПТШГЛГО ЩТЯЦПТ І"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"12\", \"input_text\": \"ЦЧЇАТЕЩУ ЄТГЯТ ІЦ ДОСЇЯ У КУРОЩОЯ ДУЦЇКУ НЧІ КТКЕОЩЩІ. ШЇЄТЩЩО ЩЇКЕЇЩЩІ ШЬРО КТКЕТБТ ЇЧЛЬЯТБШУЕЩУ ЮЯЇКТЧЇ.\", \"cipher_text\": \"ЦЧЇАТЕЩУ ЄТГЯТ ІЦ ДОСЇЯ У КУРОЩОЯ ДУЦЇКУ НЧІ КТКЕОЩЩІ. ШЇЄТЩЩО ЩЇКЕЇЩЩІ ШЬРО КТКЕТБТ ЇЧЛЬЯТБШУЕЩУ ЮЯЇКТЧЇ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. МАШИННЕ НА"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"10\", \"input_text\": \"MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. SECURITY THROUGH OBSCURITY IS NOT REAL SECURITY. SUBSTITUTION CIPHERS ARE VULNERABLE TO FREQUENCY ANALYSIS.\", \"cipher_text\": \"WKMRSXO VOKBXSXQ MKX VOKBX KVQYBSDRWSM BEVOC FOBI OPPOMDSFOVI. COMEBDXY XBYUEQX UICMEBDXY SC YUX BOKV COMEBDXY. CGCCEMDGEMYU"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ДАНІ\", \"input_text\": \"АИЖЮШВНШТЯ ЕІ ИЕЇСЩРЄЙДНБИ — ИЕЕНХМШШУВНШМ ПУЮІТПЩХЕБШҐ. КЯІЦИІШМ ШЧВХИ МХ ЮЕЦІХ І ПТЙЕБНХ ЦШХДВШ МРЯ ПСЄЧУШТЯ.\", \"cipher_text\": \"АИЖЮШВНШТЯ ЕІ ИЕЇСЩРЄЙДНБИ — ИЕЕНХМШШУВНШМ ПУЮІТПЩХЕБШҐ. КЯІЦИІШМ ШЧВХИ МХ ЮЕЦІХ І ПТЙЕБНХ ЦШХДВШ МРЯ ПСЄЧУШТЯ.\", \"plaintext\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОР"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "18",
+      "pred_key": "18",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "ĎŤVŇŠPENLÝŽGYÄRÓÉHÁSCÍĽJUŔXFÔZÚQBADĹOIMTČKW",
+      "pred_key": "ĎŤVŇŠPENLÝŽGYÄRÓÉHÁSCÍĽJUŔXFÔZÚQBADĹOIMTČKW",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"9\", \"input_text\": \"DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"KĹÝŇĽWÚBÉSŇĹ OĹ KŔPĹEŇŽG ÝZJÉÝX ÔČÍĹWSĹŽŇIÔĹO ÍĹFVĹJSÚÝŽŇ. BŇMLSĹWĹNÚ ÝŇĽWÉ ÍÚPÉ KPNÚ VÚBÉEÚBÉSG FÉ SĹFPÚRŇŽĹQSZ. ÔPÉÝŇIÔĹ ÝŇĽWČ ÉÔ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Vigenere\", \"key\": \"SHIFT\", \"input_text\": \"CRYPTOGRAPHY IS THE ART OF WRITING AND SOLVING CODES. THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. CLASSIC CIPHERS LIKE CAESAR AND VIGENERE ARE FUN TO BREAK.\", \"cipher_text\": \"UYGUMGNZFIZF QX MZL IWM GM EWBLPVL TFK ATENPVL VGKMX. BMX IBQHD TYWBG XVF ONEWA TOWY BMX DHHD WGN. USIXLAJ KNIZLZX EBDU FTXJHZ SUL Q"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"TSÝFŠEOĎÔĹRYŇŤÁKÍVZČPWIXŽUJÉDLAMGCQÄŔNÓĽHBÚ\", \"input_text\": \"DHŠŇVT ŇWÔOS VÁMÍT AÍSEÔ ŠÔB VÔWŤŔĹŇX JAT. AGDXKXŔĹ QEÔWŤÔ PUÚÔ WTQEŤC TVYXDŤGPŤŠÍĹ JDTŔŤOVS.\", \"cipher_text\": \"DHŠŇVT ŇWÔOS VÁMÍT AÍSEÔ ŠÔB VÔWŤŔĹŇX JAT. AGDXKXŔĹ QEÔWŤÔ PUÚÔ WTQEŤC TVYXDŤGPŤŠÍĹ JDTŔŤOVS.\", \"plaintext\": \"RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. S"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"AŤDZÚŇÁUGYÝŔĎĹFÍĽIXÔROMWÓVCŽHETSJNÄLBPQČŠÉK\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA.\", \"cipher_text\": \"ĽIAEĹÚĽY SĹÝHČ AĽW ÚAGEAH A BĹŔGOGHG EL ÉAÄÍFOABY. ÁGSĹÝHWBAOĹG ÍG ÁVIGKĹJŤ ELŇAEN ĽČZGHOGJĹÚĽG"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "CAWXRLZVUQSBTOYMNJDHGPKEFI",
+      "pred_key": "CAWXRLZVUQSBTOYMNJDHGPKEFI",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "YQOMWHSERKTBJPLCDGFUAZNIVX",
+      "pred_key": "YQOMWHSERKTBJPLCDGFUAZNIVX",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "15",
+      "pred_key": "15",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ЄЇИГЕЩЖЛАБВУЗОХШРДМІҐЙНПЯЮФЧЬЦТСК\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ.\", \"cipher_text\": \"ЬИВЩХВҐ ЇПҐВҐ ШВЙ ЙНҐВЇЄА ЧЖҐЖБ ШЖЩЄЧМГМ ЙМЇЄХП. РВ ДЄИЧЄАРМ РМЩЖШЮ ЬВПҐПИЄДДС НЄ ЩЖЬВПҐПИЄДДС Б ІМКЙДЖДДКР.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБА"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"13\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI.\", \"cipher_text\": \"ÄZŇWĎPŇSŇ SÚĽŇR WJ AÔPZÚBJWÔŇ J ĽŇAÔPZÚBJWÔŇ Ä BČÄBŇÄRŇWTŠ. ÄÄZÚPÚBŇ ĎĹŇWÔŇ ŠXHŇ WJĎĹÔÁ JRÓÚZÔÄŠÔĹQŇ YZJBÔĽRÍ. ĽŇAÔPZÚBJWÔŇ P"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"DATA\", \"input_text\": \"DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI. RÝCHLA HNEDÁ LÍŠKA SKÁČE CEZ LENIVÉHO PSA. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"HEMIKRHVDNÄE NE XÔOEŠIXÁ ĽÚGAĽŤ ŇYÚEUNÝTĽCČEN BÝZTEWNŔSNI. UÝVHOA ÁNÍDŤ LMŠČA VKŤČÍ CÝZ OEFIŽÉÁO TST. KDTČIČKZ MIKRR AČO ĽAESDR D VĽGÍNÝRÍ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"31\", \"input_text\": \"ЦАЖГЇЖІ ЯСОЖІ ЙЖП ПРОЖЯЮД ХҐОҐЄ ЙҐГЮХМБМ ПМЯЮЇС. КЖ ЛЮАХЮДКМ КМГҐЙШ ЦЖТОСАЮЛЛЩ РЮ ГҐЦЖТОСАЮЛЛЩ Є НМЬПЛҐЛЛЬК.\", \"cipher_text\": \"ЦАЖГЇЖІ ЯСОЖІ ЙЖП ПРОЖЯЮД ХҐОҐЄ ЙҐГЮХМБМ ПМЯЮЇС. КЖ ЛЮАХЮДКМ КМГҐЙШ ЦЖТОСАЮЛЛЩ РЮ ГҐЦЖТОСАЮЛЛЩ Є НМЬПЛҐЛЛЬК.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МИ НАВЧАЄМО "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"АЛФА\", \"input_text\": \"ШХЛРУНФННК ЙА ДСПИФВКВАЯЖЯ — ДСЙЕРЮВНОНФНІ БЬРЕҐЦОРСЖНЯ. ЮФШИЯЖЕ НЛЦЧАЯЖЯ МАЯЕ ВХЦЧИҐБ АЛОЗРИҐЄІЧЯВ ПРЛЦИЛЛ.\", \"cipher_text\": \"ШХЛРУНФННК ЙА ДСПИФВКВАЯЖЯ — ДСЙЕРЮВНОНФНІ БЬРЕҐЦОРСЖНЯ. ЮФШИЯЖЕ НЛЦЧАЯЖЯ МАЯЕ ВХЦЧИҐБ АЛОЗРИҐЄІЧЯВ ПРЛЦИЛЛ.\", \"plaintext\": \"ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ. "
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"MODEL\", \"input_text\": \"VÝDXSÓYJ YSSEÄ EŤA QDKCME D ÁSŠŠQKÄR FZ DLGXMRLIT. ŽNRRÁÍVÔTB WNQČO ÉŠUM ŔOMÝ BBŽEKAKDŔĹ ĹO QKJWBPNDRŽQA. ORGĽĹÄAKDŔSR XÍ ÍŽWŠČNDN FZILĎI ŇCMREQKDŤQŇKT OŠCUÔÔÁŔXDŤ.\", \"cipher_text\": \"VÝDXSÓYJ YSSEÄ EŤA QDKCME D ÁSŠŠQKÄR FZ DLGXMRLIT. ŽNRRÁÍVÔTB WNQČO ÉŠUM ŔOMÝ BBŽEKAKDŔĹ ĹO QKJWBPNDRŽQA. ORGĽĹÄAKDŔSR XÍ ÍŽW"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "21",
+      "pred_key": "21",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"en\", \"cipher_type\": \"Substitution\", \"key\": \"VLAHTEBOUXJPWCSKGZQIDFNMRY\", \"input_text\": \"MACHINE LEARNING CAN LEARN ALGORITHMIC RULES VERY EFFECTIVELY. VIGENERE CIPHER WAS CONSIDERED UNBREAKABLE FOR CENTURIES. ENCRYPTION AND DECRYPTION ARE DETERMINISTIC TRANSFORMS.\", \"cipher_text\": \"WVAUUCS PSVZCUCE AVC PSVZC VPESZUIXWUA ZDPSQ FSRY TTTAVIUSFPY. FUETCSZT AUKOTZ MVQ ACSQU"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Caesar\", \"key\": \"16\", \"input_text\": \"MU QHU JHQYDYDW Q HUQIEDYDW CETUB VEH SYFXUH JQIAI. IKRIJYJKJYED SYFXUHI QHU LKBDUHQRBU JE VHUGKUDSO QDQBOIYI. CQSXYDU BUQHDYDW SQD BUQHD QBWEHYJXCYS HKBUI LUHO UVVUSJYLUBO.\", \"cipher_text\": \"MU QHU JHQYDYDW Q HUQIEDYDW CETUB VEH SYFXUH JQIAI. IKRIJYJKJYED SYFXUHI QHU LKBDUHQRBU JE VHUGKUDSO QDQBOIYI. CQSXYDU BU"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"POSUN\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ.\", \"cipher_text\": \"JEYHHZŠĎŽ ZDŔXE ŽP GAÁDDKSHUU O VŽÉYŤJÍÍPÁAŽ E ĽĽLQŔJÝXHÚB. ÚČÄÍMYFA YNŽŽYŠ BŤĹŠ HNLNYI NÝQÍŤHĽWYUAÁ TÄUĽUŔCÚ. TÝOLCÔŽT ĹCŠGĽ SÓ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "10",
+      "pred_key": "10",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"ŇLYDÝŽXJÄFŤQÉÁRÍĽÚŠZŔCBTĎISUHKAĹÓÔNVWMOGEPČ\", \"input_text\": \"VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI.\", \"cipher_text\": \"WÁQÄCÄHÄÉT ĹÁŤHŇ DTÚŇ XÚÉT STWŇČTWŇCL PŇ CÄPÚTŔÁÓÄZCN. XÄĹÁŤHTWŇCÁÄ ÍÄ XIÚÄČÁÓL ANŽŇAÔ ĽGDÄHCÄÓÁÝĽÄÍ DÄPSÄŽCTAÓÁ.\", \"plaintext\": \"VIGE"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"7\", \"input_text\": \"ÚCGĽÓĎ ĽRJIE ÓNXOĎ WOEHJ GJČ ÓJRMAKĽS ŤWĎ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. AMĹJRJÚJĽS XMLÚĎ FSÓĎ IÓĽS ŤSAĎDSAĎRE ČĎ RJČÓSQMYJPRŽ.\", \"cipher_text\": \"ÚCGĽÓĎ ĽRJIE ÓNXOĎ WOEHJ GJČ ÓJRMAKĽS ŤWĎ. IJXMLÚSAĎRMJ ŇJ ITÓJDMYE WŽHĎWÝ OBFJÚRJYMGOJŇ FJČŤJHRSWYM. AMĹJRJÚJĽS XMLÚĎ FSÓĎ IÓĽS ŤSAĎDSAĎRE"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "ALPHA",
+      "pred_key": "ALPHA",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "29",
+      "pred_key": "29",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"12\", \"input_text\": \"ÝÉKÓŔH ÓŤMĹI ŔPARH ŽRILM KMF ŔMŤÔČNÓÚ XŽH. ČÔOMŤMÝMÓÚ AÔŇÝH JÚŔH ĹŔÓÚ XÚČHGÚČHŤI FH ŤMFŔÚTÔÁMŠŤC. ĹMAÔŇÝÚČHŤÔM QM ĹWŔMGÔÁI ŽCLHŽÄ REJMÝŤMÁÔKRMQ JMFXMLŤÚŽÁÔ.\", \"cipher_text\": \"ÝÉKÓŔH ÓŤMĹI ŔPARH ŽRILM KMF ŔMŤÔČNÓÚ XŽH. ČÔOMŤMÝMÓÚ AÔŇÝH JÚŔH ĹŔÓÚ XÚČHGÚČHŤI FH ŤMFŔÚTÔÁMŠŤC. ĹMAÔŇÝÚČHŤÔM QM ĹWŔMGÔÁI ŽCLHŽÄ REJMÝŤMÁ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Vigenere\", \"key\": \"ZAMEK\", \"input_text\": \"TRÉNUJEME MODEL NA ŠIFROVANIE A DEŠIFROVANIE S VYSVETLENÍM. KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. VIGENEREHO ŠIFRA BOLA DLHO POVAŽOVANÁ ZA NEZLOMITEĽNÚ.\", \"cipher_text\": \"SRŔŔĎIEÝK VNDRÔ WZ ŠŤĹÁNVMŔŔD A PKCGFČŠÉZNŤK B UYĎÁÓSLRŔSĹ. ÍLMXÄCŇL ŠŤĹÁY MŇO ĹMKCÁÁ L QŤUÉNÍÁÔ BÉ ZKĎTŽPKUÉ. UIŠKWDRRMY ŠŤ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ШИФР\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФРУВАННЯ ТА ДЕШИФРУВАННЯ — ДЕТЕРМІНОВАНІ ПЕРЕТВОРЕННЯ.\", \"cipher_text\": \"УРЛЄ ЬСЯЦЇМІР АШЦУЙ ЇЦРГИЦЖЧ ЧЬЩИИЄҐДЦ. ЄРУРЇЧЬ ЧФТКШЧЖП ХЙГЦ ЇБТКРЙЛ ФВЮШІРЙХВҐЧВ ЗІФТДВФ. ДБІЛАЦРЇЧУ ЗШ ЛЬЛДБІИЬИЖҐЧ — ЛЬЗБЬЄЮЇШЦРЇС ИЦЛМЙТЙ"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"ОТФЦЬНКЛПАЮИМЇЖХВЧЄДГЩІЗРЙУБШЯҐЕС\", \"input_text\": \"ШФЮНЖЮЇ ТЗГЮЇ ХЮЩ ЩІГЮТОЛ БКГКА ХКНОБЄЦЄ ЩЄТОЖЗ. ЖХОЩЮБЧИ ШЮРГЮ СЖ УКАОГ И ФИПКЧКГ УИЖОФИ НХС ФЮФБКЧЧС.\", \"cipher_text\": \"ШФЮНЖЮЇ ТЗГЮЇ ХЮЩ ЩІГЮТОЛ БКГКА ХКНОБЄЦЄ ЩЄТОЖЗ. ЖХОЩЮБЧИ ШЮРГЮ СЖ УКАОГ И ФИПКЧКГ УИЖОФИ НХС ФЮФБКЧЧС.\", \"plaintext\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "CIPHER",
+      "pred_key": "CIPHER",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"КЛЮЧ\", \"input_text\": \"ШВИДКИЙ БУРИЙ ЛИС СТРИБАЄ ЧЕРЕЗ ЛЕДАЧОГО СОБАКУ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ЗНЖЯШХІ ШҐВЖЄ ЩХП ЛГВЖШКТ ХАБСЄ ЗРРЮСЯОМ ЛЯМЮЖҐ. ЮЛАМВҐБ ХЧНАЛКАН ЬАЩБ БХНАМГХ ЮЗОМІХГЬЦФКЧ ҐБЛЦҐЗК. ЇЗКЛЖМЬЦ ЦҐДВЖ ЙШ ЄСЗКВ З ЩХУСКАМ "
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "АЛФА",
+      "pred_key": "АЛФА",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"38\", \"input_text\": \"GHXÔEŽGC PEČOU XGĹ ŽXBÔXO X ŠEDBKBOB ÔS VXŔFÉJXŠC. ŠEDBKBOBĎĹ PEČOX ZĹHX ÁHĎĹ NĹŠXWĹŠXKY VX KBVHĹJEQBÍKS.\", \"cipher_text\": \"GHXÔEŽGC PEČOU XGĹ ŽXBÔXO X ŠEDBKBOB ÔS VXŔFÉJXŠC. ŠEDBKBOBĎĹ PEČOX ZĹHX ÁHĎĹ NĹŠXWĹŠXKY VX KBVHĹJEQBÍKS.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. VIGENEREHO ŠIFRA"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"КЛЮЧ\", \"input_text\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА.\", \"cipher_text\": \"ЗХТК МЦЕАЮСОЧ ПААЬЯ НАЧТЛАЛЙ ЯҐГЩЛКІФЮ. ЬКҐХЇЮС ЮЛАСКЇЯЬ ЬАДС НЖЛТИИМ ЛЙЇАІХШЬЦСЇБ ФКЛНЖЙЛ.\", \"plaintext\": \"ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА."
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "BTKÝĹOWMSĽHUXŽAPDÓVCÁGFJNYÉŇČZÚIĎRÄŤLÔEŠÍŔQ",
+      "pred_key": "BTKÝĹOWMSĽHUXŽAPDÓVCÁGFJNYÉŇČZÚIĎRÄŤLÔEŠÍŔQ",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"МОДЕЛЬ\", \"input_text\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ.\", \"cipher_text\": \"ЯОАМЯКТ ВДЖЗЬАВҐ ТАДТ РЛЖЗЄДШ ДСОЛГШЧТЦФАЩ ФЦЛЯЦАД. БХСГ РМКСКТДД ІАЯПГ ЄЖЛДМРЦД ЯГХАДТЯЄЯ.\", \"plaintext\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "SECRET",
+      "pred_key": "SECRET",
+      "gt_mode": "encrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Substitution\", \"key\": \"JHÍXÓČŇLŤŽPTQUĹSEZMÉVFĎDNOÝCAIWÔBRŠGÚÁÄYĽŔK\", \"input_text\": \"STROJOVÉ UČENIE MÔŽE NAUČIŤ ALGORITMICKÉ PRAVIDLÁ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI.\", \"cipher_text\": \"WBRDSDÚŽ ŠČŤFUŤ VOKŤ FJŠČUB JZGDRUBVUÓEŽ ÝRJÚUŇZH. ŇŤÔUPRDÚJFUŤ SŤ ŇOZŤKUBH WGČJWR EYXŤRFŤBUÓETS XŤŔÝŤČFDWBU.\", \"plaintext\": \"STROJOVÉ UČE"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"uk\", \"cipher_type\": \"Substitution\", \"key\": \"МЦБАСИДТШЖЄЙВКЛІЮЗҐПЕЩЯОУГЬРХЧЇФН\", \"input_text\": \"МИ НАВЧАЄМО МОДЕЛЬ ШИФРУВАННЮ ТА ДЕШИФРУВАННЮ З ПОЯСНЕННЯМ. МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ.\", \"cipher_text\": \"ЮЄ ЗМБРМТЮҐ ЮҐИДІХ ХЄФЕОБМЗЗФ ЯМ ИДХЄФЕОБМЗЗФ Ж ПҐНЩЗДЗЗНЮ. ЮМХЄЗЗД ЗМБРМЗЗН ЮҐШД БЄБРЄЯЄ М"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"ЗЛАМ\", \"input_text\": \"ХЛШЦЦЯЕ АЗНЧМЦЯЯ ЯЧУЕ ОПНЧЦЮХ АЮЇАРЦЮЮІИЦЦ ПГЗНИЮЗ. ИИЄЩ НІФЛЯЕГЗ РООЇА ВОЗУАОЬК НТОЬАЯЦХМ.\", \"cipher_text\": \"ХЛШЦЦЯЕ АЗНЧМЦЯЯ ЯЧУЕ ОПНЧЦЮХ АЮЇАРЦЮЮІИЦЦ ПГЗНИЮЗ. ИИЄЩ НІФЛЯЕГЗ РООЇА ВОЗУАОЬК НТОЬАЯЦХМ.\", \"plaintext\": \"МАШИННЕ НАВЧАННЯ МОЖЕ ВИВЧИТИ АЛГОРИТМІЧНІ ПРАВИЛА. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ НЕЗЛАМНИМ."
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"encrypt\", \"lang\": \"sk\", \"cipher_type\": \"Caesar\", \"key\": \"32\", \"input_text\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. DEŠIFROVANIE JE DÔLEŽITÁ SÚČASŤ KYBERNETICKEJ BEZPEČNOSTI.\", \"cipher_text\": \"ČBQĹÄVČZ MÄŽĽŠ QČH VQYĹQĽ Q ÔÄAYFYĽY ĹÓ ÓQŇCCHQÔZ. XYMÄŽĽHÔQGÄY CY XÍBYTÄNT ĹÓUQĹO ČRŠYĽGYNÄVČYC ŠYÓKYUGHĹNÄ.\", \"plaintext\": \"KLASICKÉ ŠIFRY AKO CAESAR A VIGENERE SÚ ZAUJÍMAVÉ. DEŠIFROV"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Caesar",
+      "pred_cipher_type": "Caesar",
+      "gt_key": "13",
+      "pred_key": "13",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Caesar\", \"key\": \"17\", \"input_text\": \"ЇЧЖҐЄПНББМ ЕН ТУЇЧЖҐЄПНББМ — ТУЕУҐАШБВПНБШ ГУҐУЕПВҐУББМ. ЮЯНДЧІБШ ЇЧЖҐЧ МЮ ИУЦНҐ Ш ПШХУБУҐ ИШЮНПШ ТЯМ ПЧПІУББМ. ЇПЧТЮЧЬ ОЄҐЧЬ ЯЧД ДЕҐЧОНФ ІУҐУЦ ЯУТНІВРВ ДВОНЮЄ.\", \"cipher_text\": \"ЇЧЖҐЄПНББМ ЕН ТУЇЧЖҐЄПНББМ — ТУЕУҐАШБВПНБШ ГУҐУЕПВҐУББМ. ЮЯНДЧІБШ ЇЧЖҐЧ МЮ ИУЦНҐ Ш ПШХУБУҐ ИШЮНПШ ТЯМ ПЧПІУББМ. ЇПЧТЮЧЬ ОЄҐЧЬ ЯЧД ДЕҐЧ"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Substitution",
+      "pred_cipher_type": "Substitution",
+      "gt_key": "QUWFLEHIRNGSVCJAOTPKBZXMDY",
+      "pred_key": "QUWFLEHIRNGSVCJAOTPKBZXMDY",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"uk\", \"cipher_type\": \"Vigenere\", \"key\": \"АЛФА\", \"input_text\": \"КЬФСИЗЖІ ШХЛРИ КД ЦЕФФР І НВЖЕЯЬР ЦЦДАВЦ ЩЛЯ НБВЧСЖНЯ. ИБФР НВЖЕЯЬРА РЗВГА ЦВАУФВСК ЖЕЗЬФМНХЄ.\", \"cipher_text\": \"КЬФСИЗЖІ ШХЛРИ КД ЦЕФФР І НВЖЕЯЬР ЦЦДАВЦ ЩЛЯ НБВЧСЖНЯ. ИБФР НВЖЕЯЬРА РЗВГА ЦВАУФВСК ЖЕЗЬФМНХЄ.\", \"plaintext\": \"КЛАСИЧНІ ШИФРИ ЯК ЦЕЗАР І ВІЖЕНЕР ЦІКАВІ ДЛЯ ВИВЧЕННЯ. ШИФР ВІЖЕНЕРА ДОВГО ВВАЖАВСЯ Н"
+    },
+    {
+      "ok_parse": true,
+      "ok_algo": false,
+      "gt_cipher_type": "Vigenere",
+      "pred_cipher_type": "Vigenere",
+      "gt_key": "АЛФА",
+      "pred_key": "АЛФА",
+      "gt_mode": "decrypt"
+    },
+    {
+      "ok_parse": false,
+      "ok_algo": false,
+      "raw_completion_prefix": "{\"mode\": \"decrypt\", \"lang\": \"en\", \"cipher_type\": \"Substitution\", \"key\": \"DEHLTIUAXYWRNVZBQCGMJOKSFP\", \"input_text\": \"NDHAXVT RTDCVXVU HDV RTDCV DRUZCXMANXH CJRTG OTCF TIITHMXOTRF. DLODVHTL NZLTRG HDV JVLTCGMDVL DVL GZROT HRDGGXHDR HXBATCG. KT DCT MCDXVXVU D CTDGZVXVU NZLTR IZC HXBATC MDGWG.\", \"cipher_text\": \"NDHAXVT RTDCVXVU HDV RTDCV DRUZCXMANXH CJRTG OTCF TIITHMXOTRF. DLODVHTL NZLTRG HDV JVLTCGM"
+    }
+  ]
+}

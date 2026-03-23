@@ -1,0 +1,16 @@
+# Только исключаем самые большие файлы в checkpoints
+checkpoints/**/checkpoint-*/
+checkpoints/**/*.bin
+checkpoints/**/*.safetensors
+
+__pycache__/
+*.py[cod]
+.Python
+venv/
+.vscode/
+.DS_Store
+*.log
+
+# Исключаем вложенные Git репозитории
+checkpoints/qwen-cipher-lora-selfscore_upload
+checkpoints/*/.git

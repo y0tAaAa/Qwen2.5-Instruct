@@ -1,0 +1,68 @@
+Starting evaluation job...
+Job ID: 4077
+Node: DGX
+Date: Tue Feb 17 19:52:50 CET 2026
+[EVAL] 50/1000 | JSONok=0.660 EM=0.420 CER=0.184 Empty=0.000 DetAcc=0.540 RTok=0.660
+[EVAL] 100/1000 | JSONok=0.720 EM=0.430 CER=0.235 Empty=0.010 DetAcc=0.570 RTok=0.710
+[EVAL] 200/1000 | JSONok=0.720 EM=0.410 CER=0.245 Empty=0.005 DetAcc=0.555 RTok=0.715
+[EVAL] 250/1000 | JSONok=0.720 EM=0.408 CER=0.245 Empty=0.004 DetAcc=0.568 RTok=0.716
+[EVAL] 300/1000 | JSONok=0.720 EM=0.383 CER=0.263 Empty=0.007 DetAcc=0.563 RTok=0.713
+[EVAL] 500/1000 | JSONok=0.698 EM=0.390 CER=0.239 Empty=0.004 DetAcc=0.542 RTok=0.694
+[EVAL] 550/1000 | JSONok=0.705 EM=0.396 CER=0.238 Empty=0.004 DetAcc=0.549 RTok=0.702
+[EVAL] 700/1000 | JSONok=0.704 EM=0.399 CER=0.235 Empty=0.003 DetAcc=0.559 RTok=0.701
+[EVAL] 800/1000 | JSONok=0.694 EM=0.389 CER=0.235 Empty=0.003 DetAcc=0.547 RTok=0.691
+[EVAL] 950/1000 | JSONok=0.692 EM=0.397 CER=0.228 Empty=0.003 DetAcc=0.547 RTok=0.688
+[EVAL] 1000/1000 | JSONok=0.689 EM=0.396 CER=0.226 Empty=0.003 DetAcc=0.544 RTok=0.686
+
+==== OVERALL ====
+samples: 1000  time: 228.9 min
+JSON ok: 0.6890   no_json: 0.3110
+EM:      0.3960   AvgCER: 0.2264
+Empty:   0.0030   DetAcc: 0.5440   RT ok: 0.6860
+
+==== BY LANG ====
+      en | n= 323 | JSONok=0.721 | EM=0.393 | CER=0.248 | Empty=0.009 | DetAcc=0.545 | RTok=0.712
+      sk | n= 356 | JSONok=0.756 | EM=0.419 | CER=0.268 | Empty=0.000 | DetAcc=0.587 | RTok=0.756
+      uk | n= 321 | JSONok=0.583 | EM=0.374 | CER=0.159 | Empty=0.000 | DetAcc=0.495 | RTok=0.583
+
+==== BY CIPHER ====
+  Caesar | n= 317 | JSONok=0.912 | EM=0.672 | CER=0.197 | Empty=0.009 | DetAcc=0.691 | RTok=0.902
+Substitution | n= 326 | JSONok=0.221 | EM=0.000 | CER=0.177 | Empty=0.000 | DetAcc=0.000 | RTok=0.221
+Vigenere | n= 357 | JSONok=0.919 | EM=0.513 | CER=0.298 | Empty=0.000 | DetAcc=0.910 | RTok=0.919
+Finished at Tue Feb 17 23:41:59 CET 2026
+Starting evaluation job...
+Job ID: 4077
+Node: DGX
+Date: Tue Feb 17 23:41:59 CET 2026
+[EVAL] 50/1000 | JSONok=0.660 EM=0.420 CER=0.184 Empty=0.000 DetAcc=0.540 RTok=0.660
+[EVAL] 100/1000 | JSONok=0.720 EM=0.430 CER=0.235 Empty=0.010 DetAcc=0.570 RTok=0.710
+[EVAL] 200/1000 | JSONok=0.720 EM=0.410 CER=0.245 Empty=0.005 DetAcc=0.555 RTok=0.715
+[EVAL] 250/1000 | JSONok=0.720 EM=0.408 CER=0.245 Empty=0.004 DetAcc=0.568 RTok=0.716
+[EVAL] 300/1000 | JSONok=0.720 EM=0.383 CER=0.263 Empty=0.007 DetAcc=0.563 RTok=0.713
+[EVAL] 500/1000 | JSONok=0.698 EM=0.390 CER=0.239 Empty=0.004 DetAcc=0.542 RTok=0.694
+[EVAL] 550/1000 | JSONok=0.705 EM=0.396 CER=0.238 Empty=0.004 DetAcc=0.549 RTok=0.702
+[EVAL] 700/1000 | JSONok=0.704 EM=0.399 CER=0.235 Empty=0.003 DetAcc=0.559 RTok=0.701
+[EVAL] 800/1000 | JSONok=0.694 EM=0.389 CER=0.235 Empty=0.003 DetAcc=0.547 RTok=0.691
+[EVAL] 950/1000 | JSONok=0.692 EM=0.397 CER=0.228 Empty=0.003 DetAcc=0.547 RTok=0.688
+[EVAL] 1000/1000 | JSONok=0.689 EM=0.396 CER=0.226 Empty=0.003 DetAcc=0.544 RTok=0.686
+
+==== OVERALL ====
+samples: 1000  time: 230.7 min
+JSON ok: 0.6890   no_json: 0.3110
+EM:      0.3960   AvgCER: 0.2264
+Empty:   0.0030   DetAcc: 0.5440   RT ok: 0.6860
+
+==== BY LANG ====
+      en | n= 323 | JSONok=0.721 | EM=0.393 | CER=0.248 | Empty=0.009 | DetAcc=0.545 | RTok=0.712
+      sk | n= 356 | JSONok=0.756 | EM=0.419 | CER=0.268 | Empty=0.000 | DetAcc=0.587 | RTok=0.756
+      uk | n= 321 | JSONok=0.583 | EM=0.374 | CER=0.159 | Empty=0.000 | DetAcc=0.495 | RTok=0.583
+
+==== BY CIPHER ====
+  Caesar | n= 317 | JSONok=0.912 | EM=0.672 | CER=0.197 | Empty=0.009 | DetAcc=0.691 | RTok=0.902
+Substitution | n= 326 | JSONok=0.221 | EM=0.000 | CER=0.177 | Empty=0.000 | DetAcc=0.000 | RTok=0.221
+Vigenere | n= 357 | JSONok=0.919 | EM=0.513 | CER=0.298 | Empty=0.000 | DetAcc=0.910 | RTok=0.919
+Finished at Wed Feb 18 03:32:52 CET 2026
+Starting evaluation job...
+Job ID: 4077
+Node: DGX
+Date: Wed Feb 18 03:32:52 CET 2026

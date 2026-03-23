@@ -1,0 +1,33 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.32s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.30s/it]
+/home/vd243wi/cipherchat/src/model/train_lora.py:352: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+  0%|          | 0/13500 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/vd243wi/cipherchat/src/model/train_lora.py", line 378, in <module>
+    main()
+  File "/home/vd243wi/cipherchat/src/model/train_lora.py", line 369, in main
+    trainer.train()
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/trainer.py", line 4071, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/accelerate/accelerator.py", line 2740, in backward
+    loss.backward(**kwargs)
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+  0%|          | 0/13500 [00:00<?, ?it/s]

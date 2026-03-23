@@ -1,0 +1,13 @@
+{
+  "base": "Qwen/Qwen2.5-7B-Instruct",
+  "train_path": "data/processed/train_cipher_train.jsonl",
+  "val_path": "data/processed/val_cipher.jsonl",
+  "out_dir": "checkpoints/qwen-cipherchat-variants",
+  "max_len": 512,
+  "lr": 0.0002,
+  "epochs": 1,
+  "bsz": 1,
+  "grad_accum": 8,
+  "save_steps": 500,
+  "log_steps": 25
+}

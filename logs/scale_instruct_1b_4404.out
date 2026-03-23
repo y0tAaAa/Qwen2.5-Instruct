@@ -1,0 +1,7 @@
+========================================================
+Job ID   : 4404
+Host     : DGX
+Start    : Fri Mar 20 23:53:55 CET 2026
+Type     : instruct  |  Size: 1.5B
+========================================================
+ERROR: Unknown type-size combination: instruct-1.5B

@@ -1,0 +1,4 @@
+  File "/home/vd243wi/cipherchat/train_lora.py", line 213
+    ap.add_argument("--resume_from_checkpoint", default=None,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

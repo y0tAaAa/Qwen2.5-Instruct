@@ -1,0 +1,12 @@
+Job: 4123 | DGX | Wed Feb 25 15:42:29 CET 2026
+[0/2] Ensure hard-val exists...
+[1/2] Run 4 evals...
+=== EVAL SUMMARY ===
+total: 300
+json_parse_rate: 47.666666666666664
+cipher_type_acc: 47.666666666666664
+key_acc: 47.333333333333336
+plaintext_acc: 47.666666666666664
+cipher_text_acc: 31.333333333333332
+algorithmic_acc: 0.0
+✅ report -> logs/eval_compute_easy.json

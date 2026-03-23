@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/vd243wi/cipherchat/src/model/eval_model.py", line 11, in <module>
+    from model.force_selfscore import ForceSelfScoreGrades
+ModuleNotFoundError: No module named 'model'

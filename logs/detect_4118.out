@@ -1,0 +1,10 @@
+Job: 4118 | DGX | Wed Feb 25 10:39:54 CET 2026
+[1/3] Sanitize JSONL...
+✅ sanitized: in=15000, out=15000, bad=0
+   wrote -> data/processed/train_detect.clean.jsonl
+[2/3] Split train/val...
+[SPLIT] total=15000 train=14700 val=300
+train-> data/processed/train_detect.clean.train.jsonl
+val  -> data/processed/train_detect.clean.val.jsonl
+[3/3] Train DETECT...
+trainable params: 40,370,176 || all params: 7,653,162,496 || trainable%: 0.5275

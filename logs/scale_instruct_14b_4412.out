@@ -1,0 +1,25 @@
+========================================================
+Job ID   : 4412
+Host     : DGX
+Start    : Sat Mar 21 14:20:30 CET 2026
+Size     : 14B  |  Time limit: 24h
+========================================================
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+2026-03-21 14:20:40 | INFO | Log file: /home/vd243wi/cipherchat/checkpoints/cipher-instruct-14B-20260321_142030/training.log
+2026-03-21 14:20:40 | INFO | =================================================================
+2026-03-21 14:20:40 | INFO | CIPHERCHAT TRAINING START
+2026-03-21 14:20:40 | INFO | =================================================================
+2026-03-21 14:20:40 | INFO | Base model:      Qwen/Qwen2.5-14B-Instruct
+2026-03-21 14:20:40 | INFO | Resume adapter:  None (train from scratch)
+2026-03-21 14:20:40 | INFO | Output dir:      /home/vd243wi/cipherchat/checkpoints/cipher-instruct-14B-20260321_142030
+2026-03-21 14:20:40 | INFO | LoRA r/alpha:    64/128
+2026-03-21 14:20:40 | INFO | Epochs:          2
+2026-03-21 14:20:40 | INFO | Effective batch: 2 × 8 = 16
+2026-03-21 14:20:40 | INFO | Learning rate:   0.0002
+2026-03-21 14:20:40 | INFO | Max seq length:  1536
+2026-03-21 14:20:40 | INFO | =================================================================
+2026-03-21 14:20:40 | INFO | Loading tokenizer...
+2026-03-21 14:20:41 | INFO | Loading datasets...
+2026-03-21 14:20:41 | INFO | Loading dataset: /home/vd243wi/cipherchat/data/train.json
+2026-03-21 14:20:41 | INFO |   Raw examples: 14000

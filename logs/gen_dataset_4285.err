@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/vd243wi/cipherchat/generate_dataset.py", line 592, in <module>
+    main()
+  File "/home/vd243wi/cipherchat/generate_dataset.py", line 559, in main
+    train_data = generate_split(args.num_train)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/cipherchat/generate_dataset.py", line 534, in generate_split
+    sample = generate_detect_sample(lang, cipher_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/cipherchat/generate_dataset.py", line 468, in generate_detect_sample
+    pred_key, pred_plain = _best_vigenere_guess(cipher_text, lang)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/cipherchat/generate_dataset.py", line 425, in _best_vigenere_guess
+    if sc > best_sc:
+       ^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'

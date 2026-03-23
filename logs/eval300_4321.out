@@ -1,0 +1,99 @@
+========================================================
+Job ID   : 4321
+Host     : DGX
+Start    : Tue Mar 10 11:47:44 CET 2026
+========================================================
+Base model  : Qwen/Qwen2.5-7B-Instruct
+Adapter     : checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+Seen        : 150 samples from data/train_v2.json
+Unseen      : 150 samples from data/val_v2.json
+Eval file   : data/eval300_v2.json
+
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+[1/2] Preparing eval300 dataset...
+Loading train: data/train_v2.json
+Loading val  : data/val_v2.json
+Sampling 150 seen (from train)...
+Sampling 150 unseen (from val)...
+
+Eval300 composition:
+  seen   (train): 150
+  unseen (val)  : 150
+  total         : 300
+
+Stratum distribution (seen):
+  Caesar|en|compute                   : 8
+  Caesar|en|detect                    : 8
+  Caesar|sk|compute                   : 8
+  Caesar|sk|detect                    : 8
+  Caesar|uk|compute                   : 8
+  Caesar|uk|detect                    : 8
+  Transposition|en|compute            : 9
+  Transposition|en|detect             : 10
+  Transposition|sk|compute            : 8
+  Transposition|sk|detect             : 8
+  Transposition|uk|compute            : 9
+  Transposition|uk|detect             : 8
+  Vigenere|en|compute                 : 8
+  Vigenere|en|detect                  : 8
+  Vigenere|sk|compute                 : 8
+  Vigenere|sk|detect                  : 8
+  Vigenere|uk|compute                 : 9
+  Vigenere|uk|detect                  : 9
+
+Stratum distribution (unseen):
+  Caesar|en|compute                   : 9
+  Caesar|en|detect                    : 9
+  Caesar|sk|compute                   : 8
+  Caesar|sk|detect                    : 8
+  Caesar|uk|compute                   : 9
+  Caesar|uk|detect                    : 8
+  Transposition|en|compute            : 8
+  Transposition|en|detect             : 8
+  Transposition|sk|compute            : 8
+  Transposition|sk|detect             : 9
+  Transposition|uk|compute            : 8
+  Transposition|uk|detect             : 9
+  Vigenere|en|compute                 : 9
+  Vigenere|en|detect                  : 8
+  Vigenere|sk|compute                 : 8
+  Vigenere|sk|detect                  : 8
+  Vigenere|uk|compute                 : 8
+  Vigenere|uk|detect                  : 8
+
+✅ Saved → data/eval300_v2.json (300 samples)
+
+eval300 ready: 300 examples
+
+[2/2] Running evaluation (base vs fine-tuned)...
+================================================================================
+CIPHERCHAT EVALUATION — base vs fine-tuned | seen vs unseen
+================================================================================
+Adapter : checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+Data    : data/eval300_v2.json
+Start   : 20260310_114751
+================================================================================
+
+Total: 300  |  seen(train)=150  |  unseen(val)=150
+
+  Loading tokenizer from: checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+  Loading base model: Qwen/Qwen2.5-7B-Instruct
+  Resized embeddings: 152064 → 151665
+  Loading LoRA adapter: checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+  Model ready!
+
+  [1/300] split=unseen | Caesar | en | compute
+  [25/300] split=seen | Transposition | uk | detect
+  [50/300] split=seen | Vigenere | en | compute
+  [75/300] split=seen | Transposition | en | detect
+  [100/300] split=seen | Vigenere | en | detect
+  [125/300] split=unseen | Caesar | sk | detect
+  [150/300] split=unseen | Transposition | uk | compute

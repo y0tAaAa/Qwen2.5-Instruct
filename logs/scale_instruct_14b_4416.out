@@ -1,0 +1,55 @@
+========================================================
+Job ID   : 4416
+Host     : DGX
+Start    : Sat Mar 21 14:38:06 CET 2026
+Size     : 14B  |  Time limit: 24h
+========================================================
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+2026-03-21 14:38:16 | INFO | Log file: /home/vd243wi/cipherchat/checkpoints/cipher-instruct-14B-20260321_143806/training.log
+2026-03-21 14:38:16 | INFO | =================================================================
+2026-03-21 14:38:16 | INFO | CIPHERCHAT TRAINING START
+2026-03-21 14:38:16 | INFO | =================================================================
+2026-03-21 14:38:16 | INFO | Base model:      Qwen/Qwen2.5-14B-Instruct
+2026-03-21 14:38:16 | INFO | Resume adapter:  None (train from scratch)
+2026-03-21 14:38:16 | INFO | Output dir:      /home/vd243wi/cipherchat/checkpoints/cipher-instruct-14B-20260321_143806
+2026-03-21 14:38:16 | INFO | LoRA r/alpha:    64/128
+2026-03-21 14:38:16 | INFO | Epochs:          2
+2026-03-21 14:38:16 | INFO | Effective batch: 2 × 8 = 16
+2026-03-21 14:38:16 | INFO | Learning rate:   0.0002
+2026-03-21 14:38:16 | INFO | Max seq length:  1536
+2026-03-21 14:38:16 | INFO | =================================================================
+2026-03-21 14:38:16 | INFO | Loading tokenizer...
+2026-03-21 14:38:17 | INFO | Loading datasets...
+2026-03-21 14:38:17 | INFO | Loading dataset: /home/vd243wi/cipherchat/data/train.json
+2026-03-21 14:38:17 | INFO |   Raw examples: 14000
+2026-03-21 14:38:43 | INFO |   Tokenized: 14000 samples | avg_len=699 | max_len=1096 | truncated=0 (0.0%)
+2026-03-21 14:38:44 | INFO | Loading dataset: /home/vd243wi/cipherchat/data/val.json
+2026-03-21 14:38:44 | INFO |   Raw examples: 1500
+2026-03-21 14:38:47 | INFO |   Tokenized: 1500 samples | avg_len=700 | max_len=1078 | truncated=0 (0.0%)
+2026-03-21 14:38:47 | INFO |   Train limited to 12000 samples
+2026-03-21 14:38:47 | INFO | Train samples: 12000
+2026-03-21 14:38:47 | INFO | Val samples:   1500
+2026-03-21 14:38:47 | INFO | Loading model with 4-bit quantization (QLoRA)...
+2026-03-21 14:39:25 | INFO |   Base model loaded.
+2026-03-21 14:39:29 | INFO |   New LoRA adapter created.
+2026-03-21 14:39:29 | INFO |   Trainable params: 275,251,200 / 8,439,256,064 (3.2616%)
+2026-03-21 14:39:29 | INFO |   CompletionOnlyCollator: template = '<|im_start|>assistant\n'
+2026-03-21 14:39:30 | INFO | 🚀 Starting training...
+{'loss': 1.5918, 'grad_norm': 1.2472103834152222, 'learning_rate': 0.0, 'entropy': 1.353041335940361, 'num_tokens': 11427.0, 'mean_token_accuracy': 0.7087861970067024, 'epoch': 0.0}
+{'loss': 1.0674, 'grad_norm': 0.44549721479415894, 'learning_rate': 5.0666666666666674e-05, 'entropy': 1.4078272879123688, 'num_tokens': 220898.0, 'mean_token_accuracy': 0.7801703038184267, 'epoch': 0.03}
+{'loss': 0.4741, 'grad_norm': 0.4268607497215271, 'learning_rate': 0.00010400000000000001, 'entropy': 1.0292129445821048, 'num_tokens': 443909.0, 'mean_token_accuracy': 0.8948101006448269, 'epoch': 0.05}
+{'loss': 0.4257, 'grad_norm': 0.3094913065433502, 'learning_rate': 0.00015733333333333333, 'entropy': 0.9006559200584888, 'num_tokens': 668465.0, 'mean_token_accuracy': 0.9076729051768779, 'epoch': 0.08}
+{'loss': 0.3596, 'grad_norm': 0.40033286809921265, 'learning_rate': 0.0001999961117230641, 'entropy': 0.9817691519856453, 'num_tokens': 895915.0, 'mean_token_accuracy': 0.9223501339554787, 'epoch': 0.11}
+{'loss': 0.3201, 'grad_norm': 0.18508963286876678, 'learning_rate': 0.00019986005377693825, 'entropy': 1.0483916092664003, 'num_tokens': 1119197.0, 'mean_token_accuracy': 0.9278122778981924, 'epoch': 0.13}
+{'eval_loss': 0.3339986205101013, 'eval_runtime': 328.3358, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 2.284, 'eval_entropy': 1.0280068647066751, 'eval_num_tokens': 1119197.0, 'eval_mean_token_accuracy': 0.9251100711027781, 'epoch': 0.13}
+{'loss': 0.3347, 'grad_norm': 0.3916746973991394, 'learning_rate': 0.00019952988425228754, 'entropy': 1.0970897685736418, 'num_tokens': 1342965.0, 'mean_token_accuracy': 0.9262036435306072, 'epoch': 0.16}
+{'loss': 0.3414, 'grad_norm': 0.23669345676898956, 'learning_rate': 0.0001990062449445565, 'entropy': 1.1013136886060237, 'num_tokens': 1565494.0, 'mean_token_accuracy': 0.9231652762740851, 'epoch': 0.19}
+{'loss': 0.3267, 'grad_norm': 0.20869511365890503, 'learning_rate': 0.00019829015372274038, 'entropy': 1.0813645713031292, 'num_tokens': 1785516.0, 'mean_token_accuracy': 0.924876195192337, 'epoch': 0.21}
+{'loss': 0.2516, 'grad_norm': 0.25074613094329834, 'learning_rate': 0.00019738300255081454, 'entropy': 1.0613708041608334, 'num_tokens': 2013017.0, 'mean_token_accuracy': 0.9378588069230318, 'epoch': 0.24}
+{'loss': 0.3106, 'grad_norm': 0.3067333996295929, 'learning_rate': 0.0001962865547819846, 'entropy': 1.1154764536768198, 'num_tokens': 2238981.0, 'mean_token_accuracy': 0.929017411544919, 'epoch': 0.27}
+{'eval_loss': 0.30083879828453064, 'eval_runtime': 328.1437, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 2.286, 'eval_entropy': 1.1172516175905864, 'eval_num_tokens': 2238981.0, 'eval_mean_token_accuracy': 0.9302845606803894, 'epoch': 0.27}
+{'loss': 0.2692, 'grad_norm': 0.25434747338294983, 'learning_rate': 0.00019500294173101687, 'entropy': 1.0700244683772326, 'num_tokens': 2458647.0, 'mean_token_accuracy': 0.9352640148252249, 'epoch': 0.29}
+{'loss': 0.2625, 'grad_norm': 0.40318065881729126, 'learning_rate': 0.0001935346585313117, 'entropy': 1.0639431692659855, 'num_tokens': 2686648.0, 'mean_token_accuracy': 0.9353764455765485, 'epoch': 0.32}
+{'loss': 0.2417, 'grad_norm': 0.2904989421367645, 'learning_rate': 0.00019188455928477306, 'entropy': 1.0424861907958984, 'num_tokens': 2907607.0, 'mean_token_accuracy': 0.9411561407148838, 'epoch': 0.35}
+{'loss': 0.2694, 'grad_norm': 0.31443098187446594, 'learning_rate': 0.00019005585151390223, 'entropy': 1.0655086506158113, 'num_tokens': 3130272.0, 'mean_token_accuracy': 0.9342384800314903, 'epoch': 0.37}

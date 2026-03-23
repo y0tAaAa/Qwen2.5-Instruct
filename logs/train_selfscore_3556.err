@@ -1,0 +1,26 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.59it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.66it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.67it/s]
+Traceback (most recent call last):
+  File "/home/vd243wi/cipherchat/train_selfscore.py", line 120, in <module>
+    train_selfscore_model()
+  File "/home/vd243wi/cipherchat/train_selfscore.py", line 71, in train_selfscore_model
+    base_model = AutoModelForCausalLM.from_pretrained(args.lora_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 604, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/modeling_utils.py", line 277, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/modeling_utils.py", line 5148, in from_pretrained
+    model.load_adapter(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/transformers/integrations/peft.py", line 261, in load_adapter
+    incompatible_keys = set_peft_model_state_dict(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/peft/utils/save_and_load.py", line 565, in set_peft_model_state_dict
+    load_result = model.load_state_dict(peft_model_state_dict, strict=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2629, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for Qwen2ForCausalLM:
+	size mismatch for model.embed_tokens.weight: copying a param with shape torch.Size([151670, 3584]) from checkpoint, the shape in current model is torch.Size([152064, 3584]).
+	size mismatch for lm_head.weight: copying a param with shape torch.Size([151670, 3584]) from checkpoint, the shape in current model is torch.Size([152064, 3584]).

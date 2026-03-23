@@ -1,0 +1,93 @@
+========================================================
+Job ID   : 4415
+Host     : DGX
+Start    : Sat Mar 21 14:36:58 CET 2026
+Resuming : 3B instruct from checkpoint-800
+========================================================
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+2026-03-21 14:37:07 | INFO | Log file: /home/vd243wi/cipherchat/checkpoints/cipher-instruct-3B-20260320_235526/training.log
+2026-03-21 14:37:07 | INFO | =================================================================
+2026-03-21 14:37:07 | INFO | CIPHERCHAT TRAINING START
+2026-03-21 14:37:07 | INFO | =================================================================
+2026-03-21 14:37:07 | INFO | Base model:      Qwen/Qwen2.5-3B-Instruct
+2026-03-21 14:37:07 | INFO | Resume adapter:  None (train from scratch)
+2026-03-21 14:37:07 | INFO | Output dir:      /home/vd243wi/cipherchat/checkpoints/cipher-instruct-3B-20260320_235526
+2026-03-21 14:37:07 | INFO | LoRA r/alpha:    64/128
+2026-03-21 14:37:07 | INFO | Epochs:          2
+2026-03-21 14:37:07 | INFO | Effective batch: 2 × 8 = 16
+2026-03-21 14:37:07 | INFO | Learning rate:   0.0002
+2026-03-21 14:37:07 | INFO | Max seq length:  1536
+2026-03-21 14:37:07 | INFO | =================================================================
+2026-03-21 14:37:07 | INFO | Loading tokenizer...
+2026-03-21 14:37:07 | INFO | Loading datasets...
+2026-03-21 14:37:07 | INFO | Loading dataset: /home/vd243wi/cipherchat/data/train.json
+2026-03-21 14:37:07 | INFO |   Raw examples: 14000
+2026-03-21 14:37:34 | INFO |   Tokenized: 14000 samples | avg_len=699 | max_len=1096 | truncated=0 (0.0%)
+2026-03-21 14:37:34 | INFO | Loading dataset: /home/vd243wi/cipherchat/data/val.json
+2026-03-21 14:37:34 | INFO |   Raw examples: 1500
+2026-03-21 14:37:37 | INFO |   Tokenized: 1500 samples | avg_len=700 | max_len=1078 | truncated=0 (0.0%)
+2026-03-21 14:37:37 | INFO |   Train limited to 12000 samples
+2026-03-21 14:37:37 | INFO | Train samples: 12000
+2026-03-21 14:37:37 | INFO | Val samples:   1500
+2026-03-21 14:37:37 | INFO | Loading model with 4-bit quantization (QLoRA)...
+2026-03-21 14:37:50 | INFO |   Base model loaded.
+2026-03-21 14:37:54 | INFO |   New LoRA adapter created.
+2026-03-21 14:37:54 | INFO |   Trainable params: 119,734,272 / 1,818,406,912 (6.5846%)
+2026-03-21 14:37:54 | INFO |   CompletionOnlyCollator: template = '<|im_start|>assistant\n'
+2026-03-21 14:37:54 | INFO | 🚀 Starting training...
+{'loss': 0.1504, 'grad_norm': 0.26915445923805237, 'learning_rate': 9.30610073633956e-05, 'entropy': 0.6478349011391401, 'num_tokens': 228068.0, 'mean_token_accuracy': 0.9654462300240993, 'epoch': 1.09}
+{'loss': 0.1402, 'grad_norm': 0.25450313091278076, 'learning_rate': 8.867055177612206e-05, 'entropy': 0.661595812626183, 'num_tokens': 452691.0, 'mean_token_accuracy': 0.9655893191695213, 'epoch': 1.12}
+{'loss': 0.1442, 'grad_norm': 0.26500967144966125, 'learning_rate': 8.430211877941779e-05, 'entropy': 0.6663317954167723, 'num_tokens': 678005.0, 'mean_token_accuracy': 0.9656622413545847, 'epoch': 1.15}
+{'loss': 0.125, 'grad_norm': 0.27555108070373535, 'learning_rate': 7.996419989108789e-05, 'entropy': 0.6681959779933095, 'num_tokens': 898658.0, 'mean_token_accuracy': 0.9701629597693682, 'epoch': 1.17}
+{'loss': 0.1477, 'grad_norm': 0.44560563564300537, 'learning_rate': 7.566522731451185e-05, 'entropy': 0.6660473341122269, 'num_tokens': 1120288.0, 'mean_token_accuracy': 0.9635749384760857, 'epoch': 1.2}
+{'eval_loss': 0.12210617959499359, 'eval_runtime': 125.8081, 'eval_samples_per_second': 11.923, 'eval_steps_per_second': 5.961, 'eval_entropy': 0.6572936894496282, 'eval_num_tokens': 1120288.0, 'eval_mean_token_accuracy': 0.9688421280384064, 'epoch': 1.2}
+{'loss': 0.1299, 'grad_norm': 0.3257579207420349, 'learning_rate': 7.141355754782184e-05, 'entropy': 0.6475189570337534, 'num_tokens': 1345454.0, 'mean_token_accuracy': 0.9687665611505508, 'epoch': 1.23}
+{'loss': 0.1166, 'grad_norm': 0.26692867279052734, 'learning_rate': 6.721745514024022e-05, 'entropy': 0.6494004840031267, 'num_tokens': 1568841.0, 'mean_token_accuracy': 0.9708941273391247, 'epoch': 1.25}
+{'loss': 0.1264, 'grad_norm': 0.13414199650287628, 'learning_rate': 6.308507662715007e-05, 'entropy': 0.6279155442491173, 'num_tokens': 1792152.0, 'mean_token_accuracy': 0.9699709642678499, 'epoch': 1.28}
+{'loss': 0.1074, 'grad_norm': 0.355085551738739, 'learning_rate': 5.902445467512721e-05, 'entropy': 0.6266604015603662, 'num_tokens': 2017416.0, 'mean_token_accuracy': 0.9723678611218929, 'epoch': 1.31}
+{'loss': 0.1014, 'grad_norm': 0.2813730835914612, 'learning_rate': 5.504348246775299e-05, 'entropy': 0.6005300564691425, 'num_tokens': 2240845.0, 'mean_token_accuracy': 0.9749725118279458, 'epoch': 1.33}
+{'eval_loss': 0.10734167695045471, 'eval_runtime': 125.628, 'eval_samples_per_second': 11.94, 'eval_steps_per_second': 5.97, 'eval_entropy': 0.6336970053513845, 'eval_num_tokens': 2240845.0, 'eval_mean_token_accuracy': 0.9725102629661561, 'epoch': 1.33}
+{'loss': 0.0935, 'grad_norm': 0.2276894748210907, 'learning_rate': 5.11498983625588e-05, 'entropy': 0.5977105002850294, 'num_tokens': 2462168.0, 'mean_token_accuracy': 0.976559191569686, 'epoch': 1.36}
+{'loss': 0.109, 'grad_norm': 0.30453571677207947, 'learning_rate': 4.735127084892751e-05, 'entropy': 0.5931443367153406, 'num_tokens': 2687721.0, 'mean_token_accuracy': 0.9725702665746212, 'epoch': 1.39}
+{'loss': 0.1033, 'grad_norm': 0.2553139925003052, 'learning_rate': 4.365498383619036e-05, 'entropy': 0.5904085919260978, 'num_tokens': 2909978.0, 'mean_token_accuracy': 0.9741459287703037, 'epoch': 1.41}
+{'loss': 0.0906, 'grad_norm': 0.3203485608100891, 'learning_rate': 4.006822230051733e-05, 'entropy': 0.5755004689097405, 'num_tokens': 3135545.0, 'mean_token_accuracy': 0.9773880969733, 'epoch': 1.44}
+{'loss': 0.1065, 'grad_norm': 0.2876923978328705, 'learning_rate': 3.6597958318501115e-05, 'entropy': 0.587577042542398, 'num_tokens': 3361588.0, 'mean_token_accuracy': 0.9742170527577401, 'epoch': 1.47}
+{'eval_loss': 0.09624041616916656, 'eval_runtime': 125.8866, 'eval_samples_per_second': 11.915, 'eval_steps_per_second': 5.958, 'eval_entropy': 0.5934644500017167, 'eval_num_tokens': 3361588.0, 'eval_mean_token_accuracy': 0.9752964563369751, 'epoch': 1.47}
+{'loss': 0.0796, 'grad_norm': 0.2829693853855133, 'learning_rate': 3.325093751458276e-05, 'entropy': 0.5651969971135259, 'num_tokens': 3583088.0, 'mean_token_accuracy': 0.9799401562660932, 'epoch': 1.49}
+{'loss': 0.0916, 'grad_norm': 0.3735564053058624, 'learning_rate': 3.0033665948663448e-05, 'entropy': 0.5689005902037024, 'num_tokens': 3808129.0, 'mean_token_accuracy': 0.9762114197015762, 'epoch': 1.52}
+{'loss': 0.0964, 'grad_norm': 0.2476881891489029, 'learning_rate': 2.6952397469390245e-05, 'entropy': 0.5735710244625807, 'num_tokens': 4029434.0, 'mean_token_accuracy': 0.9764987021684647, 'epoch': 1.55}
+{'loss': 0.088, 'grad_norm': 0.35593655705451965, 'learning_rate': 2.4013121557699157e-05, 'entropy': 0.5848939586430788, 'num_tokens': 4250651.0, 'mean_token_accuracy': 0.9785797864198684, 'epoch': 1.57}
+{'loss': 0.0822, 'grad_norm': 0.2797633111476898, 'learning_rate': 2.1221551684245944e-05, 'entropy': 0.5697584474459291, 'num_tokens': 4473870.0, 'mean_token_accuracy': 0.979449812695384, 'epoch': 1.6}
+{'eval_loss': 0.08846264332532883, 'eval_runtime': 126.041, 'eval_samples_per_second': 11.901, 'eval_steps_per_second': 5.95, 'eval_entropy': 0.5681382397015889, 'eval_num_tokens': 4473870.0, 'eval_mean_token_accuracy': 0.97740651623408, 'epoch': 1.6}
+{'loss': 0.0906, 'grad_norm': 0.2960468828678131, 'learning_rate': 1.8583114203355568e-05, 'entropy': 0.5615524863824248, 'num_tokens': 4704512.0, 'mean_token_accuracy': 0.9769399348646403, 'epoch': 1.63}
+{'loss': 0.0706, 'grad_norm': 0.31528207659721375, 'learning_rate': 1.6102937805078544e-05, 'entropy': 0.5427502274513245, 'num_tokens': 4925858.0, 'mean_token_accuracy': 0.9817883003503084, 'epoch': 1.65}
+{'loss': 0.0749, 'grad_norm': 0.1983872801065445, 'learning_rate': 1.3785843545858223e-05, 'entropy': 0.5534595314413309, 'num_tokens': 5152816.0, 'mean_token_accuracy': 0.9804326824843883, 'epoch': 1.68}
+{'loss': 0.0768, 'grad_norm': 0.15668770670890808, 'learning_rate': 1.163633547718701e-05, 'entropy': 0.5382501255720854, 'num_tokens': 5377985.0, 'mean_token_accuracy': 0.9808134157210588, 'epoch': 1.71}
+{'loss': 0.0735, 'grad_norm': 0.2518191933631897, 'learning_rate': 9.658591890468515e-06, 'entropy': 0.539152672700584, 'num_tokens': 5602551.0, 'mean_token_accuracy': 0.9813902359455824, 'epoch': 1.73}
+{'eval_loss': 0.08402348309755325, 'eval_runtime': 125.688, 'eval_samples_per_second': 11.934, 'eval_steps_per_second': 5.967, 'eval_entropy': 0.5418742412726084, 'eval_num_tokens': 5602551.0, 'eval_mean_token_accuracy': 0.9785619098345438, 'epoch': 1.73}
+{'loss': 0.0777, 'grad_norm': 0.3220609426498413, 'learning_rate': 7.856457195103894e-06, 'entropy': 0.5366540523245931, 'num_tokens': 5825697.0, 'mean_token_accuracy': 0.9804290913045406, 'epoch': 1.76}
+{'loss': 0.0774, 'grad_norm': 0.21560895442962646, 'learning_rate': 6.233434445589869e-06, 'entropy': 0.5447151634842158, 'num_tokens': 6053386.0, 'mean_token_accuracy': 0.9807069081813097, 'epoch': 1.79}
+{'loss': 0.0608, 'grad_norm': 0.17148461937904358, 'learning_rate': 4.792678532155115e-06, 'entropy': 0.5285801833495498, 'num_tokens': 6274921.0, 'mean_token_accuracy': 0.9838634204119444, 'epoch': 1.81}
+{'loss': 0.0624, 'grad_norm': 0.28737396001815796, 'learning_rate': 3.5369900481704744e-06, 'entropy': 0.5199091158807277, 'num_tokens': 6495835.0, 'mean_token_accuracy': 0.9838644012808799, 'epoch': 1.84}
+{'loss': 0.0685, 'grad_norm': 0.17517505586147308, 'learning_rate': 2.4688098462546604e-06, 'entropy': 0.5237924598157406, 'num_tokens': 6718636.0, 'mean_token_accuracy': 0.9827892236411572, 'epoch': 1.87}
+{'eval_loss': 0.08188056200742722, 'eval_runtime': 126.0897, 'eval_samples_per_second': 11.896, 'eval_steps_per_second': 5.948, 'eval_entropy': 0.5311011112133662, 'eval_num_tokens': 6718636.0, 'eval_mean_token_accuracy': 0.9792260999679565, 'epoch': 1.87}
+{'loss': 0.0655, 'grad_norm': 0.23276354372501373, 'learning_rate': 1.5902142936566334e-06, 'entropy': 0.5199805878102779, 'num_tokens': 6942987.0, 'mean_token_accuracy': 0.982795250043273, 'epoch': 1.89}
+{'loss': 0.0569, 'grad_norm': 0.3001444637775421, 'learning_rate': 9.029112361380376e-07, 'entropy': 0.5217632263898849, 'num_tokens': 7167514.0, 'mean_token_accuracy': 0.9851558178663253, 'epoch': 1.92}
+{'loss': 0.0577, 'grad_norm': 0.1382550746202469, 'learning_rate': 4.082366782008906e-07, 'entropy': 0.5087992111220956, 'num_tokens': 7389182.0, 'mean_token_accuracy': 0.9854600418359041, 'epoch': 1.95}
+{'loss': 0.0624, 'grad_norm': 0.3426368236541748, 'learning_rate': 1.0715218611384581e-07, 'entropy': 0.5155017776414752, 'num_tokens': 7610557.0, 'mean_token_accuracy': 0.9836779218167067, 'epoch': 1.97}
+{'loss': 0.0772, 'grad_norm': 0.29065677523612976, 'learning_rate': 2.4301878494004116e-10, 'entropy': 0.5227459346875548, 'num_tokens': 7830610.0, 'mean_token_accuracy': 0.9818007674068212, 'epoch': 2.0}
+{'eval_loss': 0.08160459250211716, 'eval_runtime': 125.4466, 'eval_samples_per_second': 11.957, 'eval_steps_per_second': 5.979, 'eval_entropy': 0.5295643911361695, 'eval_num_tokens': 7830610.0, 'eval_mean_token_accuracy': 0.9793998348712921, 'epoch': 2.0}
+{'train_runtime': 4275.6973, 'train_samples_per_second': 5.613, 'train_steps_per_second': 0.351, 'train_loss': 0.043770406246185306, 'epoch': 2.0}
+2026-03-21 15:49:14 | INFO | Training complete.
+2026-03-21 15:49:14 | INFO |   Runtime:        4275.7s
+2026-03-21 15:49:14 | INFO |   Samples/sec:    5.61
+2026-03-21 15:49:14 | INFO |   Final loss:     0.043770
+2026-03-21 15:49:15 | INFO | ✅ Adapter saved → /home/vd243wi/cipherchat/checkpoints/cipher-instruct-3B-20260320_235526/final_adapter
+2026-03-21 15:49:15 | INFO | =================================================================
+2026-03-21 15:49:15 | INFO | DONE
+2026-03-21 15:49:15 | INFO | =================================================================
+========================================================
+Done: Sat Mar 21 15:49:21 CET 2026
+Adapter: /home/vd243wi/cipherchat/checkpoints/cipher-instruct-3B-20260320_235526/final_adapter
+========================================================

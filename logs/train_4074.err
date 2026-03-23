@@ -1,0 +1,154 @@
+loading file vocab.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/vocab.json
+loading file merges.txt from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/merges.txt
+loading file tokenizer.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer_config.json
+loading file chat_template.jinja from cache at None
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+loading configuration file config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/config.json
+`torch_dtype` is deprecated! Use `dtype` instead!
+Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+loading weights file model.safetensors from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/model.safetensors.index.json
+Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.45s/it]
+loading configuration file generation_config.json from cache at /home/vd243wi/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28/generation_config.json
+Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+Could not locate the custom_generate/generate.py inside Qwen/Qwen2.5-7B-Instruct.
+Generating train split: 0 examples [00:00, ? examples/s]Failed to load JSON from file '/home/vd243wi/cipherchat/data/processed/train_cipher_train.jsonl' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column(/json/key) changed from string to object in row 1
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 0 examples [00:00, ? examples/s]
+Traceback (most recent call last):
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 174, in _generate_tables
+    df = pandas_read_json(f)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 38, in pandas_read_json
+    return pd.read_json(path_or_buf, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 815, in read_json
+    return json_reader.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1014, in read
+    obj = self._get_object_parser(self.data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1040, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1176, in parse
+    self._parse()
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1392, in _parse
+    ujson_loads(json, precise_float=self.precise_float), dtype=None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1818, in _prepare_split_single
+    for _, table in generator:
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 177, in _generate_tables
+    raise e
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 151, in _generate_tables
+    pa_table = paj.read_json(
+               ^^^^^^^^^^^^^^
+  File "pyarrow/_json.pyx", line 342, in pyarrow._json.read_json
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: JSON parse error: Column(/json/key) changed from string to object in row 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/vd243wi/cipherchat/src/model/train_lora_cipherchat.py", line 104, in <module>
+    main()
+  File "/home/vd243wi/cipherchat/src/model/train_lora_cipherchat.py", line 63, in main
+    ds = load_dataset("json", data_files={"train": args.train_path, "validation": args.val_path})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/load.py", line 1417, in load_dataset
+    builder_instance.download_and_prepare(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 897, in download_and_prepare
+    self._download_and_prepare(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 973, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1705, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1861, in _prepare_split_single
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.exceptions.DatasetGenerationError: An error occurred while generating the dataset

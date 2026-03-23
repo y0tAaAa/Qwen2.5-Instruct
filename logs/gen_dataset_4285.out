@@ -1,0 +1,13 @@
+========================================================
+Job ID   : 4285
+Host     : DGX
+Start    : Fri Mar  6 15:29:04 CET 2026
+========================================================
+[1/1] Generating dataset...
+  num_train : 14000
+  num_val   : 1500
+  seed      : 42
+  out_train : data/train.json
+  out_val   : data/val.json
+
+Generating TRAIN set (14000 samples)...

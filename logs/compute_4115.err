@@ -1,0 +1,63 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-02-25 10:19:22,131 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]
+Generating train split: 0 examples [00:00, ? examples/s]Failed to load JSON from file '/home/vd243wi/cipherchat/data/processed/train_compute.train.jsonl' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column(/json/key) changed from number to string in row 3
+2026-02-25 10:19:30,155 | ERROR | Failed to load JSON from file '/home/vd243wi/cipherchat/data/processed/train_compute.train.jsonl' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column(/json/key) changed from number to string in row 3
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 0 examples [00:00, ? examples/s]
+Traceback (most recent call last):
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 174, in _generate_tables
+    df = pandas_read_json(f)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 38, in pandas_read_json
+    return pd.read_json(path_or_buf, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 815, in read_json
+    return json_reader.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1014, in read
+    obj = self._get_object_parser(self.data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1040, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1176, in parse
+    self._parse()
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1392, in _parse
+    ujson_loads(json, precise_float=self.precise_float), dtype=None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1818, in _prepare_split_single
+    for _, table in generator:
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 177, in _generate_tables
+    raise e
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 151, in _generate_tables
+    pa_table = paj.read_json(
+               ^^^^^^^^^^^^^^
+  File "pyarrow/_json.pyx", line 342, in pyarrow._json.read_json
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: JSON parse error: Column(/json/key) changed from number to string in row 3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vd243wi/cipherchat/src/model/train_lora_compute_v2.py", line 135, in <module>
+    main()
+  File "/home/vd243wi/cipherchat/src/model/train_lora_compute_v2.py", line 98, in main
+    ds = load_dataset("json", data_files=files)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/load.py", line 1417, in load_dataset
+    builder_instance.download_and_prepare(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 897, in download_and_prepare
+    self._download_and_prepare(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 973, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1705, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "/home/vd243wi/miniconda3/envs/cypher/lib/python3.11/site-packages/datasets/builder.py", line 1861, in _prepare_split_single
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.exceptions.DatasetGenerationError: An error occurred while generating the dataset

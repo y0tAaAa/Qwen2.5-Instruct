@@ -1,0 +1,5 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:14,  4.88s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.23s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.91s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.02s/it]
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[2026-03-13T04:03:13.596] error: *** JOB 4333 ON DGX CANCELLED AT 2026-03-13T04:03:13 DUE TO TIME LIMIT ***
+[2026-03-13T04:05:05.671] error: *** JOB 4333 STEPD TERMINATED ON DGX AT 2026-03-13T04:04:53 DUE TO JOB NOT ENDING WITH SIGNALS ***

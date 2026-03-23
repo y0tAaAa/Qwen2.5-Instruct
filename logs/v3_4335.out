@@ -1,0 +1,86 @@
+========================================================
+Job ID   : 4335
+Host     : DGX
+Start    : Sat Mar 14 18:49:03 CET 2026
+========================================================
+Base model  : Qwen/Qwen2.5-7B-Instruct
+V2 adapter  : checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+Output dir  : checkpoints/cipherchat-7b-v3-20260314_184903
+LR          : 1e-4  (V2 было 5e-5 → теперь 1e-4)
+Epochs      : 2  (V2 было 3 → теперь 2)
+Eff. batch  : 2 x 8 = 16
+
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+[1/2] Generating V3 dataset...
+  Vigenere=35%(↑) | Transposition=35%(↓) | Caesar=30%
+  UK=35%(↓) | SK=32.5% | EN=32.5%
+  compute=55% | detect=45%
+  JSON-reinforce: 15% short examples
+CipherChat V3 dataset
+  Ciphers : Vigenere=35% | Transposition=35% | Caesar=30%  (↑Vigenere vs v2)
+  Langs   : UK=35% | SK=32.5% | EN=32.5%               (↓UK vs v2)
+  Tasks   : compute=55% | detect=45%                    (↑compute vs v2)
+  JSON-reinforce: 15% short examples  (новое в v3)
+
+Generating TRAIN (12000)...
+  1000/12000 (attempts=1000)
+  2000/12000 (attempts=2000)
+  3000/12000 (attempts=3000)
+  4000/12000 (attempts=4000)
+  5000/12000 (attempts=5000)
+  6000/12000 (attempts=6000)
+  7000/12000 (attempts=7000)
+  8000/12000 (attempts=8000)
+  9000/12000 (attempts=9000)
+  10000/12000 (attempts=10000)
+  11000/12000 (attempts=11000)
+  12000/12000 (attempts=12000)
+
+Generating VAL (1500)...
+  1000/1500 (attempts=1000)
+
+TRAIN: 12000
+  ciphers    : {'Transposition': 4295, 'Caesar': 3576, 'Vigenere': 4129}
+  langs      : {'en': 3924, 'sk': 3928, 'uk': 4148}
+  tasks      : {'compute': 6530, 'detect': 5470}
+  short(reinforce): 6853 (57.1%)
+
+VAL: 1500
+  ciphers    : {'Caesar': 457, 'Vigenere': 532, 'Transposition': 511}
+  langs      : {'uk': 516, 'sk': 482, 'en': 502}
+  tasks      : {'detect': 686, 'compute': 814}
+  short(reinforce): 849 (56.6%)
+
+✅ Train -> data/train_v3.json
+✅ Val   -> data/val_v3.json
+
+[2/2] Training V3 (resuming from V2 adapter, LR=1e-4, 2 epochs)...
+2026-03-14 18:49:18 | INFO | =================================================================
+2026-03-14 18:49:18 | INFO | CIPHERCHAT V3 TRAINING
+2026-03-14 18:49:18 | INFO | =================================================================
+2026-03-14 18:49:18 | INFO | Base model:      Qwen/Qwen2.5-7B-Instruct
+2026-03-14 18:49:18 | INFO | Resume from V2:  checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+2026-03-14 18:49:18 | INFO | Output dir:      checkpoints/cipherchat-7b-v3-20260314_184903
+2026-03-14 18:49:18 | INFO | LR:              0.0001  (↑ vs V2=5e-5, восстанавливаем JSON формат)
+2026-03-14 18:49:18 | INFO | Epochs:          2  (↓ vs V2=3, не перегреваем)
+2026-03-14 18:49:18 | INFO | Eff. batch:      2 x 8 = 16
+2026-03-14 18:49:18 | INFO | =================================================================
+2026-03-14 18:49:18 | INFO | Loading tokenizer from: checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+2026-03-14 18:49:18 | INFO | Loading dataset: data/train_v3.json
+2026-03-14 18:49:18 | INFO |   Raw examples: 12000
+2026-03-14 18:49:44 | INFO |   Tokenized: 12000 | avg=818 | max=1217 | truncated=0 (0.0%)
+2026-03-14 18:49:44 | INFO | Loading dataset: data/val_v3.json
+2026-03-14 18:49:45 | INFO |   Raw examples: 1500
+2026-03-14 18:49:48 | INFO |   Tokenized: 1500 | avg=822 | max=1229 | truncated=0 (0.0%)
+2026-03-14 18:49:48 | INFO | Train: 12000 | Val: 1500
+2026-03-14 18:53:24 | INFO | Loading V2 adapter: checkpoints/cipherchat-7b-v2-20260309_173304/final_adapter
+2026-03-14 18:53:26 | INFO | V2 adapter loaded → trainable
+2026-03-14 18:53:26 | INFO | Trainable: 161,480,704 / 4,514,452,992 (3.5770%)

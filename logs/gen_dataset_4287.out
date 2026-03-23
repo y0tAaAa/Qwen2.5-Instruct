@@ -1,0 +1,49 @@
+========================================================
+Job ID   : 4287
+Host     : DGX
+Start    : Fri Mar  6 15:32:52 CET 2026
+========================================================
+[1/1] Generating dataset...
+  num_train : 14000
+  num_val   : 1500
+  seed      : 42
+  out_train : data/train.json
+  out_val   : data/val.json
+
+Generating TRAIN set (14000 samples)...
+  generated 1000/14000 (attempts=1000)
+  generated 2000/14000 (attempts=2000)
+  generated 3000/14000 (attempts=3000)
+  generated 4000/14000 (attempts=4000)
+  generated 5000/14000 (attempts=5000)
+  generated 6000/14000 (attempts=6000)
+  generated 7000/14000 (attempts=7000)
+  generated 8000/14000 (attempts=8000)
+  generated 9000/14000 (attempts=9000)
+  generated 10000/14000 (attempts=10000)
+  generated 11000/14000 (attempts=11000)
+  generated 12000/14000 (attempts=12000)
+  generated 13000/14000 (attempts=13000)
+  generated 14000/14000 (attempts=14000)
+
+Generating VAL set (1500 samples)...
+  generated 1000/1500 (attempts=1000)
+
+TRAIN: 14000 samples
+  ciphers: {'Caesar': 4681, 'Transposition': 4659, 'Vigenere': 4660}
+  langs:   {'uk': 4607, 'en': 4678, 'sk': 4715}
+  tasks:   {'compute': 9808, 'detect': 4192}
+
+VAL: 1500 samples
+  ciphers: {'Vigenere': 508, 'Transposition': 498, 'Caesar': 494}
+  langs:   {'en': 496, 'sk': 501, 'uk': 503}
+  tasks:   {'compute': 1034, 'detect': 466}
+
+✅ Train saved → data/train.json (14000 samples)
+✅ Val saved   → data/val.json (1500 samples)
+
+========================================================
+Dataset generation done: Fri Mar  6 15:32:56 CET 2026
+Train : data/train.json  (31436882 bytes)
+Val   : data/val.json    (3370763 bytes)
+========================================================

@@ -1,0 +1,9 @@
+usage: train_lora.py [-h] [--base BASE] [--train_file TRAIN_FILE]
+                     [--val_file VAL_FILE] [--output_dir OUTPUT_DIR]
+                     [--lora_r LORA_R] [--lora_alpha LORA_ALPHA]
+                     [--lora_dropout LORA_DROPOUT] [--epochs EPOCHS]
+                     [--batch_size BATCH_SIZE] [--grad_accum GRAD_ACCUM]
+                     [--lr LR] [--max_seq_len MAX_SEQ_LEN]
+                     [--max_train MAX_TRAIN] [--seed SEED]
+                     [--resume_from_adapter RESUME_FROM_ADAPTER]
+train_lora.py: error: unrecognized arguments: --resume_from_checkpoint /home/vd243wi/cipherchat/checkpoints/cipher-instruct-3B-20260320_235526/checkpoint-800

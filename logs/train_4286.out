@@ -1,0 +1,7 @@
+========================================================
+Job ID   : 4286
+Host     : DGX
+Start    : Fri Mar  6 15:29:27 CET 2026
+========================================================
+ERROR: Train file not found: data/train.json
+Run generate_dataset.slurm first.

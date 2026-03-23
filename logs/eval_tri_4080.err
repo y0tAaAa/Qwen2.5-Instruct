@@ -1,0 +1,4 @@
+usage: eval_model.py [-h] [--base BASE] --lora_path LORA_PATH --eval_path
+                     EVAL_PATH [--max_samples MAX_SAMPLES]
+                     [--max_new_tokens MAX_NEW_TOKENS] [--log_every LOG_EVERY]
+eval_model.py: error: unrecognized arguments: --base_model Qwen/Qwen2.5-7B-Instruct

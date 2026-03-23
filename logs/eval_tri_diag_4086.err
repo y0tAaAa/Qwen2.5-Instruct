@@ -1,0 +1,104 @@
++ echo '== HEADER =='
++ echo 'Job ID: 4086'
+++ hostname
++ echo 'Node:   DGX'
+++ date
++ echo 'Date:   Wed Feb 18 15:26:44 CET 2026'
+++ pwd
++ echo 'PWD:    /home/vd243wi/cipherchat'
++ echo CUDA_VISIBLE_DEVICES=0
++ echo
++ nvidia-smi
++ echo
++ source /home/vd243wi/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ _CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/vd243wi/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/vd243wi/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/vd243wi/miniconda3
+++ _CONDA_ROOT=/home/vd243wi/miniconda3
+++ '[' -z x ']'
++ conda activate cypher
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate cypher
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate cypher
+++ '[' -n '' ']'
+++ /home/vd243wi/miniconda3/bin/conda shell.posix activate cypher
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(cypher) '\''
+export PATH='\''/home/vd243wi/miniconda3/envs/cypher/bin:/home/vd243wi/miniconda3/condabin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_PROMPT_MODIFIER='\''(cypher) '\''
+export CONDA_EXE='\''/home/vd243wi/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/vd243wi/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/vd243wi/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/vd243wi/miniconda3'\'''
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(cypher) '\''
+export PATH='\''/home/vd243wi/miniconda3/envs/cypher/bin:/home/vd243wi/miniconda3/condabin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_PROMPT_MODIFIER='\''(cypher) '\''
+export CONDA_EXE='\''/home/vd243wi/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/vd243wi/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/vd243wi/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/vd243wi/miniconda3'\'''
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(cypher) '
+++ export PATH=/home/vd243wi/miniconda3/envs/cypher/bin:/home/vd243wi/miniconda3/condabin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/vd243wi/miniconda3/envs/cypher/bin:/home/vd243wi/miniconda3/condabin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export 'CONDA_PROMPT_MODIFIER=(cypher) '
+++ CONDA_PROMPT_MODIFIER='(cypher) '
+++ export CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ _CONDA_EXE=/home/vd243wi/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/vd243wi/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/vd243wi/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/vd243wi/miniconda3
+++ _CONDA_ROOT=/home/vd243wi/miniconda3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ echo '== PYTHON INFO =='
++ which python
++ python --version
++ python -c 'import sys; print('\''executable:'\'', sys.executable)'
++ python -c 'import torch; print('\''torch'\'', torch.__version__, '\''cuda'\'', torch.cuda.is_available(), '\''devs'\'', torch.cuda.device_count())'
++ echo
++ BASE=Qwen/Qwen2.5-7B-Instruct
++ LORA=checkpoints/qwen-cipherchat-tri
++ EVAL=data/processed/val_cipher.jsonl
++ echo '== PATH CHECKS =='
++ ls -lah src/model/eval_model.py
++ head -n 40 src/model/eval_model.py
++ ls -lah checkpoints/qwen-cipherchat-tri
++ head
++ wc -l data/processed/val_cipher.jsonl
++ head -n 2 data/processed/val_cipher.jsonl
++ echo
++ echo '== RUN EVAL =='
++ export PYTHONUNBUFFERED=1
++ PYTHONUNBUFFERED=1
++ export TOKENIZERS_PARALLELISM=false
++ TOKENIZERS_PARALLELISM=false
++ python -X faulthandler -u src/model/eval_model.py --base Qwen/Qwen2.5-7B-Instruct --lora_path checkpoints/qwen-cipherchat-tri --eval_path data/processed/val_cipher.jsonl --max_samples 50 --max_new_tokens 64 --log_every 10
++ echo '== DONE =='
++ date
