@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "model_tag": "3b",
+    "base": "Qwen/Qwen2.5-3B-Instruct",
+    "adapter": "checkpoints/cipher-instruct-3B-20260320_235526/final_adapter",
+    "data": "data/eval300.json",
+    "timestamp": "20260323_191643",
+    "n_total": 300,
+    "n_seen": 150,
+    "n_unseen": 150,
+    "runtime_hours": 3.5
+  },
+  "summary": {
+    "overall": {
+      "base": {
+        "total": 300,
+        "valid_json": "231/300 (77.0%)",
+        "algo_correct": "28/300 (9.3%)",
+        "output_exact": "112/300 (37.3%)",
+        "cipher_acc": "248/300 (82.7%)",
+        "key_acc": "98/300 (32.7%)"
+      },
+      "finetuned": {
+        "total": 300,
+        "valid_json": "288/300 (96.0%)",
+        "algo_correct": "117/300 (39.0%)",
+        "output_exact": "199/300 (66.3%)",
+        "cipher_acc": "286/300 (95.3%)",
+        "key_acc": "185/300 (61.7%)"
+      }
+    },
+    "by_split": {
+      "base": {
+        "seen": {
+          "total": 150,
+          "valid_json": "116/150 (77.3%)",
+          "algo_correct": "15/150 (10.0%)",
+          "output_exact": "57/150 (38.0%)",
+          "cipher_acc": "124/150 (82.7%)",
+          "key_acc": "50/150 (33.3%)"
+        },
+        "unseen": {
+          "total": 150,
+          "valid_json": "115/150 (76.7%)",
+          "algo_correct": "13/150 (8.7%)",
+          "output_exact": "55/150 (36.7%)",
+          "cipher_acc": "124/150 (82.7%)",
+          "key_acc": "48/150 (32.0%)"
+        }
+      },
+      "ft": {
+        "seen": {
+          "total": 150,
+          "valid_json": "145/150 (96.7%)",
+          "algo_correct": "64/150 (42.7%)",
+          "output_exact": "103/150 (68.7%)",
+          "cipher_acc": "144/150 (96.0%)",
+          "key_acc": "96/150 (64.0%)"
+        },
+        "unseen": {
+          "total": 150,
+          "valid_json": "143/150 (95.3%)",
+          "algo_correct": "53/150 (35.3%)",
+          "output_exact": "96/150 (64.0%)",
+          "cipher_acc": "142/150 (94.7%)",
+          "key_acc": "89/150 (59.3%)"
+        }
+      }
+    },
+    "by_cipher": {
+      "base": {
+        "Caesar": {
+          "total": 100,
+          "valid_json": "77/100 (77.0%)",
+          "algo_correct": "18/100 (18.0%)",
+          "output_exact": "45/100 (45.0%)",
+          "cipher_acc": "89/100 (89.0%)",
+          "key_acc": "42/100 (42.0%)"
+        },
+        "Vigenere": {
+          "total": 100,
+          "valid_json": "77/100 (77.0%)",
+          "algo_correct": "6/100 (6.0%)",
+          "output_exact": "37/100 (37.0%)",
+          "cipher_acc": "83/100 (83.0%)",
+          "key_acc": "31/100 (31.0%)"
+        },
+        "Transposition": {
+          "total": 100,
+          "valid_json": "77/100 (77.0%)",
+          "algo_correct": "4/100 (4.0%)",
+          "output_exact": "30/100 (30.0%)",
+          "cipher_acc": "76/100 (76.0%)",
+          "key_acc": "25/100 (25.0%)"
+        }
+      },
+      "ft": {
+        "Caesar": {
+          "total": 100,
+          "valid_json": "97/100 (97.0%)",
+          "algo_correct": "56/100 (56.0%)",
+          "output_exact": "78/100 (78.0%)",
+          "cipher_acc": "98/100 (98.0%)",
+          "key_acc": "72/100 (72.0%)"
+        },
+        "Vigenere": {
+          "total": 100,
+          "valid_json": "96/100 (96.0%)",
+          "algo_correct": "38/100 (38.0%)",
+          "output_exact": "68/100 (68.0%)",
+          "cipher_acc": "95/100 (95.0%)",
+          "key_acc": "62/100 (62.0%)"
+        },
+        "Transposition": {
+          "total": 100,
+          "valid_json": "95/100 (95.0%)",
+          "algo_correct": "23/100 (23.0%)",
+          "output_exact": "53/100 (53.0%)",
+          "cipher_acc": "93/100 (93.0%)",
+          "key_acc": "51/100 (51.0%)"
+        }
+      }
+    },
+    "by_lang": {
+      "base": {
+        "en": {
+          "total": 100,
+          "valid_json": "78/100 (78.0%)",
+          "algo_correct": "12/100 (12.0%)",
+          "output_exact": "40/100 (40.0%)",
+          "cipher_acc": "84/100 (84.0%)",
+          "key_acc": "37/100 (37.0%)"
+        },
+        "sk": {
+          "total": 100,
+          "valid_json": "76/100 (76.0%)",
+          "algo_correct": "8/100 (8.0%)",
+          "output_exact": "36/100 (36.0%)",
+          "cipher_acc": "82/100 (82.0%)",
+          "key_acc": "31/100 (31.0%)"
+        },
+        "uk": {
+          "total": 100,
+          "valid_json": "77/100 (77.0%)",
+          "algo_correct": "8/100 (8.0%)",
+          "output_exact": "36/100 (36.0%)",
+          "cipher_acc": "82/100 (82.0%)",
+          "key_acc": "30/100 (30.0%)"
+        }
+      },
+      "ft": {
+        "en": {
+          "total": 100,
+          "valid_json": "97/100 (97.0%)",
+          "algo_correct": "44/100 (44.0%)",
+          "output_exact": "70/100 (70.0%)",
+          "cipher_acc": "96/100 (96.0%)",
+          "key_acc": "66/100 (66.0%)"
+        },
+        "sk": {
+          "total": 100,
+          "valid_json": "96/100 (96.0%)",
+          "algo_correct": "37/100 (37.0%)",
+          "output_exact": "65/100 (65.0%)",
+          "cipher_acc": "95/100 (95.0%)",
+          "key_acc": "60/100 (60.0%)"
+        },
+        "uk": {
+          "total": 100,
+          "valid_json": "95/100 (95.0%)",
+          "algo_correct": "36/100 (36.0%)",
+          "output_exact": "64/100 (64.0%)",
+          "cipher_acc": "95/100 (95.0%)",
+          "key_acc": "59/100 (59.0%)"
+        }
+      }
+    },
+    "by_task": {
+      "base": {
+        "compute": {
+          "total": 150,
+          "valid_json": "116/150 (77.3%)",
+          "algo_correct": "24/150 (16.0%)",
+          "output_exact": "62/150 (41.3%)",
+          "cipher_acc": "124/150 (82.7%)",
+          "key_acc": "55/150 (36.7%)"
+        },
+        "detect": {
+          "total": 150,
+          "valid_json": "115/150 (76.7%)",
+          "algo_correct": "4/150 (2.7%)",
+          "output_exact": "50/150 (33.3%)",
+          "cipher_acc": "124/150 (82.7%)",
+          "key_acc": "43/150 (28.7%)"
+        }
+      },
+      "ft": {
+        "compute": {
+          "total": 150,
+          "valid_json": "145/150 (96.7%)",
+          "algo_correct": "103/150 (68.7%)",
+          "output_exact": "108/150 (72.0%)",
+          "cipher_acc": "144/150 (96.0%)",
+          "key_acc": "101/150 (67.3%)"
+        },
+        "detect": {
+          "total": 150,
+          "valid_json": "143/150 (95.3%)",
+          "algo_correct": "14/150 (9.3%)",
+          "output_exact": "91/150 (60.7%)",
+          "cipher_acc": "142/150 (94.7%)",
+          "key_acc": "84/150 (56.0%)"
+        }
+      }
+    }
+  },
+  "results": []
+}
